@@ -1,0 +1,1 @@
+function ISEA5E43J18573451601KBAD03(){var i=0;this.Title=" Molding Installation";this.Name="SEA5E43J18573451601KBAD03";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(325,134,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA3EM0H46200053401KBAD04(){var i=0;this.Title=" Front Seat Belt";this.Name="SEA3EM0H46200053401KBAD04";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(413,199,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(27,68,13,0,"'Arial','sans-serif'",0,"<b>8 x 1.25 mm<br>22 N&middot;m<br>(2.2 kgf&middot;m, 16 lbf&middot;ft)</b>");}

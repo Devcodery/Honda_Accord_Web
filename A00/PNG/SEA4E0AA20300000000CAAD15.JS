@@ -1,0 +1,1 @@
+function ISEA4E0AA20300000000CAAD15(){var i=0;this.Title=" Fuel Rail Pressure (FRP) Sensor";this.Name="SEA4E0AA20300000000CAAD15";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(205,263,13,0,"'Arial','sans-serif'",0,"<b>SENSOR ELEMENT</b>");this.CallOut[i++]=FS4(336,51,13,0,"'Arial','sans-serif'",0,"<b>TERMINAL</b>");}

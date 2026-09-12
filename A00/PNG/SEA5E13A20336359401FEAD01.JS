@@ -1,0 +1,1 @@
+function ISEA5E13A20336359401FEAD01(){var i=0;this.Title=" K24A3 engine Carbon Accumulation Check";this.Name="SEA5E13A20336359401FEAD01";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(49,242,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(39,307,13,0,"'Arial','sans-serif'",0,"<b></b>*: This illustration shows LHD model.");}

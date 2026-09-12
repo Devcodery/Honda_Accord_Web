@@ -1,0 +1,1 @@
+function ISEA5E00F00000057111LASD11(){var i=0;this.Title=" Desmontaje";this.Name="SEA5E00F00000057111LASD11";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(325,34,13,0,"'Arial','sans-serif'",0,"<b>A<br>07NAD-SR30200</b>");this.CallOut[i++]=FS4(323,300,13,0,"'Arial','sans-serif'",0,"<b>B<br>07NAD-SR30101</b>");}

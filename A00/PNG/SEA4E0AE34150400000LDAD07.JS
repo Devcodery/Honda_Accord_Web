@@ -1,0 +1,1 @@
+function ISEA4E0AE34150400000LDAD07(){var i=0;this.Title="M/T Mainshaft Reassembly";this.Name="SEA4E0AE34150400000LDAD07";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(50,121,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(411,41,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

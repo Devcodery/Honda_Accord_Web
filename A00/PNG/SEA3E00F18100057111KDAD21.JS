@@ -1,0 +1,1 @@
+function ISEA3E00F18100057111KDAD21(){var i=0;this.Title=" Installation";this.Name="SEA3E00F18100057111KDAD21";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(241,18,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(38,283,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

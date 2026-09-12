@@ -1,0 +1,1 @@
+function ISEA4E0AE34150400000MBAD06(){var i=0;this.Title=" Shim Selection Formula";this.Name="SEA4E0AE34150400000MBAD06";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(154,55,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(308,22,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

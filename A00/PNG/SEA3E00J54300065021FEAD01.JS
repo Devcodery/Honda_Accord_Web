@@ -1,0 +1,1 @@
+function ISEA3E00J54300065021FEAD01(){var i=0;this.Title=" Windshield Washer";this.Name="SEA3E00J54300065021FEAD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(428,68,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(122,307,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

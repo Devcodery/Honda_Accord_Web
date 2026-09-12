@@ -1,0 +1,1 @@
+function ISEA5E00F18100025141MBSD01(){var i=0;this.Title="Memorización de la posición de punto muerto del sensor de par de la EPS";this.Name="SEA5E00F18100025141MBSD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(313,14,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

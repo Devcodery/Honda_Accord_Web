@@ -1,0 +1,1 @@
+function ISEA4E0AA20300000000CAAD48(){var i=0;this.Title=" Fuel Heater";this.Name="SEA4E0AA20300000000CAAD48";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(213,324,13,0,"'Arial','sans-serif'",0,"<b>FUEL TEMPERATURE SENSOR</b>");this.CallOut[i++]=FS4(394,16,13,0,"'Arial','sans-serif'",0,"<b>FUEL<br>HEATER</b>");}

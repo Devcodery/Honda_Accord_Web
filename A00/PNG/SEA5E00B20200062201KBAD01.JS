@@ -1,0 +1,1 @@
+function ISEA5E00B20200062201KBAD01(){var i=0;this.Title="Front Suspension Upper Arm Replacement";this.Name="SEA5E00B20200062201KBAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(88,26,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(434,62,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA4E0AA14426149451KBSD02(){var i=0;this.Title="Sustitución del interruptor (Velocidad rápida) del ventilador del radiador";this.Name="SEA4E0AA14426149451KBSD02";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(203,384,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(436,155,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

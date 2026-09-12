@@ -1,0 +1,1 @@
+function ISEA5E00J32320500000KBSD01(){var i=0;this.Title="Sustitución de la luz de cortesía de la puerta";this.Name="SEA5E00J32320500000KBSD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(433,291,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(355,32,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

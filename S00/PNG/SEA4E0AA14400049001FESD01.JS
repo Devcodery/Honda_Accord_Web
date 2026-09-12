@@ -1,0 +1,1 @@
+function ISEA4E0AA14400049001FESD01(){var i=0;this.Title="Comprobación del vaso de expansión del radiador";this.Name="SEA4E0AA14400049001FESD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(226,17,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(151,17,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

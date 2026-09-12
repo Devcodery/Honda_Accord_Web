@@ -1,0 +1,1 @@
+function ISEA5E430000000K0081BAAD01(){var i=0;this.Title="Lubricants and Fluids";this.Name="SEA5E430000000K0081BAAD01";this.Width=950;this.Height=415;this.CallOut=new Array;this.CallOut[i++]=FS4(275,15,12,0,"'Arial','sans-serif'",0,"<b>Recommended Engine Oil<br></b>Engine oil viscosity for ambient temperature ranges");}

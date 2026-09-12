@@ -1,0 +1,1 @@
+function IS5A1A01K72100000000BBSD07(){var i=0;this.Title=" Cómo localizar averías en circuitos del ECM/PCM";this.Name="S5A1A01K72100000000BBSD07";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(55,49,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(294,253,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

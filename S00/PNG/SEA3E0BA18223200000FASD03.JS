@@ -1,0 +1,1 @@
+function ISEA3E0BA18223200000FASD03(){var i=0;this.Title="Localización de averías del sistema de control de la fijación del motor";this.Name="SEA3E0BA18223200000FASD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(29,33,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(379,20,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

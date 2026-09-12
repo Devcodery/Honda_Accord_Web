@@ -1,0 +1,1 @@
+function ISEA3EK0H46200053402KBAD01(){var i=0;this.Title=" Rear Seat Belt";this.Name="SEA3EK0H46200053402KBAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(267,16,13,0,"'Arial','sans-serif'",0,"<b>A<br>7/16-20 UNF<br>32 N&middot;m<br>(3.3 kgf&middot;m, 24 lbf&middot;ft)</b>");}

@@ -1,0 +1,1 @@
+function ISEA3E0BA20336335001KDAD07(){var i=0;this.Title=" Removal";this.Name="SEA3E0BA20336335001KDAD07";this.Width=475;this.Height=353;this.CallOut=new Array;}

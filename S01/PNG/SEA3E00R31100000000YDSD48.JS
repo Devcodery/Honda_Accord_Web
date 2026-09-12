@@ -1,0 +1,1 @@
+function ISEA3E00R31100000000YDSD48(){var i=0;this.Title="Montaje del panel exterior del umbral de puerta";this.Name="SEA3E00R31100000000YDSD48";this.Width=475;this.Height=529;this.CallOut=new Array;this.CallOut[i++]=FS4(209,59,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(113,219,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

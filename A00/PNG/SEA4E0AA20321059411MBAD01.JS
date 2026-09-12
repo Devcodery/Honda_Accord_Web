@@ -1,0 +1,1 @@
+function ISEA4E0AA20321059411MBAD01(){var i=0;this.Title="Throttle Cable Adjustment";this.Name="SEA4E0AA20321059411MBAD01";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(432,41,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(39,388,13,0,"'Arial','sans-serif'",0,"<b></b>*: This illustration shows LHD model.");}

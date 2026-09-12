@@ -1,0 +1,1 @@
+function ISEA5E11A26100055901MAAD02(){var i=0;this.Title=" K20A6 engine";this.Name="SEA5E11A26100055901MAAD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(319,60,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

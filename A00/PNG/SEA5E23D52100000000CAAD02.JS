@@ -1,0 +1,1 @@
+function ISEA5E23D52100000000CAAD02(){var i=0;this.Title=" TCS Features";this.Name="SEA5E23D52100000000CAAD02";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(54,147,12,0,"'Arial','sans-serif'",0,"<b>NORMAL ROAD SURFACE</b>");this.CallOut[i++]=FS4(689,139,12,0,"'Arial','sans-serif'",0,"<b>SLIPPERY ROAD SURFACE</b>");}

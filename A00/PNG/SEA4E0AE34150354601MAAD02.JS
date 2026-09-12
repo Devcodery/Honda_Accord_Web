@@ -1,0 +1,1 @@
+function ISEA4E0AE34150354601MAAD02(){var i=0;this.Title="M/T Shift Arm Clearance Inspection";this.Name="SEA4E0AE34150354601MAAD02";this.Width=475;this.Height=320;this.CallOut=new Array;}

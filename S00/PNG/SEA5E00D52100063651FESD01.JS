@@ -1,0 +1,1 @@
+function ISEA5E00D52100063651FESD01(){var i=0;this.Title="Comprobación del interruptor de desconexión de VSA";this.Name="SEA5E00D52100063651FESD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(294,338,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

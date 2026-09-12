@@ -1,0 +1,1 @@
+function ISEA3E00J36100000000LBSD01(){var i=0;this.Title="Sistema de navegación - Puesta en servicio forzada de la pantalla ";this.Name="SEA3E00J36100000000LBSD01";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(221,307,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(343,173,13,0,"'Arial','sans-serif'",0,"<b>07PAZ-0010100</b>");}

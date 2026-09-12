@@ -1,0 +1,1 @@
+function ISEA4E0AA14600000000KCAD03(){var i=0;this.Title="Cylinder Head Installation";this.Name="SEA4E0AA14600000000KCAD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(141,16,13,0,"'Arial','sans-serif'",0,"<b>GASKET MARK<br>(LETTER)</b>");this.CallOut[i++]=FS4(222,65,13,0,"'Arial','sans-serif'",0,"<b>PART No. and <br>GASKET MARK<br>(NOTCH)</b>");}

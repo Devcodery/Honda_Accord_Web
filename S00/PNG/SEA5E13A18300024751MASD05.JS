@@ -1,0 +1,1 @@
+function ISEA5E13A18300024751MASD05(){var i=0;this.Title="Inspección del bloque del motor y de los pistones";this.Name="SEA5E13A18300024751MASD05";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(196,20,13,0,"'Arial','sans-serif'",0,"<b>LÍMITE DE SERVICIO<br>0,05 mm.</b>");}

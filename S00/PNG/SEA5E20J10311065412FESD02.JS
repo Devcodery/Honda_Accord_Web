@@ -1,0 +1,1 @@
+function ISEA5E20J10311065412FESD02(){var i=0;this.Title="Comprobación de la antena de ventanilla";this.Name="SEA5E20J10311065412FESD02";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(441,39,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

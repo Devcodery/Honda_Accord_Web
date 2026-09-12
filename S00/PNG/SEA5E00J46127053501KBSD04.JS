@@ -1,0 +1,1 @@
+function ISEA5E00J46127053501KBSD04(){var i=0;this.Title=" Funda del respaldo";this.Name="SEA5E00J46127053501KBSD04";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(201,28,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(371,226,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

@@ -1,0 +1,1 @@
+function ISEA4E0AA46500056941FESD01(){var i=0;this.Title="Comprobación del solenoide del motor de arranque";this.Name="SEA4E0AA46500056941FESD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(168,17,13,0,"'Arial','sans-serif'",0,"<b>S</b>");this.CallOut[i++]=FS4(140,315,13,0,"'Arial','sans-serif'",0,"<b>M</b>");}

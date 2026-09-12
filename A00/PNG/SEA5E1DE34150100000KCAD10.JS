@@ -1,0 +1,1 @@
+function ISEA5E1DE34150100000KCAD10(){var i=0;this.Title="M/T Assembly Installation";this.Name="SEA5E1DE34150100000KCAD10";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(311,16,13,0,"'Arial','sans-serif'",0,"<b>12 x 1.25 mm<br>69 N&middot;m<br>(7.0 kgf&middot;m,<br>51 lbf&middot;ft)</b>");}

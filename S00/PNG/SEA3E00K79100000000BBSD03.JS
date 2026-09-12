@@ -1,0 +1,1 @@
+function ISEA3E00K79100000000BBSD03(){var i=0;this.Title=" Inicialización de la unidad OPDS (Sistema de detección de la posición del ocupante)";this.Name="SEA3E00K79100000000BBSD03";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(444,168,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E20B44100019102KBAD05(){var i=0;this.Title=" Installation";this.Name="SEA5E20B44100019102KBAD05";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(20,17,13,0,"'Arial','sans-serif'",0,"<b>B<br>10 x 1.25 mm<br>50 N&middot;m <br>(5.1 kgf&middot;m, 37 lbf&middot;ft)</b>");this.CallOut[i++]=FS4(440,163,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

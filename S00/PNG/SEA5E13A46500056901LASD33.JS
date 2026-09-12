@@ -1,0 +1,1 @@
+function ISEA5E13A46500056901LASD33(){var i=0;this.Title=" Desmontaje del portaescobillas";this.Name="SEA5E13A46500056901LASD33";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(113,14,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(56,48,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

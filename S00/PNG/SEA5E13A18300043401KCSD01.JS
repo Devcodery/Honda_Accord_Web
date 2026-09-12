@@ -1,0 +1,1 @@
+function ISEA5E13A18300043401KCSD01(){var i=0;this.Title="Montaje del cárter de aceite del motor";this.Name="SEA5E13A18300043401KCSD01";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(161,289,13,0,"'Arial','sans-serif'",0,"<b></b>Aplique una junta líquida<br>a lo largo de la línea discontinua.");}

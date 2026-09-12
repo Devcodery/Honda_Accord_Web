@@ -1,0 +1,1 @@
+function ISEA5E24F00000057111KASD03(){var i=0;this.Title="Desmontaje de la caja de la dirección hidráulica";this.Name="SEA5E24F00000057111KASD03";this.Width=475;this.Height=497;this.CallOut=new Array;this.CallOut[i++]=FS4(138,293,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(37,96,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

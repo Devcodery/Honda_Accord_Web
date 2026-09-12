@@ -1,0 +1,1 @@
+function ISEA5E1PE10410654801KBSD02(){var i=0;this.Title="Sustitución de la electroválvula de selección de la A/T";this.Name="SEA5E1PE10410654801KBSD02";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(204,308,13,0,"'Arial','sans-serif'",0,"<b>10 x 1,25 mm<br>44 N&middot;m (4,5 kgf&middot;m)</b>");}

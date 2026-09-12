@@ -1,0 +1,1 @@
+function ISEA4E0AE16226622502KBAD02(){var i=0;this.Title="Driveshaft Dynamic Damper Replacement";this.Name="SEA4E0AE16226622502KBAD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(39,16,13,0,"'Arial','sans-serif'",0,"<b>Right Driveshaft: 276-280 mm (10.87-11.02 in.)<br>Left Driveshaft: 288-292 mm (11.34-11.50 in.)</b>");}

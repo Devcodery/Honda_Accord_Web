@@ -1,0 +1,1 @@
+function ISEA5E00G10100012062FAAD01(){var i=0;this.Title="A/C Pressure Switch Circuit Troubleshooting";this.Name="SEA5E00G10100012062FAAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(125,18,13,0,"'Arial','sans-serif'",0,"<b>A/C PRESSURE SWITCH</b>");}

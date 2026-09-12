@@ -1,0 +1,1 @@
+function ISEA5E00J10370360801KBSD02(){var i=0;this.Title=" Altavoz de agudos";this.Name="SEA5E00J10370360801KBSD02";this.Width=475;this.Height=401;this.CallOut=new Array;}

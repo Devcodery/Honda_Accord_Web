@@ -1,0 +1,1 @@
+function ISEA5E00J32113314805FESD01(){var i=0;this.Title="Comprobación del interruptor de la posición del pedal de freno";this.Name="SEA5E00J32113314805FESD01";this.Width=475;this.Height=481;this.CallOut=new Array;this.CallOut[i++]=FS4(358,262,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(312,315,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

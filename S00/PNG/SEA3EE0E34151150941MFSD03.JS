@@ -1,0 +1,1 @@
+function ISEA3EE0E34151150941MFSD03(){var i=0;this.Title="Desmontaje/Montaje del solenoide de bloqueo de la marcha atrás de la M/T";this.Name="SEA3EE0E34151150941MFSD03";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(350,187,13,0,"'Arial','sans-serif'",0,"<b>6 x 1,0 mm<br>12 N&middot;m <br>(1,2 kgf&middot;m)</b>");}

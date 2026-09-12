@@ -1,0 +1,1 @@
+function ISEA5E13A14100012901KBAD02(){var i=0;this.Title="Alternator Replacement";this.Name="SEA5E13A14100012901KBAD02";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(61,353,13,0,"'Arial','sans-serif'",0,"<b>8 x 1.25 mm<br>22 N&middot;m (2.2 kgf&middot;m, 16 lbf&middot;ft)</b>");}

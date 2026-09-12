@@ -1,0 +1,1 @@
+function ISEA3E00G24100050601KBSD02(){var i=0;this.Title="Sustitución del motor de control de la recirculación";this.Name="SEA3E00G24100050601KBSD02";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(306,309,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(16,86,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

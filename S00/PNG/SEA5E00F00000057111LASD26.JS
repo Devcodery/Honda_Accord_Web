@@ -1,0 +1,1 @@
+function ISEA5E00F00000057111LASD26(){var i=0;this.Title=" Montaje";this.Name="SEA5E00F00000057111LASD26";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(340,38,13,0,"'Arial','sans-serif'",0,"<b>07974-SA50200</b>");}

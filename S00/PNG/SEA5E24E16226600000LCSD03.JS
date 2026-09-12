@@ -1,0 +1,1 @@
+function ISEA5E24E16226600000LCSD03(){var i=0;this.Title=" Abrazadera del tipo de orejetas";this.Name="SEA5E24E16226600000LCSD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(266,17,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(401,280,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

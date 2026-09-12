@@ -1,0 +1,1 @@
+function ISEA5E13A14674359525KDAD03(){var i=0;this.Title=" Removal";this.Name="SEA5E13A14674359525KDAD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(437,266,13,0,"'Arial','sans-serif'",0,"<b>C</b>");this.CallOut[i++]=FS4(152,290,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(32,160,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

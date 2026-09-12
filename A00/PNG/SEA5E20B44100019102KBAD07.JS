@@ -1,0 +1,1 @@
+function ISEA5E20B44100019102KBAD07(){var i=0;this.Title=" Reassembly";this.Name="SEA5E20B44100019102KBAD07";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(113,69,13,0,"'Arial','sans-serif'",0,"<b>90 &deg;</b>");this.CallOut[i++]=FS4(410,33,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

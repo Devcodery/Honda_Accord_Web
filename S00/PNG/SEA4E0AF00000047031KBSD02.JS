@@ -1,0 +1,1 @@
+function ISEA4E0AF00000047031KBSD02(){var i=0;this.Title="Sustitución de la bomba de la dirección asistida hidráulica";this.Name="SEA4E0AF00000047031KBSD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(372,13,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(382,82,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

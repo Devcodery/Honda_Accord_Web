@@ -1,0 +1,1 @@
+function ISEA5E1PE10410439511KCAD01(){var i=0;this.Title="A/T Housing Bearing Installation";this.Name="SEA5E1PE10410439511KCAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(232,16,13,0,"'Arial','sans-serif'",0,"<b>B: 0-7 mm (0-0.28 in.)</b>");this.CallOut[i++]=FS4(377,288,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

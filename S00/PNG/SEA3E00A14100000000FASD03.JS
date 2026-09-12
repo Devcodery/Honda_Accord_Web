@@ -1,0 +1,1 @@
+function ISEA3E00A14100000000FASD03(){var i=0;this.Title="Localización de averías del circuito del alternador y el regulador";this.Name="SEA3E00A14100000000FASD03";this.Width=475;this.Height=353;this.CallOut=new Array;}

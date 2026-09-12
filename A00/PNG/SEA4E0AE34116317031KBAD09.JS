@@ -1,0 +1,1 @@
+function ISEA4E0AE34116317031KBAD09(){var i=0;this.Title="Clutch Master Cylinder Removal";this.Name="SEA4E0AE34116317031KBAD09";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(413,183,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(76,92,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

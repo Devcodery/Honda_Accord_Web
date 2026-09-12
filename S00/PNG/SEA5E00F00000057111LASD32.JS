@@ -1,0 +1,1 @@
+function ISEA5E00F00000057111LASD32(){var i=0;this.Title=" Montaje";this.Name="SEA5E00F00000057111LASD32";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(76,152,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(111,275,13,0,"'Arial','sans-serif'",0,"<b>07HAG-SF10200</b>");}

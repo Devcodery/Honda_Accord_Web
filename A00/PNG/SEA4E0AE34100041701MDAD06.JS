@@ -1,0 +1,1 @@
+function ISEA4E0AE34100041701MDAD06(){var i=0;this.Title="MTF Inspection and Replacement";this.Name="SEA4E0AE34100041701MDAD06";this.Width=475;this.Height=433;this.CallOut=new Array;this.CallOut[i++]=FS4(299,74,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(304,16,13,0,"'Arial','sans-serif'",0,"<b>A<br>44 N&middot;m<br>(4.5 kgf&middot;m, 33 lbf&middot;ft)</b>");}

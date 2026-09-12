@@ -1,0 +1,1 @@
+function ISEA3E00H46200053151KBAD01(){var i=0;this.Title=" Manual height adjustable seat";this.Name="SEA3E00H46200053151KBAD01";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(422,170,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

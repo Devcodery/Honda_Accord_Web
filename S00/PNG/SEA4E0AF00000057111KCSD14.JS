@@ -1,0 +1,1 @@
+function ISEA4E0AF00000057111KCSD14(){var i=0;this.Title="Montaje de la caja de la dirección asistida hidráulica";this.Name="SEA4E0AF00000057111KCSD14";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(419,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E44J54400050461KBAD02(){var i=0;this.Title="Rear Window Replacement";this.Name="SEA5E44J54400050461KBAD02";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(44,283,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(446,257,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

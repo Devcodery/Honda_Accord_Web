@@ -1,0 +1,1 @@
+function ISEA3E0BK711000Y1241FASD08(){var i=0;this.Title="Localización de averías de DTC: B1241 (N)";this.Name="SEA3E0BK711000Y1241FASD08";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(102,32,13,0,"'Arial','sans-serif'",0,"<b>ENCHUFE 4P DEL RELÉ DEL MOTOR DEL VENTILADOR</b>");}

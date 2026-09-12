@@ -1,0 +1,1 @@
+function ISEA5E13A32200043502LASD17(){var i=0;this.Title=" Inspección de los ejes de compensación";this.Name="SEA5E13A32200043502LASD17";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(17,337,13,0,"'Arial','sans-serif'",0,"<b>6 x 1,0 mm<br>12 N&middot;m <br>(1,2 kgf&middot;m)</b>");}

@@ -1,0 +1,1 @@
+function ISEA3E00A20300000000CAAD05(){var i=0;this.Title=" PCM Inputs and Outputs at Connector C (22P)";this.Name="SEA3E00A20300000000CAAD05";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(373,245,12,0,"'Arial','sans-serif'",0,"<b></b>Wire side of female terminals");}

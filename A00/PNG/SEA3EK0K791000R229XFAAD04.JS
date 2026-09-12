@@ -1,0 +1,1 @@
+function ISEA3EK0K791000R229XFAAD04(){var i=0;this.Title="DTC Troubleshooting: 22-9x";this.Name="SEA3EK0K791000R229XFAAD04";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(37,17,13,0,"'Arial','sans-serif'",0,"<b>FLOOR WIRE HARNESS<br>4P CONNECTOR</b>");this.CallOut[i++]=FS4(62,184,13,0,"'Arial','sans-serif'",0,"<b>07XAZ-SZ30100</b>");}

@@ -1,0 +1,1 @@
+function ISEA3EK0J26200031201KDAD05(){var i=0;this.Title="Headliner Removal/Installation";this.Name="SEA3EK0J26200031201KDAD05";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(39,204,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(80,310,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

@@ -1,0 +1,1 @@
+function ISEA3E00J34200057271FEAD01(){var i=0;this.Title="Sunroof Limit Switch Test";this.Name="SEA3E00J34200057271FEAD01";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(53,163,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(434,226,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

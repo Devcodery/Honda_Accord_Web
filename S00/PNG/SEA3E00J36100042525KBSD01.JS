@@ -1,0 +1,1 @@
+function ISEA3E00J36100042525KBSD01(){var i=0;this.Title="Sustitución del DVD-ROM del sistema de navegación";this.Name="SEA3E00J36100042525KBSD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(410,78,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(414,218,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

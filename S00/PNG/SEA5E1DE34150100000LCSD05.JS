@@ -1,0 +1,1 @@
+function ISEA5E1DE34150100000LCSD05(){var i=0;this.Title="Desmontaje del conjunto M/T";this.Name="SEA5E1DE34150100000LCSD05";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(448,101,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(440,315,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

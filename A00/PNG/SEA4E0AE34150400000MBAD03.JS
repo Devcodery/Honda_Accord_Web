@@ -1,0 +1,1 @@
+function ISEA4E0AE34150400000MBAD03(){var i=0;this.Title="M/T Mainshaft Thrust Clearance Adjustment";this.Name="SEA4E0AE34150400000MBAD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(258,17,13,0,"'Arial','sans-serif'",0,"<b><span style=\"font-size:90%;\">(2)</span></b>");}

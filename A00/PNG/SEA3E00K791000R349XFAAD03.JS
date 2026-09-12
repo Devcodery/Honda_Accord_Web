@@ -1,0 +1,1 @@
+function ISEA3E00K791000R349XFAAD03(){var i=0;this.Title="DTC Troubleshooting: 34-9x";this.Name="SEA3E00K791000R349XFAAD03";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(21,15,13,0,"'Arial','sans-serif'",0,"<b>SIDE CURTAIN AIRBAG<br>SUBHARNESS 2P CONNECTOR</b>");this.CallOut[i++]=FS4(115,286,13,0,"'Arial','sans-serif'",0,"<b>07XAZ-S1A0200</b>");}

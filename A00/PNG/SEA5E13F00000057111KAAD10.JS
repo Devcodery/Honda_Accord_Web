@@ -1,0 +1,1 @@
+function ISEA5E13F00000057111KAAD10(){var i=0;this.Title="Hydraulic Power Steering Gearbox Removal";this.Name="SEA5E13F00000057111KAAD10";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(268,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(363,322,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

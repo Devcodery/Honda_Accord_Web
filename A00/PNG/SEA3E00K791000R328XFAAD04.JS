@@ -1,0 +1,1 @@
+function ISEA3E00K791000R328XFAAD04(){var i=0;this.Title="DTC Troubleshooting: 32-8x";this.Name="SEA3E00K791000R328XFAAD04";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(33,251,13,0,"'Arial','sans-serif'",0,"<b>07XAZ-S1A0200</b>");this.CallOut[i++]=FS4(32,16,13,0,"'Arial','sans-serif'",0,"<b>FLOOR WIRE HARNESS<br>2P CONNECTOR</b>");}

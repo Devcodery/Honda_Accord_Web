@@ -1,0 +1,1 @@
+function ISEA3E00G10500057401KBAD01(){var i=0;this.Title="Sunlight Sensor Replacement";this.Name="SEA3E00G10500057401KBAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(336,288,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(68,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

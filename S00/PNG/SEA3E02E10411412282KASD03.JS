@@ -1,0 +1,1 @@
+function ISEA3E02E10411412282KASD03(){var i=0;this.Title="Desmontaje de la palanca de selección de la A/T";this.Name="SEA3E02E10411412282KASD03";this.Width=475;this.Height=449;this.CallOut=new Array;this.CallOut[i++]=FS4(42,400,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(56,280,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

@@ -1,0 +1,1 @@
+function ISEA4E0AA14100022205MASD01(){var i=0;this.Title="Inspección del tensor automático de la correa de accionamiento";this.Name="SEA4E0AA14100022205MASD01";this.Width=475;this.Height=417;this.CallOut=new Array;}

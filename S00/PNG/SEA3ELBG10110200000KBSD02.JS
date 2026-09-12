@@ -1,0 +1,1 @@
+function ISEA3ELBG10110200000KBSD02(){var i=0;this.Title="Sustitución del condensador del A/C";this.Name="SEA3ELBG10110200000KBSD02";this.Width=475;this.Height=465;this.CallOut=new Array;this.CallOut[i++]=FS4(358,130,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(388,229,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

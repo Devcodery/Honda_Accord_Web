@@ -1,0 +1,1 @@
+function ISEA4E0AA18223800000KASD11(){var i=0;this.Title="Desmontaje del motor";this.Name="SEA4E0AA18223800000KASD11";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(115,355,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(391,343,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

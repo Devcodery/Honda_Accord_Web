@@ -1,0 +1,1 @@
+function ISEA3EM0K791000R228XFAAD02(){var i=0;this.Title="DTC Troubleshooting: 22-8x";this.Name="SEA3EM0K791000R228XFAAD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(128,32,13,0,"'Arial','sans-serif'",0,"<b>SRS UNIT CONNECTOR B (28P)</b>");this.CallOut[i++]=FS4(131,272,13,0,"'Arial','sans-serif'",0,"<b></b>Wire side of female terminals");}

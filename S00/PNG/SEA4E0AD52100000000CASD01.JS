@@ -1,0 +1,1 @@
+function ISEA4E0AD52100000000CASD01(){var i=0;this.Title=" Entradas y salidas de la Unidad de control del VSA para el conector 47P";this.Name="SEA4E0AD52100000000CASD01";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(380,275,12,0,"'Arial','sans-serif'",0,"<b></b>Lado del cable de los terminales hembra");}

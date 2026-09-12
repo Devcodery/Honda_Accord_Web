@@ -1,0 +1,1 @@
+function ISEA3E00H46400056602FAAD07(){var i=0;this.Title=" The SRS Indicator Stays On";this.Name="SEA3E00H46400056602FAAD07";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(173,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

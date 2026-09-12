@@ -1,0 +1,1 @@
+function ISEA5E1PE10411354171MASD03(){var i=0;this.Title="Comprobación de la holgura del piñón de 1&ordf; del eje secundario de la A/T";this.Name="SEA5E1PE10411354171MASD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(322,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(294,147,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

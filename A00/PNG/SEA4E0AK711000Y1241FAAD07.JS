@@ -1,0 +1,1 @@
+function ISEA4E0AK711000Y1241FAAD07(){var i=0;this.Title="DTC Troubleshooting: B1241 (N)";this.Name="SEA4E0AK711000Y1241FAAD07";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(102,32,13,0,"'Arial','sans-serif'",0,"<b>BLOWER MOTOR RELAY 4P SOCKET</b>");}

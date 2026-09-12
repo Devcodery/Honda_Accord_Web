@@ -1,0 +1,1 @@
+function ISEA5E6RJ10300000000FASD01(){var i=0;this.Title=" La recepción de las emisoras de la radio es débil o no se reciben en absoluto";this.Name="SEA5E6RJ10300000000FASD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(258,8,12,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(210,294,12,0,"'Arial','sans-serif'",0,"<b>B</b>");}

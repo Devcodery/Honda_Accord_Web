@@ -1,0 +1,1 @@
+function ISEA3E00G10500057401FESD01(){var i=0;this.Title="Comprobación del sensor de la luz solar";this.Name="SEA3E00G10500057401FESD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(16,306,13,0,"'Arial','sans-serif'",0,"<b>RED LHD<br>RED/BLK: RHD</b>");this.CallOut[i++]=FS4(145,306,13,0,"'Arial','sans-serif'",0,"<b>ORN</b>");}

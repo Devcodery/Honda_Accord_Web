@@ -1,0 +1,1 @@
+function ISEA5E1PE10411212211MASD02(){var i=0;this.Title="Comprobación de la holgura del embrague de A/T";this.Name="SEA5E1PE10411212211MASD02";this.Width=475;this.Height=353;this.CallOut=new Array;}

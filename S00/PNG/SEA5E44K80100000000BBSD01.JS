@@ -1,0 +1,1 @@
+function ISEA5E44K80100000000BBSD01(){var i=0;this.Title=" Cómo recuperar los DTC";this.Name="SEA5E44K80100000000BBSD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(24,145,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(43,337,13,0,"'Arial','sans-serif'",0,"<b></b>*: La ilustración hace referencia al modelo LHD.");}

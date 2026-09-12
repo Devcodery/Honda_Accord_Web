@@ -1,0 +1,1 @@
+function ISEA3E00J36100000000CASD09(){var i=0;this.Title=" Imagen de detección de la posición mediante satélite GPS";this.Name="SEA3E00J36100000000CASD09";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(55,288,12,0,"'Arial','sans-serif'",0,"<b></b>NOTA: Cuatro satélites en cada una de las seis órbitas.");}

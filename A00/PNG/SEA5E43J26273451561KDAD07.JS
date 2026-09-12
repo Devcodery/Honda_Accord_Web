@@ -1,0 +1,1 @@
+function ISEA5E43J26273451561KDAD07(){var i=0;this.Title=" Quarter Pillar";this.Name="SEA5E43J26273451561KDAD07";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(159,50,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(55,113,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(387,263,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

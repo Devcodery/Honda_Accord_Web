@@ -1,0 +1,1 @@
+function ISEA5E23A20326900000CASD04(){var i=0;this.Title=" Sensor de la temperatura del refrigerante del motor (ECT)";this.Name="SEA5E23A20326900000CASD04";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(338,65,13,0,"'Arial','sans-serif'",0,"<b>TERMISTOR</b>");this.CallOut[i++]=FS4(154,28,13,0,"'Arial','sans-serif'",0,"<b>TERMINAL</b>");}

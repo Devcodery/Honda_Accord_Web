@@ -1,0 +1,1 @@
+function ISEA5E00J46127046701FHSD01(){var i=0;this.Title=" Asiento del conductor de regulación eléctrica (8 tipos de regulación)";this.Name="SEA5E00J46127046701FHSD01";this.Width=950;this.Height=431;this.CallOut=new Array;this.CallOut[i++]=FS4(459,16,12,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(907,394,12,0,"'Arial','sans-serif'",0,"<b>A</b>");}

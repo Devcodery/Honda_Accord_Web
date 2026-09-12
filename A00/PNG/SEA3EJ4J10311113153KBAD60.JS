@@ -1,0 +1,1 @@
+function ISEA3EJ4J10311113153KBAD60(){var i=0;this.Title=" 6 CD type printed circuit board connector";this.Name="SEA3EJ4J10311113153KBAD60";this.Width=950;this.Height=495;this.CallOut=new Array;this.CallOut[i++]=FS4(550,466,12,0,"'Arial','sans-serif'",0,"<b>20P CONNECTOR</b>");this.CallOut[i++]=FS4(256,466,12,0,"'Arial','sans-serif'",0,"<b>10P CONNECTOR</b>");}

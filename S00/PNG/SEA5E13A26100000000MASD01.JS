@@ -1,0 +1,1 @@
+function ISEA5E13A26100000000MASD01(){var i=0;this.Title="Comprobación de la distribución del encendido";this.Name="SEA5E13A26100000000MASD01";this.Width=475;this.Height=385;this.CallOut=new Array;}

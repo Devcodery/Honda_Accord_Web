@@ -1,0 +1,1 @@
+function ISEA4E0AE34150354901MASD04(){var i=0;this.Title="Comprobación de la holgura de las horquillas de selección de la M/T";this.Name="SEA4E0AE34150354901MASD04";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(296,299,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(310,22,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

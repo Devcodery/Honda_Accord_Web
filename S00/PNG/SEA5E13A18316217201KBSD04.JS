@@ -1,0 +1,1 @@
+function ISEA5E13A18316217201KBSD04(){var i=0;this.Title=" Situación del código de la muñequilla de biela";this.Name="SEA5E13A18316217201KBSD04";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(131,350,13,0,"'Arial','sans-serif'",0,"<b>APOYO N&ordm; 1</b>");this.CallOut[i++]=FS4(247,353,13,0,"'Arial','sans-serif'",0,"<b>APOYO N&ordm; 4</b>");}

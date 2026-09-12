@@ -1,0 +1,1 @@
+function ISEA5E1PE10410424251KASD05(){var i=0;this.Title="Desmontaje de la tapa de cierre de la A/T";this.Name="SEA5E1PE10410424251KASD05";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(27,338,13,0,"'Arial','sans-serif'",0,"<b>07PAB-0010001 ó<br>07PAB-0010000</b>");}

@@ -1,0 +1,1 @@
+function ISEA3ELBA20300000000CASD04(){var i=0;this.Title=" Señales de entrada y salida del PCM en el conector C (22P)";this.Name="SEA3ELBA20300000000CASD04";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(373,245,12,0,"'Arial','sans-serif'",0,"<b></b>Lado del cable de los terminales hembra");}

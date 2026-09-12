@@ -1,0 +1,1 @@
+function ISEA3EM0J46166400000KDAD13(){var i=0;this.Title=" Seat-back/Seat Side Bolster/Slide Linkage/Center Pivot Bracket";this.Name="SEA3EM0J46166400000KDAD13";this.Width=475;this.Height=513;this.CallOut=new Array;this.CallOut[i++]=FS4(240,19,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(55,186,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

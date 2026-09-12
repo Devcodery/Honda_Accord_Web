@@ -1,0 +1,1 @@
+function ISEA4E0AA14600017801MASD02(){var i=0;this.Title="Comprobación del alabeo de la culata";this.Name="SEA4E0AA14600017801MASD02";this.Width=475;this.Height=320;this.CallOut=new Array;}

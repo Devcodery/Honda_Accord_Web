@@ -1,0 +1,1 @@
+function ISEA5E1CK721000U0107FASD06(){var i=0;this.Title="Localización de averías de DTC: U0107 (30) ";this.Name="SEA5E1CK721000U0107FASD06";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(197,44,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(39,307,13,0,"'Arial','sans-serif'",0,"<b></b>*: Esta ilustración muestra el modelo LHD.");}

@@ -1,0 +1,1 @@
+function ISEA3E00J24200032431FHSD03(){var i=0;this.Title="Comprobación/Sustitución de la bocina";this.Name="SEA3E00J24200032431FHSD03";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(272,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(40,101,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

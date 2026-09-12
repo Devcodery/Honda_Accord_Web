@@ -1,0 +1,1 @@
+function ISEA4E0AA18316617502KBSD01(){var i=0;this.Title=" Verificación de la holgura de los cojinetes de bancada";this.Name="SEA4E0AA18316617502KBSD01";this.Width=475;this.Height=353;this.CallOut=new Array;}

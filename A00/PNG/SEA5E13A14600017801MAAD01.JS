@@ -1,0 +1,1 @@
+function ISEA5E13A14600017801MAAD01(){var i=0;this.Title="Cylinder Head Inspection for Warpage";this.Name="SEA5E13A14600017801MAAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(20,65,13,0,"'Arial','sans-serif'",0,"<b>PRECISION STRAIGHT EDGE</b>");}

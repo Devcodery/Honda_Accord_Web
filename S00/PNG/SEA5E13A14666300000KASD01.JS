@@ -1,0 +1,1 @@
+function ISEA5E13A14666300000KASD01(){var i=0;this.Title="Desmontaje del conjunto de los balancines de la culata";this.Name="SEA5E13A14666300000KASD01";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(227,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(226,305,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

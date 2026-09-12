@@ -1,0 +1,1 @@
+function ISEA5E1PE10400013001KBAD01(){var i=0;this.Title="ATF Replacement";this.Name="SEA5E1PE10400013001KBAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(30,271,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(300,45,13,0,"'Arial','sans-serif'",0,"<b>A<br>18 x 1.5 mm<br>49 N&middot;m<br>(5.0 kgf&middot;m, 36 lbf&middot;ft)</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E44J54400050461KBSD08(){var i=0;this.Title="Sustitución de la ventanilla trasera";this.Name="SEA5E44J54400050461KBSD08";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(39,16,13,0,"'Arial','sans-serif'",0,"<b>Ubicaciones de los fijadores</b>");this.CallOut[i++]=FS4(57,44,13,0,"'Arial','sans-serif'",0,"<b>: Fiador, 2</b>");}

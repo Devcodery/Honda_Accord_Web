@@ -1,0 +1,1 @@
+function ISEA5E13G10110212032FASD01(){var i=0;this.Title="Localización de averías del circuito del ventilador del condensador del A/C";this.Name="SEA5E13G10110212032FASD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(9,32,13,0,"'Arial','sans-serif'",0,"<b>ENCHUFE 4P DEL RELÉ DEL VENTILADOR DEL CONDENSADOR DEL A/C</b>");}

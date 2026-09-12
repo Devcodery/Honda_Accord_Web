@@ -1,0 +1,1 @@
+function ISEA5E13A20326939902FASD11(){var i=0;this.Title="Localización de averías del circuito de la MIL";this.Name="SEA5E13A20326939902FASD11";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(39,320,13,0,"'Arial','sans-serif'",0,"<b></b>*: Esta ilustración muestra el modelo LHD.");this.CallOut[i++]=FS4(31,299,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA3E0BD14300014701KBSD02(){var i=0;this.Title=" Modelo LHD";this.Name="SEA3E0BD14300014701KBSD02";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(400,33,13,0,"'Arial','sans-serif'",0,"<b>A<br>9,8 N&middot;m<br>(1,0 kgf&middot;m)</b>");}

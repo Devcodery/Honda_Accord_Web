@@ -1,0 +1,1 @@
+function ISEA5E23A20326428001KCSD08(){var i=0;this.Title="Instalación de los racores de conexión rápida/tubos de combustible";this.Name="SEA5E23A20326428001KCSD08";this.Width=475;this.Height=320;this.CallOut=new Array;}

@@ -1,0 +1,1 @@
+function ISEA5E13A46500000000FASD01(){var i=0;this.Title=" MITSUBISHI:";this.Name="SEA5E13A46500000000FASD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(85,288,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(58,31,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

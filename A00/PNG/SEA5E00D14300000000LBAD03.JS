@@ -1,0 +1,1 @@
+function ISEA5E00D14300000000LBAD03(){var i=0;this.Title=" Fornt";this.Name="SEA5E00D14300000000LBAD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(357,166,13,0,"'Arial','sans-serif'",0,"<b>Except NISSIN:<br>9.8 N&middot;m<br>(1.0 kgf&middot;m,<br>7.2 lbf&middot;ft)<br><br>NISSIN:<br>9 N&middot;m<br>(0.9 kgf&middot;m,<br>7 lbf&middot;ft)</b>");}

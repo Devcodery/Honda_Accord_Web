@@ -1,0 +1,1 @@
+function ISEA3EM0B44100036401KBSD08(){var i=0;this.Title=" Sustitución de la mangueta";this.Name="SEA3EM0B44100036401KBSD08";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(19,17,13,0,"'Arial','sans-serif'",0,"<b>6 x 1,0 mm<br>9,8 N&middot;m<br>(1,0 kgf&middot;m)</b>");this.CallOut[i++]=FS4(61,354,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

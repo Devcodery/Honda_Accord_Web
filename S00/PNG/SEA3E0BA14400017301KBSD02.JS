@@ -1,0 +1,1 @@
+function ISEA3E0BA14400017301KBSD02(){var i=0;this.Title="Sustitución del refrigerante";this.Name="SEA3E0BA14400017301KBSD02";this.Width=475;this.Height=465;this.CallOut=new Array;this.CallOut[i++]=FS4(178,432,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

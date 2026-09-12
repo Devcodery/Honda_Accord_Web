@@ -1,0 +1,1 @@
+function ISEA5E1PE10410400000KCAD15(){var i=0;this.Title="A/T Assembly Installation";this.Name="SEA5E1PE10410400000KCAD15";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(46,16,13,0,"'Arial','sans-serif'",0,"<b>12 x 1.25 mm<br>69 N&middot;m (7.0 kgf&middot;m, 51 lbf&middot;ft)</b>");}

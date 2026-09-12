@@ -1,0 +1,1 @@
+function ISEA3E00J32133100000FAAD02(){var i=0;this.Title="HID Lamp System Troubleshooting";this.Name="SEA3E00J32133100000FAAD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(116,32,13,0,"'Arial','sans-serif'",0,"<b>INVERTER UNIT 2P CONNECTOR</b>");this.CallOut[i++]=FS4(129,274,13,0,"'Arial','sans-serif'",0,"<b></b>Wire side of female terminals");}

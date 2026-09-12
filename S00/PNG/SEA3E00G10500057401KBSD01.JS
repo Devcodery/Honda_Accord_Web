@@ -1,0 +1,1 @@
+function ISEA3E00G10500057401KBSD01(){var i=0;this.Title="Sustitución del sensor de la luz solar";this.Name="SEA3E00G10500057401KBSD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(336,288,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(68,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

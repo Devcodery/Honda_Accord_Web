@@ -1,0 +1,1 @@
+function ISEA3E00J10311113191KDSD02(){var i=0;this.Title=" Tipo de navegación:";this.Name="SEA3E00J10311113191KDSD02";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(435,245,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(80,41,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

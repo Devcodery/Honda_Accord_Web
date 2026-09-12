@@ -1,0 +1,1 @@
+function ISEA4E0AG10110200000KBSD01(){var i=0;this.Title="Sustitución del condensador del A/C";this.Name="SEA4E0AG10110200000KBSD01";this.Width=475;this.Height=481;this.CallOut=new Array;this.CallOut[i++]=FS4(107,21,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(97,127,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

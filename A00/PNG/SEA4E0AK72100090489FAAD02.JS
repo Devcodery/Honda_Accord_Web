@@ -1,0 +1,1 @@
+function ISEA4E0AK72100090489FAAD02(){var i=0;this.Title="DTC Troubleshooting: P0489 (182-6)";this.Name="SEA4E0AK72100090489FAAD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(131,34,13,0,"'Arial','sans-serif'",0,"<b>EGR VALVE 6P CONNECTOR</b>");this.CallOut[i++]=FS4(115,274,13,0,"'Arial','sans-serif'",0,"<b></b>Terminal side of male terminals");}

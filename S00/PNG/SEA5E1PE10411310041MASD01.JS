@@ -1,0 +1,1 @@
+function ISEA5E1PE10411310041MASD01(){var i=0;this.Title="Inspección del embrague de la A/T";this.Name="SEA5E1PE10411310041MASD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(80,32,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E13A14666351511MASD02(){var i=0;this.Title="Inspección del eje de balancines y de los balancines";this.Name="SEA5E13A14666351511MASD02";this.Width=475;this.Height=359;this.CallOut=new Array;this.CallOut[i++]=FS4(292,95,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

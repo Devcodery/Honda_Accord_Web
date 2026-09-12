@@ -1,0 +1,1 @@
+function ISEA3JE0J18573958301KBJD01(){var i=0;this.Title=" With Power Tailgate";this.Name="SEA3JE0J18573958301KBJD01";this.Width=475;this.Height=545;this.CallOut=new Array;this.CallOut[i++]=FS4(111,516,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(105,415,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

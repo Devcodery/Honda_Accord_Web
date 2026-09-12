@@ -1,0 +1,1 @@
+function ISEA5E60J32100017101FHSD02(){var i=0;this.Title=" Modelo LHD";this.Name="SEA5E60J32100017101FHSD02";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(635,289,12,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(267,228,12,0,"'Arial','sans-serif'",0,"<b></b>Lado del cable de los <br>terminales hembra");}

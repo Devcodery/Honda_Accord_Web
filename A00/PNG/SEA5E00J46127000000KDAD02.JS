@@ -1,0 +1,1 @@
+function ISEA5E00J46127000000KDAD02(){var i=0;this.Title=" Manual seat without OPDS unit";this.Name="SEA5E00J46127000000KDAD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(286,16,13,0,"'Arial','sans-serif'",0,"<b>D</b>");this.CallOut[i++]=FS4(177,16,13,0,"'Arial','sans-serif'",0,"<b>E</b>");}

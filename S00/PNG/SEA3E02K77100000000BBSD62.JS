@@ -1,0 +1,1 @@
+function ISEA3E02K77100000000BBSD62(){var i=0;this.Title=" Cómo efectuar la localización de averías en los circuitos del PCM";this.Name="SEA3E02K77100000000BBSD62";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(301,357,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(166,357,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

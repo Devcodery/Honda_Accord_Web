@@ -1,0 +1,1 @@
+function ISEA3E02K77100000000BBSD02(){var i=0;this.Title=" Cómo comprobar los DTC con el modo SCS (recuperación de los códigos por destellos)";this.Name="SEA3E02K77100000000BBSD02";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(297,349,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(237,18,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

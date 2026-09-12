@@ -1,0 +1,1 @@
+function ISEA3E0BA20336334854FESD01(){var i=0;this.Title="Comprobación de la termoválvula de control de derivación del aire de la admisión";this.Name="SEA3E0BA20336334854FESD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(124,119,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(398,98,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

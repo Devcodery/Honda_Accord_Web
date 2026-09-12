@@ -1,0 +1,1 @@
+function ISEA5E24G10110112012FAAD03(){var i=0;this.Title="A/C Compressor Clutch Circuit Troubleshooting";this.Name="SEA5E24G10110112012FAAD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(60,18,13,0,"'Arial','sans-serif'",0,"<b>A/C COMPRESSOR CLUTCH RELAY 4P SOCKET</b>");this.CallOut[i++]=FS4(230,192,13,0,"'Arial','sans-serif'",0,"<b>BLK/YEL</b>");}

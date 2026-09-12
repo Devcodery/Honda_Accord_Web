@@ -1,0 +1,1 @@
+function ISEA5E13A14400065091KBSD03(){var i=0;this.Title="Sustitución del conducto de agua";this.Name="SEA5E13A14400065091KBSD03";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(28,369,13,0,"'Arial','sans-serif'",0,"<b></b>Aplique una junta líquida<br>a lo largo de la línea discontinua.");}

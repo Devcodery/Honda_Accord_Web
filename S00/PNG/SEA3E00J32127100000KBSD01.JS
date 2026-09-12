@@ -1,0 +1,1 @@
+function ISEA3E00J32127100000KBSD01(){var i=0;this.Title="Sustitución de las luces antiniebla delanteras";this.Name="SEA3E00J32127100000KBSD01";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(148,17,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(355,366,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

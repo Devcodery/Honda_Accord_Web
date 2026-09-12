@@ -1,0 +1,1 @@
+function ISEA3E02E10411412282KCAD03(){var i=0;this.Title="A/T Shift Lever Installation";this.Name="SEA3E02E10411412282KCAD03";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(199,386,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(376,371,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

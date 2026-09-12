@@ -1,0 +1,1 @@
+function ISEA3E02E10411239521KBSD01(){var i=0;this.Title="Sustitución del retén de aceite y del cojinete del eje principal de la carcasa del convertidor de par";this.Name="SEA3E02E10411239521KBSD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(5,56,13,0,"'Arial','sans-serif'",0,"<b>07JAC-PH80000</b>");}

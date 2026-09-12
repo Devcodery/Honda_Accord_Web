@@ -1,0 +1,1 @@
+function ISEA5E1PE10400013001KBSD03(){var i=0;this.Title="Cambio del ATF";this.Name="SEA5E1PE10400013001KBSD03";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(418,305,13,0,"'Arial','sans-serif'",0,"<b>C</b>");this.CallOut[i++]=FS4(389,226,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(78,213,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

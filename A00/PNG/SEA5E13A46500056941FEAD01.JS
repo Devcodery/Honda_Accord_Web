@@ -1,0 +1,1 @@
+function ISEA5E13A46500056941FEAD01(){var i=0;this.Title=" DENSO:";this.Name="SEA5E13A46500056941FEAD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(189,18,13,0,"'Arial','sans-serif'",0,"<b>S</b>");this.CallOut[i++]=FS4(128,41,13,0,"'Arial','sans-serif'",0,"<b>M</b>");}

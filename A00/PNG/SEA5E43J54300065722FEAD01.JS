@@ -1,0 +1,1 @@
+function ISEA5E43J54300065722FEAD01(){var i=0;this.Title="Rear Window Wiper Motor Test";this.Name="SEA5E43J54300065722FEAD01";this.Width=475;this.Height=545;this.CallOut=new Array;this.CallOut[i++]=FS4(173,516,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(18,127,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

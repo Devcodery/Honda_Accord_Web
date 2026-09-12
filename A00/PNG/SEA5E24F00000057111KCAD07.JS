@@ -1,0 +1,1 @@
+function ISEA5E24F00000057111KCAD07(){var i=0;this.Title=" RHD model";this.Name="SEA5E24F00000057111KCAD07";this.Width=475;this.Height=433;this.CallOut=new Array;this.CallOut[i++]=FS4(425,181,13,0,"'Arial','sans-serif'",0,"<b>D</b>");this.CallOut[i++]=FS4(321,372,13,0,"'Arial','sans-serif'",0,"<b>6 x 1.0 mm<br>9.8 N&middot;m (1.0 kgf&middot;m, <br>7.2 lbf&middot;ft)</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E13A14674300000KCAD16(){var i=0;this.Title="Cam Chain Installation";this.Name="SEA5E13A14674300000KCAD16";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(397,179,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(259,387,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA3E0BK71100000000BBSD01(){var i=0;this.Title=" Cómo comprobar la existencia de DTC con el Tester PGM de Honda o el HDS";this.Name="SEA3E0BK71100000000BBSD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(378,323,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(408,246,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

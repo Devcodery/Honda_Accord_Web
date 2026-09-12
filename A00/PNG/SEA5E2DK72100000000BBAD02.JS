@@ -1,0 +1,1 @@
+function ISEA5E2DK72100000000BBAD02(){var i=0;this.Title=" How to Troubleshoot Circuits at the ECM/PCM";this.Name="SEA5E2DK72100000000BBAD02";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(186,278,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(38,372,13,0,"'Arial','sans-serif'",0,"<b></b>*: This illustration shows LHD model.");}

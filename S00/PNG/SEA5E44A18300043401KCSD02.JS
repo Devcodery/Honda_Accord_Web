@@ -1,0 +1,1 @@
+function ISEA5E44A18300043401KCSD02(){var i=0;this.Title="Montaje del cárter de aceite del motor";this.Name="SEA5E44A18300043401KCSD02";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(16,290,13,0,"'Arial','sans-serif'",0,"<b>10 x 1,25 mm<br>44 N&middot;m<br>(4,5 kgf&middot;m)</b>");}

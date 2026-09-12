@@ -1,0 +1,1 @@
+function ISEA5E13A14100022205KBSD01(){var i=0;this.Title="Sustitución del tensor automático de la correa de accionamiento";this.Name="SEA5E13A14100022205KBSD01";this.Width=475;this.Height=433;this.CallOut=new Array;this.CallOut[i++]=FS4(218,388,13,0,"'Arial','sans-serif'",0,"<b>8 x 1,25 mm<br>22 N&middot;m (2,2 kgf&middot;m)</b>");}

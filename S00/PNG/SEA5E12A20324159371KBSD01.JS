@@ -1,0 +1,1 @@
+function ISEA5E12A20324159371KBSD01(){var i=0;this.Title=" Modelo LHD:";this.Name="SEA5E12A20324159371KBSD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(18,173,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(97,355,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(450,196,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E00J16126721401KDAD07(){var i=0;this.Title="Front Door Panel Removal/Installation";this.Name="SEA5E00J16126721401KDAD07";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(129,38,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(381,34,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

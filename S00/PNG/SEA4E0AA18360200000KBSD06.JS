@@ -1,0 +1,1 @@
+function ISEA4E0AA18360200000KBSD06(){var i=0;this.Title=" Montaje";this.Name="SEA4E0AA18360200000KBSD06";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(311,13,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

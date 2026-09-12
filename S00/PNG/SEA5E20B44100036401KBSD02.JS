@@ -1,0 +1,1 @@
+function ISEA5E20B44100036401KBSD02(){var i=0;this.Title=" Sustitución del cubo de rueda";this.Name="SEA5E20B44100036401KBSD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(348,89,13,0,"'Arial','sans-serif'",0,"<b>108 N&middot;m <br>(11,0 kgf&middot;m)</b>");}

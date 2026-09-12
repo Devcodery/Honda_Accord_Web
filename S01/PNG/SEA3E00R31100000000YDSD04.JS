@@ -1,0 +1,1 @@
+function ISEA3E00R31100000000YDSD04(){var i=0;this.Title="Montaje del mamparo delantero";this.Name="SEA3E00R31100000000YDSD04";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(29,319,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA3E0CE34150100000KCSD61(){var i=0;this.Title="Instalación del conjunto de la M/T";this.Name="SEA3E0CE34150100000KCSD61";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(287,290,13,0,"'Arial','sans-serif'",0,"<b>12 x 1,25 mm<br>64 N&middot;m<br>(6,5 kgf&middot;m)<br></b>Sustituir.");}

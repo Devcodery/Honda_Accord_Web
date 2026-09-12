@@ -1,0 +1,1 @@
+function ISEA5E00D14300014791MDSD03(){var i=0;this.Title=" Pastilla exterior";this.Name="SEA5E00D14300014791MDSD03";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(284,374,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(94,339,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

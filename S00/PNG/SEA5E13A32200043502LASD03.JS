@@ -1,0 +1,1 @@
+function ISEA5E13A32200043502LASD03(){var i=0;this.Title=" Desmontaje de la bomba de aceite";this.Name="SEA5E13A32200043502LASD03";this.Width=475;this.Height=465;this.CallOut=new Array;this.CallOut[i++]=FS4(365,148,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(379,354,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

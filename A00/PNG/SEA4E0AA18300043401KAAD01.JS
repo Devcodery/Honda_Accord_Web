@@ -1,0 +1,1 @@
+function ISEA4E0AA18300043401KAAD01(){var i=0;this.Title="Engine Oil Pan Removal";this.Name="SEA4E0AA18300043401KAAD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(392,146,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(72,319,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

@@ -1,0 +1,1 @@
+function ISEA3E00D14300014781LDSD02(){var i=0;this.Title=" Tipo VSA";this.Name="SEA3E00D14300014781LDSD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(234,46,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(300,285,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(229,265,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

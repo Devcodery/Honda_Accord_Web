@@ -1,0 +1,1 @@
+function ISEA3E0BA18223800000KAAD12(){var i=0;this.Title="Engine Assembly Removal";this.Name="SEA3E0BA18223800000KAAD12";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(391,348,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(171,335,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

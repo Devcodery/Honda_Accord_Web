@@ -1,0 +1,1 @@
+function ISEA5E230000000K0081BASD01(){var i=0;this.Title="Fluidos y lubricantes";this.Name="SEA5E230000000K0081BASD01";this.Width=950;this.Height=415;this.CallOut=new Array;this.CallOut[i++]=FS4(271,16,12,0,"'Arial','sans-serif'",0,"<b>Aceite del motor recomendado<br></b>Viscosidad del aceite de motor a temperatura ambiente");}

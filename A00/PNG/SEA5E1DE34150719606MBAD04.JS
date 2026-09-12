@@ -1,0 +1,1 @@
+function ISEA5E1DE34150719606MBAD04(){var i=0;this.Title="M/T Differential Thrust Clearance Adjustment";this.Name="SEA5E1DE34150719606MBAD04";this.Width=475;this.Height=385;this.CallOut=new Array;}

@@ -1,0 +1,1 @@
+function ISEA5E1PE10410400000KCSD10(){var i=0;this.Title="Montaje del conjunto de la A/T";this.Name="SEA5E1PE10410400000KCSD10";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(224,372,13,0,"'Arial','sans-serif'",0,"<b>10 x 1,25 mm<br>49 N&middot;m (5,0 kgf&middot;m)</b>");}

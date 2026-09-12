@@ -1,0 +1,1 @@
+function ISEA4E0AA18300043401KCAD06(){var i=0;this.Title="Engine Oil Pan Installation";this.Name="SEA4E0AA18300043401KCAD06";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(17,293,13,0,"'Arial','sans-serif'",0,"<b>10 x 1.25 mm<br>49 N&middot;m (5.0 kgf&middot;m, 36 lbf&middot;ft)<br></b>Replace.");}

@@ -1,0 +1,1 @@
+function ISEA3E0BF00000047031FESD02(){var i=0;this.Title="Comprobación de la presión de la bomba de la dirección asistida hidráulica";this.Name="SEA3E0BF00000047031FESD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(130,36,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(318,27,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function IS80WA00H46400012802LBAD04(){var i=0;this.Title=" Deploying Airbags in the Vehicle";this.Name="S80WA00H46400012802LBAD04";this.Width=475;this.Height=407;this.CallOut=new Array;this.CallOut[i++]=FS4(384,12,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

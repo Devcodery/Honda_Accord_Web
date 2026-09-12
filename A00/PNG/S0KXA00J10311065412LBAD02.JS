@@ -1,0 +1,1 @@
+function IS0KXA00J10311065412LBAD02(){var i=0;this.Title="Window Antenna Repair";this.Name="S0KXA00J10311065412LBAD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(352,200,12,0,"'Arial','sans-serif'",0,"<b>A</b>");}

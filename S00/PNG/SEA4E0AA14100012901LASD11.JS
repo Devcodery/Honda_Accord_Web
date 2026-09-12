@@ -1,0 +1,1 @@
+function ISEA4E0AA14100012901LASD11(){var i=0;this.Title=" Revisión de las escobillas del alternador";this.Name="SEA4E0AA14100012901LASD11";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(450,245,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(161,222,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

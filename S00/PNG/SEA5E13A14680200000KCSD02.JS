@@ -1,0 +1,1 @@
+function ISEA5E13A14680200000KCSD02(){var i=0;this.Title="Montaje de válvula, muelle y retén de la válvula de la culata";this.Name="SEA5E13A14680200000KCSD02";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(84,16,13,0,"'Arial','sans-serif'",0,"<b>07757-PJ10100</b>");this.CallOut[i++]=FS4(320,355,13,0,"'Arial','sans-serif'",0,"<b>07757-0010000</b>");}

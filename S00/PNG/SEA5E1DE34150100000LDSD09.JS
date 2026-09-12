@@ -1,0 +1,1 @@
+function ISEA5E1DE34150100000LDSD09(){var i=0;this.Title="Montaje del conjunto de la M/T";this.Name="SEA5E1DE34150100000LDSD09";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(353,289,13,0,"'Arial','sans-serif'",0,"<b>Junta líquida</b>");}

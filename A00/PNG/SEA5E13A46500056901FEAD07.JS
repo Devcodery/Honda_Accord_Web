@@ -1,0 +1,1 @@
+function ISEA5E13A46500056901FEAD07(){var i=0;this.Title=" MITSUBA";this.Name="SEA5E13A46500056901FEAD07";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(334,168,13,0,"'Arial','sans-serif'",0,"<b>STARTER</b>");this.CallOut[i++]=FS4(283,80,13,0,"'Arial','sans-serif'",0,"<b>S</b>");this.CallOut[i++]=FS4(375,39,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

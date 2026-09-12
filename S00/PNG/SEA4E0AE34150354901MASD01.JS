@@ -1,0 +1,1 @@
+function ISEA4E0AE34150354901MASD01(){var i=0;this.Title=" 1&ordf;/2&ordf;, 3&ordf;/4&ordf;, 5&ordf;:";this.Name="SEA4E0AE34150354901MASD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(193,339,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(375,15,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

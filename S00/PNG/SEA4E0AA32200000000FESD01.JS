@@ -1,0 +1,1 @@
+function ISEA4E0AA32200000000FESD01(){var i=0;this.Title="Comprobación de la presión de aceite del motor";this.Name="SEA4E0AA32200000000FESD01";this.Width=475;this.Height=449;this.CallOut=new Array;this.CallOut[i++]=FS4(343,17,13,0,"'Arial','sans-serif'",0,"<b>07406-0030000</b>");this.CallOut[i++]=FS4(311,350,13,0,"'Arial','sans-serif'",0,"<b>07506-3000001</b>");}

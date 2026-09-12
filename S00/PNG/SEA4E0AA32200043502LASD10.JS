@@ -1,0 +1,1 @@
+function ISEA4E0AA32200043502LASD10(){var i=0;this.Title=" Inspección de la bomba de aceite";this.Name="SEA4E0AA32200043502LASD10";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(41,60,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(108,242,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

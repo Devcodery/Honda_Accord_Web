@@ -1,0 +1,1 @@
+function ISEA5E20D14300014721MASD02(){var i=0;this.Title=" Espesor y paralelismo";this.Name="SEA5E20D14300014721MASD02";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(246,67,13,0,"'Arial','sans-serif'",0,"<b>10 mm </b>");}

@@ -1,0 +1,1 @@
+function ISEA5E23E16226600000LCAD08(){var i=0;this.Title=" Ear clamp type";this.Name="SEA5E23E16226600000LCAD08";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(264,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(399,283,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

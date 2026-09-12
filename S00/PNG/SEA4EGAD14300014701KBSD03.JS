@@ -1,0 +1,1 @@
+function ISEA4EGAD14300014701KBSD03(){var i=0;this.Title=" Modelo LHD";this.Name="SEA4EGAD14300014701KBSD03";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(279,289,13,0,"'Arial','sans-serif'",0,"<b>6 x 1,0 mm<br>9,8 N&middot;m (1,0 kgf&middot;m)</b>");this.CallOut[i++]=FS4(95,17,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

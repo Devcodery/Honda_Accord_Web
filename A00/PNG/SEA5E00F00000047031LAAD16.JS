@@ -1,0 +1,1 @@
+function ISEA5E00F00000047031LAAD16(){var i=0;this.Title=" Reassembly";this.Name="SEA5E00F00000047031LAAD16";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(358,17,13,0,"'Arial','sans-serif'",0,"<b>8 x 1.25 mm<br>20 N&middot;m <br>(2.0 kgf&middot;m, <br>14 lbf&middot;ft)</b>");this.CallOut[i++]=FS4(55,152,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

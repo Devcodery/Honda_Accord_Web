@@ -1,0 +1,1 @@
+function ISEA5E00J34200057260KBSD03(){var i=0;this.Title="Sustitución del conjunto cable y corredera del canal de drenaje del techo corredizo";this.Name="SEA5E00J34200057260KBSD03";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(233,87,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(304,159,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

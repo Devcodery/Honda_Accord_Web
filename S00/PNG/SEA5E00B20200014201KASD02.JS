@@ -1,0 +1,1 @@
+function ISEA5E00B20200014201KASD02(){var i=0;this.Title="Extracción de las rótulas de las suspensiones delantera y trasera";this.Name="SEA5E00B20200014201KASD02";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(165,27,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(426,18,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

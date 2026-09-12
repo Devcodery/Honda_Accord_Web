@@ -1,0 +1,1 @@
+function ISEA3EK0J54283222102DBSD02(){var i=0;this.Title="Situación de los mazos de cables de las puertas traseras";this.Name="SEA3EK0J54283222102DBSD02";this.Width=950;this.Height=511;this.CallOut=new Array;this.CallOut[i++]=FS4(691,466,12,0,"'Arial','sans-serif'",0,"<b>PUERTA TRASERA DERECHA<br>DEL PISO</b>");}

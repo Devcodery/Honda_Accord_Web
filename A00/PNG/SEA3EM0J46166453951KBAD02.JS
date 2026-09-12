@@ -1,0 +1,1 @@
+function ISEA3EM0J46166453951KBAD02(){var i=0;this.Title=" Right seat-back";this.Name="SEA3EM0J46166453951KBAD02";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(118,12,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(338,36,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

@@ -1,0 +1,1 @@
+function ISEA4E0AA18316600000KASD07(){var i=0;this.Title="Desmontaje del cigüeñal y de los pistones";this.Name="SEA4E0AA18316600000KASD07";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(73,232,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(448,186,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

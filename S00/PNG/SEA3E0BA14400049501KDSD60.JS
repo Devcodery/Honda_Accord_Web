@@ -1,0 +1,1 @@
+function ISEA3E0BA14400049501KDSD60(){var i=0;this.Title=" Desmontaje";this.Name="SEA3E0BA14400049501KDSD60";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(171,336,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(392,349,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(443,278,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

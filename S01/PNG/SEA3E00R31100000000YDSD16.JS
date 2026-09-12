@@ -1,0 +1,1 @@
+function ISEA3E00R31100000000YDSD16(){var i=0;this.Title=" Paso de la rueda delantero:";this.Name="SEA3E00R31100000000YDSD16";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(380,245,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(296,285,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

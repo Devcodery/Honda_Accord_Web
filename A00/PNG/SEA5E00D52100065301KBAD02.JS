@@ -1,0 +1,1 @@
+function ISEA5E00D52100065301KBAD02(){var i=0;this.Title=" Rear";this.Name="SEA5E00D52100065301KBAD02";this.Width=950;this.Height=495;this.CallOut=new Array;this.CallOut[i++]=FS4(324,466,12,0,"'Arial','sans-serif'",0,"<b>WHEEL SENSOR</b>");this.CallOut[i++]=FS4(137,16,12,0,"'Arial','sans-serif'",0,"<b>6 mm BOLT<br>9.8 N&middot;m (1.0 kgf, 7.2 lbf&middot;ft)</b>");}

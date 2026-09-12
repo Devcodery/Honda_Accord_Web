@@ -1,0 +1,1 @@
+function ISEA5E00D10600065301KBAD01(){var i=0;this.Title=" Front";this.Name="SEA5E00D10600065301KBAD01";this.Width=950;this.Height=463;this.CallOut=new Array;this.CallOut[i++]=FS4(635,425,12,0,"'Arial','sans-serif'",0,"<b>WHEEL SENSOR</b>");this.CallOut[i++]=FS4(659,274,12,0,"'Arial','sans-serif'",0,"<b>6 mm BOLT<br>9.8 N&middot;m (1.0 kgf, 7.2 lbf&middot;ft)</b>");}

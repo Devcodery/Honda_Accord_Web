@@ -1,0 +1,1 @@
+function ISEA3E00F00000000000MASD01(){var i=0;this.Title="Comprobación de la asistencia de la dirección asistida";this.Name="SEA3E00F00000000000MASD01";this.Width=475;this.Height=385;this.CallOut=new Array;}

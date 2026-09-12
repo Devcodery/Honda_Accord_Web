@@ -1,0 +1,1 @@
+function ISEA5E1PE10410400000KASD24(){var i=0;this.Title="Desmontaje del conjunto de la A/T";this.Name="SEA5E1PE10410400000KASD24";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(265,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(27,386,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

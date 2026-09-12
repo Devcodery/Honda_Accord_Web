@@ -1,0 +1,1943 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Honda Accord - Manual Técnico Electrónico</title>
+  <link rel="icon" type="image/png" href="HondaESM.png">
+  <style>
+    /* ==========================================================================
+       NEUMORPHISM DESIGN SYSTEM (SOFT UI)
+       ========================================================================== */
+    :root {
+      --bg: #e2e8f0;
+      --surface: #e2e8f0;
+      --surface-subtle: #eaeff5;
+      --shadow-raised: 6px 6px 14px #c2c9d4, -6px -6px 14px #ffffff;
+      --shadow-raised-sm: 3px 3px 7px #c2c9d4, -3px -3px 7px #ffffff;
+      --shadow-raised-lg: 12px 12px 24px #c2c9d4, -12px -12px 24px #ffffff;
+      --shadow-inset: inset 4px 4px 8px #c2c9d4, inset -4px -4px 8px #ffffff;
+      --shadow-inset-sm: inset 2px 2px 5px #c2c9d4, inset -2px -2px 5px #ffffff;
+      
+      --primary: #dc2626;
+      --primary-hover: #b91c1c;
+      --primary-light: rgba(220, 38, 38, 0.1);
+      --primary-glow: rgba(220, 38, 38, 0.25);
+      
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --text-faint: #94a3b8;
+      
+      --border-soft: rgba(255, 255, 255, 0.8);
+      --divider: #cbd5e1;
+      
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-full: 9999px;
+      
+      --font: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    [data-theme="dark"] {
+      --bg: #16181d;
+      --surface: #16181d;
+      --surface-subtle: #1c2026;
+      --shadow-raised: 6px 6px 14px #0e1014, -6px -6px 14px #1e2128;
+      --shadow-raised-sm: 3px 3px 7px #0e1014, -3px -3px 7px #1e2128;
+      --shadow-raised-lg: 12px 12px 24px #0e1014, -12px -12px 24px #1e2128;
+      --shadow-inset: inset 4px 4px 8px #0e1014, inset -4px -4px 8px #1e2128;
+      --shadow-inset-sm: inset 2px 2px 5px #0e1014, inset -2px -2px 5px #1e2128;
+      
+      --primary: #ef4444;
+      --primary-hover: #f87171;
+      --primary-light: rgba(239, 68, 68, 0.15);
+      --primary-glow: rgba(239, 68, 68, 0.4);
+      
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-faint: #64748b;
+      
+      --border-soft: rgba(255, 255, 255, 0.05);
+      --divider: #232730;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      font-family: var(--font);
+      background-color: var(--bg);
+      color: var(--text-main);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    /* ==========================================================================
+       HEADER & NAVIGATION CONTROLS
+       ========================================================================== */
+    .app-header {
+      height: 68px;
+      background: var(--surface);
+      box-shadow: var(--shadow-raised-sm);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 18px;
+      z-index: 30;
+      gap: 14px;
+      border-bottom: 1px solid var(--border-soft);
+      flex-shrink: 0;
+    }
+
+    .brand-section {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 220px;
+    }
+
+    .brand-logo-neu {
+      width: 42px;
+      height: 42px;
+      border-radius: var(--radius-md);
+      background: var(--surface);
+      box-shadow: var(--shadow-raised);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--primary);
+      flex-shrink: 0;
+    }
+
+    .brand-logo-neu svg {
+      width: 24px;
+      height: 24px;
+      fill: currentColor;
+    }
+
+    .brand-text h1 {
+      font-size: 1.05rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .brand-badge {
+      font-size: 0.65rem;
+      font-weight: 700;
+      background: var(--primary);
+      color: #fff;
+      padding: 2px 6px;
+      border-radius: var(--radius-full);
+      letter-spacing: 0.06em;
+    }
+
+    .brand-text p {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    /* CENTER CONTROLS */
+    .controls-section {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex: 1;
+      justify-content: center;
+      max-width: 780px;
+    }
+
+    .neu-segmented {
+      display: flex;
+      background: var(--surface);
+      box-shadow: var(--shadow-inset-sm);
+      padding: 3px;
+      border-radius: var(--radius-full);
+      gap: 3px;
+      flex-shrink: 0;
+    }
+
+    .neu-segment-btn {
+      border: none;
+      background: transparent;
+      padding: 6px 12px;
+      border-radius: var(--radius-full);
+      font-family: inherit;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+
+    .neu-segment-btn:hover {
+      color: var(--text-main);
+    }
+
+    .neu-segment-btn.active {
+      background: var(--surface);
+      box-shadow: var(--shadow-raised-sm);
+      color: var(--primary);
+    }
+
+    /* SEARCH BAR */
+    .search-container {
+      position: relative;
+      flex: 1;
+      max-width: 320px;
+      min-width: 160px;
+    }
+
+    .neu-search-input {
+      width: 100%;
+      height: 38px;
+      background: var(--surface);
+      box-shadow: var(--shadow-inset-sm);
+      border: 1px solid transparent;
+      border-radius: var(--radius-full);
+      padding: 0 36px 0 36px;
+      font-family: inherit;
+      font-size: 0.82rem;
+      color: var(--text-main);
+      outline: none;
+      transition: var(--transition);
+    }
+
+    .neu-search-input:focus {
+      border-color: var(--primary);
+      box-shadow: var(--shadow-inset), 0 0 0 3px var(--primary-glow);
+    }
+
+    .search-icon-left {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+
+    .search-clear-btn {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+    }
+
+    .search-clear-btn.visible {
+      display: flex;
+    }
+
+    /* HEADER RIGHT ACTIONS */
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    .neu-icon-btn {
+      width: 38px;
+      height: 38px;
+      border-radius: var(--radius-full);
+      background: var(--surface);
+      box-shadow: var(--shadow-raised-sm);
+      border: none;
+      cursor: pointer;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition);
+      position: relative;
+    }
+
+    .neu-icon-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-raised);
+      color: var(--primary);
+    }
+
+    .neu-icon-btn:active, .neu-icon-btn.active {
+      transform: translateY(1px);
+      box-shadow: var(--shadow-inset-sm);
+      color: var(--primary);
+    }
+
+    /* ==========================================================================
+       THREE-PANEL LAYOUT
+       ========================================================================== */
+    .app-main {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+      padding: 12px;
+      gap: 12px;
+      position: relative;
+    }
+
+    .neu-card {
+      background: var(--surface);
+      box-shadow: var(--shadow-raised);
+      border-radius: var(--radius-lg);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      border: 1px solid var(--border-soft);
+      transition: var(--transition);
+      position: relative;
+    }
+
+    .panel-header {
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--divider);
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    .panel-header h2 {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .count-badge {
+      font-size: 0.7rem;
+      font-weight: 700;
+      background: var(--surface);
+      box-shadow: var(--shadow-inset-sm);
+      padding: 2px 7px;
+      border-radius: var(--radius-full);
+      color: var(--primary);
+      flex-shrink: 0;
+    }
+
+    /* PANEL 1: SYSTEMS TREE */
+    .panel-systems {
+      width: 310px;
+      flex-shrink: 0;
+    }
+
+    .filter-box-wrap {
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--divider);
+      flex-shrink: 0;
+    }
+
+    .neu-filter-input {
+      width: 100%;
+      height: 32px;
+      background: var(--surface);
+      box-shadow: var(--shadow-inset-sm);
+      border: 1px solid transparent;
+      border-radius: var(--radius-sm);
+      padding: 0 10px;
+      font-size: 0.78rem;
+      color: var(--text-main);
+      outline: none;
+      font-family: inherit;
+    }
+
+    .neu-filter-input:focus {
+      border-color: var(--primary);
+    }
+
+    .tree-scroll-area {
+      flex: 1;
+      overflow-y: auto;
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .tree-item {
+      display: flex;
+      align-items: center;
+      padding: 6px 10px;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--text-main);
+      transition: var(--transition);
+      user-select: none;
+      gap: 8px;
+    }
+
+    .tree-item:hover {
+      background: var(--surface-subtle);
+      transform: translateX(2px);
+    }
+
+    .tree-item.active {
+      background: var(--surface);
+      box-shadow: var(--shadow-inset-sm);
+      color: var(--primary);
+      font-weight: 700;
+      border-left: 3px solid var(--primary);
+    }
+
+    .tree-toggle-icon {
+      width: 16px;
+      height: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+      transition: transform 0.2s ease;
+      flex-shrink: 0;
+    }
+
+    .tree-toggle-icon.expanded {
+      transform: rotate(90deg);
+    }
+
+    .tree-folder-icon {
+      width: 15px;
+      height: 15px;
+      color: var(--primary);
+      flex-shrink: 0;
+      opacity: 0.85;
+    }
+
+    .tree-title {
+      flex: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .tree-children {
+      display: none;
+      flex-direction: column;
+      gap: 2px;
+      margin-left: 12px;
+      padding-left: 6px;
+      border-left: 2px dashed var(--divider);
+    }
+
+    .tree-children.open {
+      display: flex;
+    }
+
+    /* PANEL 2: PROCEDURES LIST */
+    .panel-procedures {
+      width: 340px;
+      flex-shrink: 0;
+    }
+
+    .proc-scroll-area {
+      flex: 1;
+      overflow-y: auto;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .proc-card {
+      background: var(--surface);
+      box-shadow: var(--shadow-raised-sm);
+      border-radius: var(--radius-md);
+      padding: 10px 12px;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      border: 1px solid var(--border-soft);
+      position: relative;
+    }
+
+    .proc-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-raised);
+    }
+
+    .proc-card.active {
+      box-shadow: var(--shadow-inset-sm);
+      border-color: var(--primary);
+    }
+
+    .proc-card.active::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 10px;
+      bottom: 10px;
+      width: 4px;
+      border-radius: 0 4px 4px 0;
+      background: var(--primary);
+    }
+
+    .proc-icon-wrap {
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-sm);
+      background: var(--surface);
+      box-shadow: var(--shadow-raised-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--primary);
+      flex-shrink: 0;
+    }
+
+    .proc-card.active .proc-icon-wrap {
+      box-shadow: var(--shadow-inset-sm);
+    }
+
+    .proc-details {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .proc-title {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-main);
+      line-height: 1.35;
+      margin-bottom: 3px;
+      word-break: break-word;
+    }
+
+    .proc-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.68rem;
+      color: var(--text-muted);
+    }
+
+    .proc-fav-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-faint);
+      cursor: pointer;
+      padding: 2px;
+      transition: color 0.15s ease;
+    }
+
+    .proc-fav-btn.active {
+      color: #eab308;
+    }
+
+    /* EMPTY STATE */
+    .empty-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 16px;
+      text-align: center;
+      color: var(--text-muted);
+      height: 100%;
+      gap: 12px;
+    }
+
+    .empty-icon-neu {
+      width: 54px;
+      height: 54px;
+      border-radius: var(--radius-full);
+      background: var(--surface);
+      box-shadow: var(--shadow-inset-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-faint);
+    }
+
+    /* PANEL 3: VIEWER */
+    .panel-viewer {
+      flex: 1;
+      min-width: 380px;
+    }
+
+    .viewer-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 16px;
+      border-bottom: 1px solid var(--divider);
+      background: var(--surface);
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .breadcrumb-nav {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      flex: 1;
+    }
+
+    .breadcrumb-active {
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    .viewer-tools {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .tool-btn {
+      height: 30px;
+      padding: 0 9px;
+      border-radius: var(--radius-sm);
+      background: var(--surface);
+      box-shadow: var(--shadow-raised-sm);
+      border: none;
+      font-family: inherit;
+      font-size: 0.74rem;
+      font-weight: 600;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+
+    .tool-btn:hover {
+      box-shadow: var(--shadow-raised);
+      color: var(--primary);
+    }
+
+    .tool-btn:active {
+      box-shadow: var(--shadow-inset-sm);
+    }
+
+    .viewer-content-area {
+      flex: 1;
+      position: relative;
+      background: var(--surface);
+      overflow: hidden;
+    }
+
+    #docIframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+      background: #ffffff;
+      transition: opacity 0.2s ease;
+    }
+
+    [data-theme="dark"] #docIframe {
+      background: #16181d;
+    }
+
+    .viewer-loader {
+      position: absolute;
+      inset: 0;
+      background: var(--surface);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      z-index: 10;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+    }
+
+    .viewer-loader.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .neu-spinner {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--surface);
+      box-shadow: var(--shadow-raised);
+      border: 3px solid transparent;
+      border-top-color: var(--primary);
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+
+    /* ==========================================================================
+       NEUMORPHIC LIGHTBOX MODAL (NO MORE POPUPS!)
+       ========================================================================== */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.65);
+      backdrop-filter: blur(4px);
+      z-index: 100;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    .neu-modal-container {
+      width: 92vw;
+      height: 88vh;
+      background: var(--surface);
+      box-shadow: var(--shadow-raised-lg);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-soft);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      animation: modalPop 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    @keyframes modalPop {
+      0% { opacity: 0; transform: scale(0.95); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    .modal-header {
+      padding: 12px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--divider);
+      gap: 10px;
+    }
+
+    .modal-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .modal-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .modal-canvas-wrap {
+      flex: 1;
+      overflow: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--surface-subtle);
+      position: relative;
+      cursor: grab;
+      user-select: none;
+    }
+
+    .modal-canvas-wrap:active {
+      cursor: grabbing;
+    }
+
+    .modal-canvas-inner {
+      position: relative;
+      transform-origin: center center;
+      transition: transform 0.15s ease-out;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: var(--shadow-raised);
+      padding: 10px;
+      margin: auto;
+    }
+
+    [data-theme="dark"] .modal-canvas-inner {
+      background: #20242b;
+    }
+
+    .modal-diagram-img {
+      display: block;
+      max-width: none;
+    }
+
+    .modal-callout-item {
+      position: absolute;
+      white-space: nowrap;
+      pointer-events: auto;
+    }
+
+    /* MOBILE / TABLET RESPONSIVE DRAWER */
+    .mobile-back-btn {
+      display: none;
+      height: 30px;
+      padding: 0 8px;
+      border-radius: var(--radius-sm);
+      background: var(--surface);
+      box-shadow: var(--shadow-raised-sm);
+      border: none;
+      font-size: 0.74rem;
+      font-weight: 600;
+      color: var(--text-main);
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 1024px) {
+      .app-header {
+        padding: 0 12px;
+      }
+      .panel-systems {
+        position: absolute;
+        left: 12px;
+        top: 12px;
+        bottom: 12px;
+        z-index: 25;
+        box-shadow: var(--shadow-raised-lg);
+        display: none;
+      }
+      .panel-systems.drawer-open {
+        display: flex;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .app-main {
+        flex-direction: column;
+        padding: 8px;
+      }
+      .panel-procedures {
+        width: 100%;
+        height: 100%;
+      }
+      .panel-procedures.hidden-mobile {
+        display: none;
+      }
+      .panel-viewer {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+      .panel-viewer.active-mobile {
+        display: flex;
+      }
+      .mobile-back-btn {
+        display: flex;
+      }
+      .controls-section {
+        overflow-x: auto;
+        justify-content: flex-start;
+      }
+    }
+
+    /* FULLSCREEN VIEWER */
+    body.viewer-fullscreen .panel-systems,
+    body.viewer-fullscreen .panel-procedures {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ================= TOP APP HEADER ================= -->
+  <header class="app-header">
+    <div class="brand-section">
+      <div class="brand-logo-neu">
+        <svg viewBox="0 0 24 24">
+          <path d="M4 4.5h3.2l2.3 8.3c.2.7.5 1.2 1 1.2s.8-.5 1-1.2l2.3-8.3H17l2.8 15h-3.2l-1.1-6.7c-.1-.7-.5-1.2-1-1.2s-.9.5-1 1.2L12.4 19.5h-2.8L8.5 12.8c-.1-.7-.5-1.2-1-1.2s-.9.5-1 1.2L5.4 19.5H2.2L4 4.5z"/>
+        </svg>
+      </div>
+      <div class="brand-text">
+        <h1>HONDA ACCORD <span class="brand-badge">ESM</span></h1>
+        <p id="subHeaderDesc">Manual de Servicio (2003 - 2005)</p>
+      </div>
+    </div>
+
+    <!-- CONTROLS -->
+    <div class="controls-section">
+      <!-- TYPE SELECTOR -->
+      <div class="neu-segmented" id="manualTypeGroup">
+        <button class="neu-segment-btn active" data-type="S00">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          Taller
+        </button>
+        <button class="neu-segment-btn" data-type="S01">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="9" rx="2"/><path d="M5 11l2-5h10l2 5"/><circle cx="7.5" cy="16.5" r="1.5"/><circle cx="16.5" cy="16.5" r="1.5"/></svg>
+          Carrocería
+        </button>
+      </div>
+
+      <!-- YEAR SELECTOR -->
+      <div class="neu-segmented" id="yearGroup">
+        <button class="neu-segment-btn" data-year="3">2003</button>
+        <button class="neu-segment-btn" data-year="4">2004</button>
+        <button class="neu-segment-btn active" data-year="5">2005</button>
+      </div>
+
+      <!-- LIVE SEARCH BAR -->
+      <div class="search-container">
+        <svg class="search-icon-left" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="text" id="globalSearchInput" class="neu-search-input" placeholder="Buscar procedimiento (ej. freno, culata...)">
+        <button id="searchClearBtn" class="search-clear-btn" title="Limpiar búsqueda">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- ACTIONS -->
+    <div class="header-actions">
+      <!-- FAVORITES TOGGLE -->
+      <button id="favoritesBtn" class="neu-icon-btn" title="Ver procedimientos guardados en favoritos">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      </button>
+
+      <!-- RECENTS TOGGLE -->
+      <button id="recentsBtn" class="neu-icon-btn" title="Historial de procedimientos consultados">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      </button>
+
+      <!-- THEME TOGGLE (LIGHT / DARK) -->
+      <button id="themeToggleBtn" class="neu-icon-btn" title="Alternar Modo Oscuro / Claro">
+        <svg id="themeSunIcon" style="display:none;" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg id="themeMoonIcon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= THREE-PANEL WORKSPACE ================= -->
+  <main class="app-main">
+
+    <!-- PANEL 1: SISTEMAS / COMPONENTES (ÁRBOL) -->
+    <section class="neu-card panel-systems" id="panelSystems">
+      <div class="panel-header">
+        <h2>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+          Sistemas
+        </h2>
+        <span class="count-badge" id="systemsCountBadge">0</span>
+      </div>
+      <div class="filter-box-wrap">
+        <input type="text" id="treeFilterInput" class="neu-filter-input" placeholder="Filtrar sistemas...">
+      </div>
+      <div class="tree-scroll-area" id="systemsTreeContainer"></div>
+    </section>
+
+    <!-- PANEL 2: LISTA DE PROCEDIMIENTOS -->
+    <section class="neu-card panel-procedures" id="panelProcedures">
+      <div class="panel-header">
+        <h2 id="proceduresPanelTitle">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          Procedimientos
+        </h2>
+        <span class="count-badge" id="proceduresCountBadge">0</span>
+      </div>
+      <div class="proc-scroll-area" id="proceduresListContainer">
+        <div class="empty-state">
+          <div class="empty-icon-neu">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          </div>
+          <p>Selecciona un sistema en el panel izquierdo para consultar sus guías y diagramas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PANEL 3: VISOR INTEGRADO (NO MÁS PESTAÑAS NUEVAS) -->
+    <section class="neu-card panel-viewer" id="panelViewer">
+      <div class="viewer-toolbar">
+        <button class="mobile-back-btn" id="mobileBackBtn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          Volver
+        </button>
+
+        <div class="breadcrumb-nav" id="viewerBreadcrumb">
+          <span>Manual</span>
+          <span>&rsaquo;</span>
+          <span class="breadcrumb-active" id="activeDocTitle">Bienvenido</span>
+        </div>
+
+        <div class="viewer-tools">
+          <button class="tool-btn" id="favDocBtn" title="Guardar en favoritos">
+            <svg id="favDocStar" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </button>
+          <button class="tool-btn" id="zoomOutBtn" title="Reducir fuente">-</button>
+          <button class="tool-btn" id="zoomResetBtn" title="Restablecer (100%)">100%</button>
+          <button class="tool-btn" id="zoomInBtn" title="Aumentar fuente">+</button>
+          <button class="tool-btn" id="printBtn" title="Imprimir documento">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            Imprimir
+          </button>
+          <button class="tool-btn" id="fullscreenBtn" title="Modo lectura completa">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="viewer-content-area">
+        <div class="viewer-loader" id="viewerLoader">
+          <div class="neu-spinner"></div>
+          <p style="font-size:0.82rem;font-weight:600;color:var(--text-muted);">Cargando información técnica y esquemas...</p>
+        </div>
+        <iframe id="docIframe" src="about:blank"></iframe>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= NEUMORPHIC LIGHTBOX MODAL ================= -->
+  <div class="modal-overlay" id="diagramModal">
+    <div class="neu-modal-container">
+      <div class="modal-header">
+        <div class="modal-title" id="modalDiagramTitle">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          Esquema / Diagrama Técnico
+        </div>
+        <div class="modal-controls">
+          <button class="tool-btn" id="modalZoomOut">-</button>
+          <button class="tool-btn" id="modalZoomReset">100%</button>
+          <button class="tool-btn" id="modalZoomIn">+</button>
+          <button class="tool-btn" id="modalFitScreen">Ajustar</button>
+          <button class="neu-icon-btn" id="modalCloseBtn" style="width:32px;height:32px;" title="Cerrar (Esc)">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="modal-canvas-wrap" id="modalCanvasWrap">
+        <div class="modal-canvas-inner" id="modalCanvasInner">
+          <img id="modalDiagramImg" class="modal-diagram-img" alt="Diagrama">
+          <div id="modalCalloutsContainer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= CORE APPLICATION SCRIPT ================= -->
+  <script>
+    (function() {
+      // Estado central de la aplicación
+      const state = {
+        lang: localStorage.getItem('honda_lang') || 'S00',
+        year: localStorage.getItem('honda_year') || '5',
+        theme: localStorage.getItem('honda_theme') || 'light',
+        selectedSectionKey: null,
+        selectedProcedureDbKey: null,
+        activeDocTitleText: '',
+        zoomLevel: 100,
+        modalZoomLevel: 100,
+        data: null,
+        bookmarks: JSON.parse(localStorage.getItem('honda_bookmarks') || '[]'),
+        recents: JSON.parse(localStorage.getItem('honda_recents') || '[]'),
+        viewMode: 'normal' // 'normal', 'favorites', 'recents'
+      };
+
+      // Elementos DOM
+      const docIframe = document.getElementById('docIframe');
+      const viewerLoader = document.getElementById('viewerLoader');
+      const systemsTreeContainer = document.getElementById('systemsTreeContainer');
+      const proceduresListContainer = document.getElementById('proceduresListContainer');
+      const proceduresPanelTitle = document.getElementById('proceduresPanelTitle');
+      const proceduresCountBadge = document.getElementById('proceduresCountBadge');
+      const systemsCountBadge = document.getElementById('systemsCountBadge');
+      const viewerBreadcrumb = document.getElementById('viewerBreadcrumb');
+      const activeDocTitle = document.getElementById('activeDocTitle');
+      const globalSearchInput = document.getElementById('globalSearchInput');
+      const searchClearBtn = document.getElementById('searchClearBtn');
+      const treeFilterInput = document.getElementById('treeFilterInput');
+      const themeToggleBtn = document.getElementById('themeToggleBtn');
+      const themeSunIcon = document.getElementById('themeSunIcon');
+      const themeMoonIcon = document.getElementById('themeMoonIcon');
+      const zoomInBtn = document.getElementById('zoomInBtn');
+      const zoomOutBtn = document.getElementById('zoomOutBtn');
+      const zoomResetBtn = document.getElementById('zoomResetBtn');
+      const printBtn = document.getElementById('printBtn');
+      const fullscreenBtn = document.getElementById('fullscreenBtn');
+      const mobileBackBtn = document.getElementById('mobileBackBtn');
+      const panelProcedures = document.getElementById('panelProcedures');
+      const panelViewer = document.getElementById('panelViewer');
+      const favDocBtn = document.getElementById('favDocBtn');
+      const favDocStar = document.getElementById('favDocStar');
+      const favoritesBtn = document.getElementById('favoritesBtn');
+      const recentsBtn = document.getElementById('recentsBtn');
+
+      // Modal Diagram Elements
+      const diagramModal = document.getElementById('diagramModal');
+      const modalCloseBtn = document.getElementById('modalCloseBtn');
+      const modalCanvasWrap = document.getElementById('modalCanvasWrap');
+      const modalCanvasInner = document.getElementById('modalCanvasInner');
+      const modalDiagramImg = document.getElementById('modalDiagramImg');
+      const modalCalloutsContainer = document.getElementById('modalCalloutsContainer');
+      const modalDiagramTitle = document.getElementById('modalDiagramTitle');
+      const modalZoomIn = document.getElementById('modalZoomIn');
+      const modalZoomOut = document.getElementById('modalZoomOut');
+      const modalZoomReset = document.getElementById('modalZoomReset');
+      const modalFitScreen = document.getElementById('modalFitScreen');
+
+      // 1. TEMA CLARO / OSCURO NEUMÓRFICO
+      function applyTheme(theme) {
+        state.theme = theme;
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('honda_theme', theme);
+        if (theme === 'dark') {
+          themeSunIcon.style.display = 'block';
+          themeMoonIcon.style.display = 'none';
+        } else {
+          themeSunIcon.style.display = 'none';
+          themeMoonIcon.style.display = 'block';
+        }
+        injectNeumorphicStylesIntoIframe();
+      }
+      applyTheme(state.theme);
+
+      themeToggleBtn.addEventListener('click', () => {
+        applyTheme(state.theme === 'light' ? 'dark' : 'light');
+      });
+
+      // 2. CARGA DE BASE DE DATOS
+      async function loadDatabase() {
+        try {
+          const res = await fetch('esm_data.json');
+          state.data = await res.json();
+          initRoutingAndRender();
+        } catch(e) {
+          console.error('Error cargando esm_data.json:', e);
+          proceduresListContainer.innerHTML = '<div class="empty-state"><p>Error cargando la base de datos.</p></div>';
+        }
+      }
+
+      // 3. ENRUTAMIENTO Y URL PARAMS
+      function initRoutingAndRender() {
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('type')) state.lang = urlParams.get('type');
+        if (urlParams.has('year')) state.year = urlParams.get('year');
+        const targetDoc = urlParams.get('doc');
+
+        updateHeaderControls();
+        renderSystemsTree();
+
+        if (targetDoc) {
+          navigateToDbKey(targetDoc, false);
+        } else {
+          // Abrir primera sección por defecto
+          const firstTreeItem = systemsTreeContainer.querySelector('.tree-item');
+          if (firstTreeItem) firstTreeItem.click();
+        }
+      }
+
+      function updateHeaderControls() {
+        document.querySelectorAll('#manualTypeGroup button').forEach(btn => {
+          btn.classList.toggle('active', btn.getAttribute('data-type') === state.lang);
+        });
+        document.querySelectorAll('#yearGroup button').forEach(btn => {
+          btn.classList.toggle('active', btn.getAttribute('data-year') === state.year);
+        });
+      }
+
+      document.querySelectorAll('#manualTypeGroup button').forEach(btn => {
+        btn.addEventListener('click', () => {
+          state.lang = btn.getAttribute('data-type');
+          localStorage.setItem('honda_lang', state.lang);
+          state.selectedSectionKey = null;
+          state.selectedProcedureDbKey = null;
+          updateHeaderControls();
+          renderSystemsTree();
+          resetProceduresPanel();
+        });
+      });
+
+      document.querySelectorAll('#yearGroup button').forEach(btn => {
+        btn.addEventListener('click', () => {
+          state.year = btn.getAttribute('data-year');
+          localStorage.setItem('honda_year', state.year);
+          state.selectedSectionKey = null;
+          state.selectedProcedureDbKey = null;
+          updateHeaderControls();
+          renderSystemsTree();
+          resetProceduresPanel();
+        });
+      });
+
+      // 4. RENDERIZAR ÁRBOL DE SISTEMAS
+      function renderSystemsTree(filterTerm = '') {
+        const curData = (state.data && state.data[state.lang] && state.data[state.lang][state.year]);
+        if (!curData || !curData.tree) {
+          systemsTreeContainer.innerHTML = '<div class="empty-state"><p>No hay datos disponibles.</p></div>';
+          return;
+        }
+
+        const treeList = curData.tree;
+        const normFilter = filterTerm.trim().toLowerCase();
+
+        systemsTreeContainer.innerHTML = '';
+        systemsCountBadge.textContent = treeList.length;
+
+        let currentRoot = null;
+        let currentSub = null;
+
+        treeList.forEach((node, idx) => {
+          const isMatch = !normFilter || node.title.toLowerCase().includes(normFilter);
+          
+          const itemEl = document.createElement('div');
+          itemEl.className = 'tree-item';
+          itemEl.setAttribute('data-key', node.key);
+          itemEl.setAttribute('data-level', node.lvl);
+
+          const nextNode = treeList[idx + 1];
+          const hasChildren = nextNode && nextNode.lvl > node.lvl;
+
+          itemEl.innerHTML = `
+            ${hasChildren ? `
+              <span class="tree-toggle-icon">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </span>
+            ` : `<span style="width:16px;"></span>`}
+            <svg class="tree-folder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+            </svg>
+            <span class="tree-title" title="${node.title}">${node.title}</span>
+          `;
+
+          let childrenWrap = null;
+          if (hasChildren) {
+            childrenWrap = document.createElement('div');
+            childrenWrap.className = 'tree-children';
+          }
+
+          itemEl.addEventListener('click', () => {
+            document.querySelectorAll('.tree-item').forEach(el => el.classList.remove('active'));
+            itemEl.classList.add('active');
+            state.selectedSectionKey = node.key;
+
+            if (hasChildren) {
+              itemEl.querySelector('.tree-toggle-icon').classList.toggle('expanded');
+              childrenWrap.classList.toggle('open');
+            }
+
+            loadProceduresForSection(node.key, node.title);
+          });
+
+          if (node.lvl === 0) {
+            currentRoot = childrenWrap;
+            systemsTreeContainer.appendChild(itemEl);
+            if (childrenWrap) systemsTreeContainer.appendChild(childrenWrap);
+          } else if (node.lvl === 1) {
+            currentSub = childrenWrap;
+            const target = currentRoot || systemsTreeContainer;
+            target.appendChild(itemEl);
+            if (childrenWrap) target.appendChild(childrenWrap);
+          } else {
+            const target = currentSub || currentRoot || systemsTreeContainer;
+            target.appendChild(itemEl);
+            if (childrenWrap) target.appendChild(childrenWrap);
+          }
+
+          if (normFilter && isMatch && childrenWrap) {
+            childrenWrap.classList.add('open');
+          }
+        });
+      }
+
+      treeFilterInput.addEventListener('input', (e) => {
+        renderSystemsTree(e.target.value);
+      });
+
+      // 5. CARGAR PROCEDIMIENTOS DE UNA SECCIÓN
+      function loadProceduresForSection(sectionKey, sectionTitle) {
+        state.viewMode = 'normal';
+        favoritesBtn.classList.remove('active');
+        recentsBtn.classList.remove('active');
+
+        proceduresPanelTitle.innerHTML = `
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/></svg>
+          ${sectionTitle}
+        `;
+
+        const curData = state.data[state.lang][state.year];
+        const dbKeys = (curData.idx && curData.idx[sectionKey]) || [];
+        const sieList = curData.sie || {};
+
+        proceduresListContainer.innerHTML = '';
+        proceduresCountBadge.textContent = dbKeys.length;
+
+        if (dbKeys.length === 0) {
+          proceduresListContainer.innerHTML = '<div class="empty-state"><p>No se encontraron procedimientos directos.</p></div>';
+          return;
+        }
+
+        dbKeys.forEach(dbk => {
+          const procInfo = sieList[dbk] || { title: dbk, img: '001' };
+          const card = createProcedureCard(dbk, procInfo, sectionTitle);
+          proceduresListContainer.appendChild(card);
+        });
+
+        // Seleccionar primer procedimiento si no hay ninguno seleccionado
+        if (dbKeys.length > 0 && !state.selectedProcedureDbKey) {
+          const firstCard = proceduresListContainer.querySelector('.proc-card');
+          if (firstCard) firstCard.click();
+        }
+      }
+
+      // TARJETAS DE PROCEDIMIENTO
+      function createProcedureCard(dbk, procInfo, categoryName) {
+        const card = document.createElement('div');
+        card.className = 'proc-card' + (state.selectedProcedureDbKey === dbk ? ' active' : '');
+        card.setAttribute('data-dbkey', dbk);
+
+        const isBookmarked = state.bookmarks.some(b => b.dbk === dbk);
+
+        let iconSvg = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>';
+        const titleLower = procInfo.title.toLowerCase();
+        if (titleLower.includes('diagrama') || titleLower.includes('conexiones') || titleLower.includes('eléctric')) {
+          iconSvg = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>';
+        } else if (titleLower.includes('apriete') || titleLower.includes('normas') || titleLower.includes('límites')) {
+          iconSvg = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>';
+        } else if (titleLower.includes('inspección') || titleLower.includes('comprobación') || titleLower.includes('diagnóstico')) {
+          iconSvg = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>';
+        } else if (titleLower.includes('sustitución') || titleLower.includes('desmontaje') || titleLower.includes('instalación')) {
+          iconSvg = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>';
+        }
+
+        card.innerHTML = `
+          <div class="proc-icon-wrap">${iconSvg}</div>
+          <div class="proc-details">
+            <div class="proc-title">${procInfo.title}</div>
+            <div class="proc-meta">
+              <span>${dbk.substring(0, 10)}...</span>
+              <button class="proc-fav-btn ${isBookmarked ? 'active' : ''}" title="Marcar como favorito">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="${isBookmarked ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </button>
+            </div>
+          </div>
+        `;
+
+        card.querySelector('.proc-fav-btn').addEventListener('click', (e) => {
+          e.stopPropagation();
+          toggleBookmark(dbk, procInfo.title, categoryName);
+          card.querySelector('.proc-fav-btn').classList.toggle('active');
+        });
+
+        card.addEventListener('click', () => {
+          document.querySelectorAll('.proc-card').forEach(c => c.classList.remove('active'));
+          card.classList.add('active');
+          loadArticle(dbk, procInfo.title, categoryName);
+          // Modo móvil: mostrar visor
+          if (window.innerWidth <= 768) {
+            panelProcedures.classList.add('hidden-mobile');
+            panelViewer.classList.add('active-mobile');
+          }
+        });
+
+        return card;
+      }
+
+      mobileBackBtn.addEventListener('click', () => {
+        panelProcedures.classList.remove('hidden-mobile');
+        panelViewer.classList.remove('active-mobile');
+      });
+
+      function resetProceduresPanel() {
+        proceduresPanelTitle.innerHTML = `
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/></svg>
+          Procedimientos
+        `;
+        proceduresCountBadge.textContent = '0';
+        proceduresListContainer.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-icon-neu">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            </div>
+            <p>Selecciona un sistema en el panel izquierdo para consultar sus guías y diagramas.</p>
+          </div>
+        `;
+      }
+
+      // 6. CARGAR ARTÍCULO TÉCNICO Y ENLACES (100% IN-APP)
+      function loadArticle(dbKey, procTitle, categoryName, pushHistory = true) {
+        state.selectedProcedureDbKey = dbKey;
+        state.activeDocTitleText = procTitle;
+        
+        viewerBreadcrumb.innerHTML = `
+          <span>${state.lang === 'S00' ? 'Taller' : 'Carrocería'}</span>
+          <span>&rsaquo;</span>
+          <span>${categoryName || 'Sección'}</span>
+          <span>&rsaquo;</span>
+          <span class="breadcrumb-active" id="activeDocTitle">${procTitle}</span>
+        `;
+
+        // Actualizar botón de favorito del visor
+        updateFavDocBtnState();
+
+        // Agregar a historial de recientes
+        addToRecents(dbKey, procTitle, categoryName);
+
+        // Actualizar URL sin recargar
+        if (pushHistory) {
+          const url = new URL(window.location);
+          url.searchParams.set('type', state.lang);
+          url.searchParams.set('year', state.year);
+          url.searchParams.set('doc', dbKey);
+          window.history.pushState({ dbKey }, '', url);
+        }
+
+        viewerLoader.classList.add('active');
+
+        const subFolder = dbKey.substr(5, 2);
+        const articleUrl = `./${state.lang}/HTML/${subFolder}/${dbKey}.HTML`;
+
+        docIframe.onload = () => {
+          viewerLoader.classList.remove('active');
+          setupIframeHooks();
+          injectNeumorphicStylesIntoIframe();
+          applyZoom();
+        };
+
+        docIframe.src = articleUrl;
+      }
+
+      // NAVEGACIÓN DIRECTA A UN DBKEY DESDE ENLACE O URL
+      function navigateToDbKey(targetDbKey, pushHistory = true) {
+        const curData = state.data[state.lang][state.year];
+        const sieItem = curData.sie && curData.sie[targetDbKey];
+        const title = sieItem ? sieItem.title : targetDbKey;
+
+        // Encontrar sección correspondiente
+        let foundSectionKey = null;
+        if (curData.idx) {
+          for (const [secKey, keys] of Object.entries(curData.idx)) {
+            if (keys.includes(targetDbKey)) {
+              foundSectionKey = secKey;
+              break;
+            }
+          }
+        }
+
+        if (foundSectionKey) {
+          state.selectedSectionKey = foundSectionKey;
+          const treeNode = curData.tree.find(t => t.key === foundSectionKey);
+          loadProceduresForSection(foundSectionKey, treeNode ? treeNode.title : 'Sección');
+        }
+
+        loadArticle(targetDbKey, title, 'Manual', pushHistory);
+
+        // Marcar tarjeta activa
+        const matchingCard = document.querySelector(`.proc-card[data-dbkey="${targetDbKey}"]`);
+        if (matchingCard) {
+          document.querySelectorAll('.proc-card').forEach(c => c.classList.remove('active'));
+          matchingCard.classList.add('active');
+          matchingCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      }
+
+      // 7. GANCHOS DENTRO DEL IFRAME: INTERCEPTAR ENLACES Y ZOOM (CERO PESTAÑAS NUEVAS)
+      function setupIframeHooks() {
+        try {
+          const idoc = docIframe.contentDocument || docIframe.contentWindow.document;
+          const iwin = docIframe.contentWindow;
+          if (!idoc || !iwin) return;
+
+          // INTERCEPTAR TODOS LOS ENLACES <a>
+          idoc.querySelectorAll('a').forEach(anchor => {
+            anchor.removeAttribute('target');
+            anchor.addEventListener('click', (e) => {
+              e.preventDefault();
+              const href = anchor.getAttribute('href');
+              handleInnerLink(href);
+            });
+          });
+
+          // INTERCEPTAR ZOOM DE IMÁGENES (ZoomOpen)
+          iwin.ZoomOpen = function(data) {
+            window.openDiagramModal(data);
+          };
+
+          // INTERCEPTAR CUALQUIER window.open
+          iwin.open = function(url) {
+            handleInnerLink(url);
+            return null;
+          };
+        } catch(e) {
+          console.warn('Hook warning:', e);
+        }
+      }
+
+      // MANEJAR CLIC EN ENLACE DENTRO DEL ARTÍCULO
+      function handleInnerLink(href) {
+        if (!href) return;
+        const match = href.match(/([A-Z0-9]{20,35})\.HTML/i);
+        if (match && match[1]) {
+          navigateToDbKey(match[1], true);
+        } else {
+          // Si es relativo o hash
+          if (href.startsWith('#')) {
+            const idoc = docIframe.contentDocument || docIframe.contentWindow.document;
+            const targetEl = idoc.querySelector(href);
+            if (targetEl) targetEl.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      }
+
+      // 8. LIGHTBOX MODAL PARA DIAGRAMAS (CERO POPUPS)
+      window.openDiagramModal = function(data) {
+        if (!data || !data.Name) return;
+
+        state.modalZoomLevel = 100;
+        modalDiagramTitle.textContent = data.Title || 'Esquema Técnico / Diagrama';
+        
+        const imgSrc = `./${state.lang}/PNG/${data.Name}.PNG`;
+        modalDiagramImg.src = imgSrc;
+        modalDiagramImg.style.width = data.Width ? `${data.Width}px` : 'auto';
+        modalDiagramImg.style.height = data.Height ? `${data.Height}px` : 'auto';
+
+        // Renderizar etiquetas (CallOuts)
+        modalCalloutsContainer.innerHTML = '';
+        if (data.CallOut && Array.isArray(data.CallOut)) {
+          data.CallOut.forEach(co => {
+            const label = document.createElement('div');
+            label.className = 'modal-callout-item';
+            label.style.left = `${co.posX}px`;
+            label.style.top = `${co.posY}px`;
+            label.style.fontSize = `${co.fontSize || 12}px`;
+            label.style.fontFamily = co.fontName || 'sans-serif';
+            label.style.color = co.Color === 1 ? '#ffffff' : '#000000';
+            label.innerHTML = co.Text;
+            modalCalloutsContainer.appendChild(label);
+          });
+        }
+
+        applyModalZoom();
+        diagramModal.classList.add('active');
+      };
+
+      function applyModalZoom() {
+        modalZoomReset.textContent = `${state.modalZoomLevel}%`;
+        modalCanvasInner.style.transform = `scale(${state.modalZoomLevel / 100})`;
+      }
+
+      modalZoomIn.addEventListener('click', () => {
+        if (state.modalZoomLevel < 350) {
+          state.modalZoomLevel += 25;
+          applyModalZoom();
+        }
+      });
+
+      modalZoomOut.addEventListener('click', () => {
+        if (state.modalZoomLevel > 40) {
+          state.modalZoomLevel -= 25;
+          applyModalZoom();
+        }
+      });
+
+      modalZoomReset.addEventListener('click', () => {
+        state.modalZoomLevel = 100;
+        applyModalZoom();
+      });
+
+      modalFitScreen.addEventListener('click', () => {
+        const wrapW = modalCanvasWrap.clientWidth - 40;
+        const imgW = modalDiagramImg.naturalWidth || modalDiagramImg.clientWidth || 800;
+        const ratio = Math.min(Math.round((wrapW / imgW) * 100), 200);
+        state.modalZoomLevel = ratio > 40 ? ratio : 100;
+        applyModalZoom();
+      });
+
+      modalCloseBtn.addEventListener('click', () => {
+        diagramModal.classList.remove('active');
+      });
+
+      diagramModal.addEventListener('click', (e) => {
+        if (e.target === diagramModal) {
+          diagramModal.classList.remove('active');
+        }
+      });
+
+      window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          diagramModal.classList.remove('active');
+        }
+      });
+
+      // 9. ESTILOS NEUMÓRFICOS INYECTADOS EN EL DOCUMENTO
+      function injectNeumorphicStylesIntoIframe() {
+        try {
+          const idoc = docIframe.contentDocument || docIframe.contentWindow.document;
+          if (!idoc || !idoc.head) return;
+
+          let styleTag = idoc.getElementById('honda-neu-styles');
+          if (!styleTag) {
+            styleTag = idoc.createElement('style');
+            styleTag.id = 'honda-neu-styles';
+            idoc.head.appendChild(styleTag);
+          }
+
+          const isDark = state.theme === 'dark';
+          const bg = isDark ? '#16181d' : '#f8fafc';
+          const text = isDark ? '#f8fafc' : '#1e293b';
+          const cardBg = isDark ? '#1d2128' : '#ffffff';
+          const shadow = isDark 
+            ? '6px 6px 14px #0e1014, -6px -6px 14px #222730' 
+            : '6px 6px 14px #e2e8f0, -6px -6px 14px #ffffff';
+          const border = isDark ? '1px solid #282e38' : '1px solid #e2e8f0';
+          const primary = isDark ? '#ef4444' : '#dc2626';
+
+          styleTag.textContent = `
+            body {
+              font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+              background-color: ${bg} !important;
+              color: ${text} !important;
+              padding: 22px 30px !important;
+              line-height: 1.65 !important;
+              font-size: 14px !important;
+            }
+            h2, h3, h4 {
+              color: ${text} !important;
+              font-weight: 700 !important;
+              margin: 18px 0 12px 0 !important;
+              display: inline-flex !important;
+              align-items: center !important;
+              padding: 8px 16px !important;
+              border-radius: 12px !important;
+              background: ${cardBg} !important;
+              box-shadow: ${shadow} !important;
+              border-left: 4px solid ${primary} !important;
+            }
+            h2 b, h3 b, h4 b { color: ${text} !important; }
+            p { margin-bottom: 14px !important; color: ${text} !important; }
+            
+            a {
+              color: ${primary} !important;
+              text-decoration: none !important;
+              font-weight: 600 !important;
+              padding: 2px 4px !important;
+              border-radius: 4px !important;
+              transition: background 0.15s ease !important;
+            }
+            a:hover {
+              text-decoration: underline !important;
+              background: ${isDark ? 'rgba(239,68,68,0.15)' : '#fee2e2'} !important;
+            }
+
+            /* Tablas con diseño moderno */
+            table {
+              border-collapse: separate !important;
+              border-spacing: 0 !important;
+              background: ${cardBg} !important;
+              border-radius: 14px !important;
+              box-shadow: ${shadow} !important;
+              margin: 16px 0 !important;
+              overflow: hidden !important;
+              border: ${border} !important;
+            }
+            th, td {
+              padding: 10px 14px !important;
+              border-bottom: ${border} !important;
+              border-right: ${border} !important;
+              color: ${text} !important;
+            }
+            th {
+              background: ${isDark ? '#232832' : '#f1f5f9'} !important;
+              font-weight: 700 !important;
+              color: ${primary} !important;
+            }
+            tr:last-child td { border-bottom: none !important; }
+            td:last-child, th:last-child { border-right: none !important; }
+
+            /* Alertas de atención / precaución */
+            table.ATT {
+              border: none !important;
+              background: ${isDark ? 'rgba(239, 68, 68, 0.14)' : '#fef2f2'} !important;
+              border-left: 5px solid ${primary} !important;
+              border-radius: 12px !important;
+              box-shadow: ${shadow} !important;
+              margin: 18px 0 !important;
+            }
+            table.ATT td.ATT1 {
+              background: transparent !important;
+              color: ${primary} !important;
+              font-weight: 800 !important;
+              letter-spacing: 0.05em !important;
+            }
+
+            /* Contenedores de figuras e ilustraciones */
+            div.FIG, div.FIGN {
+              background: ${cardBg} !important;
+              border-radius: 16px !important;
+              box-shadow: ${shadow} !important;
+              padding: 16px !important;
+              margin: 18px 0 !important;
+              display: inline-block !important;
+              border: ${border} !important;
+            }
+            img {
+              max-width: 100% !important;
+              border-radius: 8px !important;
+              cursor: pointer !important;
+            }
+          `;
+        } catch(e) {}
+      }
+
+      // 10. BÚSQUEDA GLOBAL
+      let searchTimer = null;
+      globalSearchInput.addEventListener('input', (e) => {
+        const query = e.target.value.trim();
+        searchClearBtn.classList.toggle('visible', query.length > 0);
+
+        clearTimeout(searchTimer);
+        searchTimer = setTimeout(() => {
+          executeGlobalSearch(query);
+        }, 220);
+      });
+
+      searchClearBtn.addEventListener('click', () => {
+        globalSearchInput.value = '';
+        searchClearBtn.classList.remove('visible');
+        if (state.selectedSectionKey) {
+          const curData = state.data[state.lang][state.year];
+          const node = curData.tree.find(t => t.key === state.selectedSectionKey);
+          loadProceduresForSection(state.selectedSectionKey, node ? node.title : 'Procedimientos');
+        } else {
+          resetProceduresPanel();
+        }
+      });
+
+      function executeGlobalSearch(query) {
+        if (!query) {
+          if (state.selectedSectionKey) {
+            const curData = state.data[state.lang][state.year];
+            const node = curData.tree.find(t => t.key === state.selectedSectionKey);
+            loadProceduresForSection(state.selectedSectionKey, node ? node.title : 'Procedimientos');
+          } else {
+            resetProceduresPanel();
+          }
+          return;
+        }
+
+        const normQuery = query.toLowerCase();
+        const curData = state.data[state.lang][state.year];
+        const sieList = curData.sie || {};
+
+        const matches = [];
+        for (const [dbk, item] of Object.entries(sieList)) {
+          if (item.title && item.title.toLowerCase().includes(normQuery)) {
+            matches.push({ dbk, ...item });
+          }
+        }
+
+        proceduresPanelTitle.innerHTML = `
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          Resultados: "${query}"
+        `;
+        proceduresCountBadge.textContent = matches.length;
+        proceduresListContainer.innerHTML = '';
+
+        if (matches.length === 0) {
+          proceduresListContainer.innerHTML = `
+            <div class="empty-state">
+              <p>No se encontraron resultados para "<b>${query}</b>".</p>
+            </div>
+          `;
+          return;
+        }
+
+        matches.forEach(m => {
+          const card = createProcedureCard(m.dbk, m, 'Búsqueda');
+          proceduresListContainer.appendChild(card);
+        });
+      }
+
+      // 11. FAVORITOS Y RECIENTES
+      function toggleBookmark(dbk, title, section) {
+        const idx = state.bookmarks.findIndex(b => b.dbk === dbk);
+        if (idx >= 0) {
+          state.bookmarks.splice(idx, 1);
+        } else {
+          state.bookmarks.push({ dbk, title, section });
+        }
+        localStorage.setItem('honda_bookmarks', JSON.stringify(state.bookmarks));
+        updateFavDocBtnState();
+      }
+
+      function updateFavDocBtnState() {
+        const isBookmarked = state.bookmarks.some(b => b.dbk === state.selectedProcedureDbKey);
+        favDocStar.setAttribute('fill', isBookmarked ? 'currentColor' : 'none');
+        favDocStar.style.color = isBookmarked ? '#eab308' : 'inherit';
+      }
+
+      favDocBtn.addEventListener('click', () => {
+        if (state.selectedProcedureDbKey) {
+          toggleBookmark(state.selectedProcedureDbKey, state.activeDocTitleText, 'Manual');
+        }
+      });
+
+      favoritesBtn.addEventListener('click', () => {
+        state.viewMode = state.viewMode === 'favorites' ? 'normal' : 'favorites';
+        favoritesBtn.classList.toggle('active', state.viewMode === 'favorites');
+        recentsBtn.classList.remove('active');
+
+        if (state.viewMode === 'favorites') {
+          proceduresPanelTitle.innerHTML = `
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="#eab308" stroke="#eab308" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            Mis Favoritos
+          `;
+          proceduresCountBadge.textContent = state.bookmarks.length;
+          proceduresListContainer.innerHTML = '';
+
+          if (state.bookmarks.length === 0) {
+            proceduresListContainer.innerHTML = '<div class="empty-state"><p>Aún no tienes procedimientos guardados en favoritos.</p></div>';
+            return;
+          }
+
+          state.bookmarks.forEach(b => {
+            const card = createProcedureCard(b.dbk, { title: b.title }, b.section);
+            proceduresListContainer.appendChild(card);
+          });
+        } else {
+          if (state.selectedSectionKey) {
+            const curData = state.data[state.lang][state.year];
+            const node = curData.tree.find(t => t.key === state.selectedSectionKey);
+            loadProceduresForSection(state.selectedSectionKey, node ? node.title : 'Procedimientos');
+          } else {
+            resetProceduresPanel();
+          }
+        }
+      });
+
+      function addToRecents(dbk, title, section) {
+        state.recents = state.recents.filter(r => r.dbk !== dbk);
+        state.recents.unshift({ dbk, title, section });
+        if (state.recents.length > 25) state.recents.pop();
+        localStorage.setItem('honda_recents', JSON.stringify(state.recents));
+      }
+
+      recentsBtn.addEventListener('click', () => {
+        state.viewMode = state.viewMode === 'recents' ? 'normal' : 'recents';
+        recentsBtn.classList.toggle('active', state.viewMode === 'recents');
+        favoritesBtn.classList.remove('active');
+
+        if (state.viewMode === 'recents') {
+          proceduresPanelTitle.innerHTML = `
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Consultados Recientemente
+          `;
+          proceduresCountBadge.textContent = state.recents.length;
+          proceduresListContainer.innerHTML = '';
+
+          if (state.recents.length === 0) {
+            proceduresListContainer.innerHTML = '<div class="empty-state"><p>Historial vacío.</p></div>';
+            return;
+          }
+
+          state.recents.forEach(r => {
+            const card = createProcedureCard(r.dbk, { title: r.title }, r.section);
+            proceduresListContainer.appendChild(card);
+          });
+        } else {
+          if (state.selectedSectionKey) {
+            const curData = state.data[state.lang][state.year];
+            const node = curData.tree.find(t => t.key === state.selectedSectionKey);
+            loadProceduresForSection(state.selectedSectionKey, node ? node.title : 'Procedimientos');
+          } else {
+            resetProceduresPanel();
+          }
+        }
+      });
+
+      // 12. ZOOM Y CONTROLES DEL VISOR
+      function applyZoom() {
+        zoomResetBtn.textContent = `${state.zoomLevel}%`;
+        try {
+          const idoc = docIframe.contentDocument || docIframe.contentWindow.document;
+          if (idoc && idoc.body) {
+            idoc.body.style.zoom = `${state.zoomLevel}%`;
+          }
+        } catch(e) {}
+      }
+
+      zoomInBtn.addEventListener('click', () => {
+        if (state.zoomLevel < 200) {
+          state.zoomLevel += 15;
+          applyZoom();
+        }
+      });
+
+      zoomOutBtn.addEventListener('click', () => {
+        if (state.zoomLevel > 65) {
+          state.zoomLevel -= 15;
+          applyZoom();
+        }
+      });
+
+      zoomResetBtn.addEventListener('click', () => {
+        state.zoomLevel = 100;
+        applyZoom();
+      });
+
+      printBtn.addEventListener('click', () => {
+        try {
+          docIframe.contentWindow.focus();
+          docIframe.contentWindow.print();
+        } catch(e) {
+          window.print();
+        }
+      });
+
+      fullscreenBtn.addEventListener('click', () => {
+        document.body.classList.toggle('viewer-fullscreen');
+      });
+
+      // 13. NAVEGACIÓN ATRÁS/ADELANTE DEL NAVEGADOR (popstate)
+      window.addEventListener('popstate', (e) => {
+        if (e.state && e.state.dbKey) {
+          navigateToDbKey(e.state.dbKey, false);
+        }
+      });
+
+      // INICIAR
+      loadDatabase();
+    })();
+  </script>
+</body>
+</html>

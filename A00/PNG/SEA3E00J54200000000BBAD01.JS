@@ -1,0 +1,1 @@
+function ISEA3E00J54200000000BBAD01(){var i=0;this.Title=" How to Check for DTCs with the Honda Diagnostic System (HDS)";this.Name="SEA3E00J54200000000BBAD01";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(60,128,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(387,309,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

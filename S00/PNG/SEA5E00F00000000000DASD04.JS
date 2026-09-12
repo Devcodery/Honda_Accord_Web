@@ -1,0 +1,1 @@
+function ISEA5E00F00000000000DASD04(){var i=0;this.Title="Índice de situación de componentes de la dirección con asistencia eléctrica -2/2";this.Name="SEA5E00F00000000000DASD04";this.Width=950;this.Height=335;this.CallOut=new Array;this.CallOut[i++]=FS4(677,308,12,0,"'Arial','sans-serif'",0,"<b>LUZ TESTIGO DEL EPS</b>");}

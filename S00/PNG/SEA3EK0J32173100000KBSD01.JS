@@ -1,0 +1,1 @@
+function ISEA3EK0J32173100000KBSD01(){var i=0;this.Title=" El piloto trasero";this.Name="SEA3EK0J32173100000KBSD01";this.Width=475;this.Height=465;this.CallOut=new Array;this.CallOut[i++]=FS4(46,53,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(368,426,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

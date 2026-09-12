@@ -1,0 +1,1 @@
+function ISEA5E1DE34116317081KBAD02(){var i=0;this.Title=" Type B:";this.Name="SEA5E1DE34116317081KBAD02";this.Width=475;this.Height=385;this.CallOut=new Array;}

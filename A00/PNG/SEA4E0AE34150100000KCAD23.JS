@@ -1,0 +1,1 @@
+function ISEA4E0AE34150100000KCAD23(){var i=0;this.Title="M/T Assembly Installation";this.Name="SEA4E0AE34150100000KCAD23";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(420,88,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(248,352,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

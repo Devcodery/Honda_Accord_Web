@@ -1,0 +1,1 @@
+function ISEA4E0AA20321059411MBSD01(){var i=0;this.Title="Ajuste del cable del acelerador";this.Name="SEA4E0AA20321059411MBSD01";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(432,41,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(39,388,13,0,"'Arial','sans-serif'",0,"<b></b>*: Esta ilustración muestra el modelo LHD.");}

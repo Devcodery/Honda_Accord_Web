@@ -1,0 +1,1 @@
+function ISEA5E13A18316600000KCAD03(){var i=0;this.Title="Crankshaft Installation";this.Name="SEA5E13A18316600000KCAD03";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(262,354,13,0,"'Arial','sans-serif'",0,"<b></b>Apply liquid gasket<br>along the broken line.");}

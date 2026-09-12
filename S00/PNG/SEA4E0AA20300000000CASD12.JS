@@ -1,0 +1,1 @@
+function ISEA4E0AA20300000000CASD12(){var i=0;this.Title=" Bomba de vacío";this.Name="SEA4E0AA20300000000CASD12";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(393,104,13,0,"'Arial','sans-serif'",0,"<b>ALETA</b>");this.CallOut[i++]=FS4(10,16,13,0,"'Arial','sans-serif'",0,"<b>VACÍO</b>");}

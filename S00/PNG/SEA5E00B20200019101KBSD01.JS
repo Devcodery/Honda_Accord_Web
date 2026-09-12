@@ -1,0 +1,1 @@
+function ISEA5E00B20200019101KBSD01(){var i=0;this.Title=" Desmontaje/inspección";this.Name="SEA5E00B20200019101KBSD01";this.Width=475;this.Height=449;this.CallOut=new Array;}

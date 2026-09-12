@@ -1,0 +1,1 @@
+function ISEA3E0BG10110112011LASD03(){var i=0;this.Title="Revisión general del embrague del compresor del A/C";this.Name="SEA3E0BG10110112011LASD03";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(109,56,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(56,106,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

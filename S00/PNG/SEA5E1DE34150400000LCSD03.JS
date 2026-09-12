@@ -1,0 +1,1 @@
+function ISEA5E1DE34150400000LCSD03(){var i=0;this.Title="Desmontaje del eje principal de la M/T";this.Name="SEA5E1DE34150400000LCSD03";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(350,97,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(364,156,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA4E0AA14100012911FEAD01(){var i=0;this.Title="Alternator Pulley Test";this.Name="SEA4E0AA14100012911FEAD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(25,278,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(26,106,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

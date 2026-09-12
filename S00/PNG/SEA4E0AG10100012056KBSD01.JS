@@ -1,0 +1,1 @@
+function ISEA4E0AG10100012056KBSD01(){var i=0;this.Title="Sustitución de la válvula magnética del A/C";this.Name="SEA4E0AG10100012056KBSD01";this.Width=475;this.Height=320;this.CallOut=new Array;}

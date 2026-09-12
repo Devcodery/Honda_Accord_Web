@@ -1,0 +1,1 @@
+function ISEA5E1PK77100000000BBSD01(){var i=0;this.Title=" Como efectuar la comprobación de los DTC con el Sistema de diagnóstico de Honda";this.Name="SEA5E1PK77100000000BBSD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(61,206,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

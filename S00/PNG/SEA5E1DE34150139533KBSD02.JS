@@ -1,0 +1,1 @@
+function ISEA5E1DE34150139533KBSD02(){var i=0;this.Title="Sustitución del retén de aceite y del cojinete del eje principal en la envolvente del embrague de la M/T";this.Name="SEA5E1DE34150139533KBSD02";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(163,90,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

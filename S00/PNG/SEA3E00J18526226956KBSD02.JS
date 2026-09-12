@@ -1,0 +1,1 @@
+function ISEA3E00J18526226956KBSD02(){var i=0;this.Title="Sustitución del carenado del guardabarros delantero";this.Name="SEA3E00J18526226956KBSD02";this.Width=475;this.Height=449;this.CallOut=new Array;this.CallOut[i++]=FS4(39,16,13,0,"'Arial','sans-serif'",0,"<b>Ubicaciones de los fijadores</b>");this.CallOut[i++]=FS4(56,47,13,0,"'Arial','sans-serif'",0,"<b>: Clip, 2</b>");}

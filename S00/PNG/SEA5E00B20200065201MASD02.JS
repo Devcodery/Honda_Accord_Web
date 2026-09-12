@@ -1,0 +1,1 @@
+function ISEA5E00B20200065201MASD02(){var i=0;this.Title=" Traseras";this.Name="SEA5E00B20200065201MASD02";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(376,301,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(37,279,13,0,"'Arial','sans-serif'",0,"<b>108 N&middot;m<br>(11,0 kgf&middot;m)</b>");}

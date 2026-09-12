@@ -1,0 +1,1 @@
+function ISEA3E0BA18300024751MASD01(){var i=0;this.Title="Inspección del bloque del motor y de los pistones";this.Name="SEA3E0BA18300024751MASD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(227,91,13,0,"'Arial','sans-serif'",0,"<b>DIÁMETRO DEL FALDÓN</b>");this.CallOut[i++]=FS4(76,105,13,0,"'Arial','sans-serif'",0,"<b>11 mm </b>");}

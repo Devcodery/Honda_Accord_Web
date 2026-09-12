@@ -1,0 +1,1 @@
+function ISEA5E13A14616716089KBSD01(){var i=0;this.Title="Sustitución de la placa A de impulsos CMP";this.Name="SEA5E13A14616716089KBSD01";this.Width=475;this.Height=385;this.CallOut=new Array;}

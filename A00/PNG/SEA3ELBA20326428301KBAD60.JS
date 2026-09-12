@@ -1,0 +1,1 @@
+function ISEA3ELBA20326428301KBAD60(){var i=0;this.Title=" ECONO model";this.Name="SEA3ELBA20326428301KBAD60";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(277,275,13,0,"'Arial','sans-serif'",0,"<b>A<br>93 N&middot;m<br>(19.5 kgf&middot;m, 69 lbf&middot;ft)</b>");this.CallOut[i++]=FS4(234,16,13,0,"'Arial','sans-serif'",0,"<b>07AAA-S0XA100</b>");}

@@ -1,0 +1,1 @@
+function ISEA3E00R11100000000YCAD12(){var i=0;this.Title="Zinc-plated Steel Plate Repair";this.Name="SEA3E00R11100000000YCAD12";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(664,153,12,0,"'Arial','sans-serif'",0,"<b>STEEL PLATE</b>");this.CallOut[i++]=FS4(176,82,12,0,"'Arial','sans-serif'",0,"<b>ZINC PLATING (5-6 microns)</b>");}

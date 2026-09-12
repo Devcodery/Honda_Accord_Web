@@ -1,0 +1,1 @@
+function ISEA3EJ4J10311113153KBSD60(){var i=0;this.Title=" Conector de la tarjeta del circuito impreso del tipo 6 CD";this.Name="SEA3EJ4J10311113153KBSD60";this.Width=950;this.Height=495;this.CallOut=new Array;this.CallOut[i++]=FS4(550,466,12,0,"'Arial','sans-serif'",0,"<b>CONECTOR 20P</b>");this.CallOut[i++]=FS4(256,466,12,0,"'Arial','sans-serif'",0,"<b>CONECTOR 10P</b>");}

@@ -1,0 +1,1 @@
+function ISEA3E00R31100000000YDSD37(){var i=0;this.Title="Montaje del panel exterior del pilar delantero";this.Name="SEA3E00R31100000000YDSD37";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(314,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(215,291,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

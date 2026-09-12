@@ -1,0 +1,1 @@
+function ISEA5E20J10311065412LBSD02(){var i=0;this.Title="Reparación de la antena de ventanilla";this.Name="SEA5E20J10311065412LBSD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(352,200,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

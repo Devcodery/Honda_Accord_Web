@@ -1,0 +1,1 @@
+function ISEA5E13A26100000000MASD02(){var i=0;this.Title="Comprobación de la distribución del encendido";this.Name="SEA5E13A26100000000MASD02";this.Width=475;this.Height=333;this.CallOut=new Array;this.CallOut[i++]=FS4(226,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(405,192,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

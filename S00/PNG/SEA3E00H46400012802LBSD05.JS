@@ -1,0 +1,1 @@
+function ISEA3E00H46400012802LBSD05(){var i=0;this.Title=" Airbag de cortina lateral";this.Name="SEA3E00H46400012802LBSD05";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(356,290,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

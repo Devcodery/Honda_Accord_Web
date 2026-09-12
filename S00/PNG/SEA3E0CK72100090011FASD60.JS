@@ -1,0 +1,1 @@
+function ISEA3E0CK72100090011FASD60(){var i=0;this.Title="Localización de averías DTC: P0011 (56)";this.Name="SEA3E0CK72100090011FASD60";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(286,321,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(207,289,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

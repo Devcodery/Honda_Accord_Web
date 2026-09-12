@@ -1,0 +1,1 @@
+function ISEA3E00J10311157191KBSD01(){var i=0;this.Title="Sustitución del amplificador estéreo";this.Name="SEA3E00J10311157191KBSD01";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(290,307,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(59,17,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

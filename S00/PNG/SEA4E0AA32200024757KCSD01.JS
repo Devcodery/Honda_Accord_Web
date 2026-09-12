@@ -1,0 +1,1 @@
+function ISEA4E0AA32200024757KCSD01(){var i=0;this.Title="Montaje del tornillo de mantenimiento del engrase del motor";this.Name="SEA4E0AA32200024757KCSD01";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(212,371,13,0,"'Arial','sans-serif'",0,"<b>39 N&middot;m<br>(4,0 kgf&middot;m)</b>");}

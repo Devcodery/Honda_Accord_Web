@@ -1,0 +1,1 @@
+function ISEA3E00A20300000000CASD13(){var i=0;this.Title=" Sensor de posición del pedal del acelerador (APP)";this.Name="SEA3E00A20300000000CASD13";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(243,16,13,0,"'Arial','sans-serif'",0,"<b>SENSOR APP</b>");}

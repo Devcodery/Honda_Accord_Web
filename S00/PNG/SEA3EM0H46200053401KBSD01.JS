@@ -1,0 +1,1 @@
+function ISEA3EM0H46200053401KBSD01(){var i=0;this.Title=" Cinturón de seguridad delantero";this.Name="SEA3EM0H46200053401KBSD01";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(413,77,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(320,339,13,0,"'Arial','sans-serif'",0,"<b>B<br>7/16-20 UNF<br>32 N&middot;m (3,3 kgf&middot;m)</b>");}

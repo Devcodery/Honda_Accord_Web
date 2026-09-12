@@ -1,0 +1,1 @@
+function ISEA5E00J34200057260KBAD05(){var i=0;this.Title="Sunroof Drain Channel Slider and Cable Assembly Replacement";this.Name="SEA5E00J34200057260KBAD05";this.Width=475;this.Height=609;this.CallOut=new Array;this.CallOut[i++]=FS4(347,55,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(381,445,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

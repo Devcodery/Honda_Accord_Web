@@ -1,0 +1,1 @@
+function ISEA4E0AE34150719612KBAD01(){var i=0;this.Title="M/T Differential Carrier Bearing Replacement";this.Name="SEA4E0AE34150719612KBAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(88,121,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(391,76,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

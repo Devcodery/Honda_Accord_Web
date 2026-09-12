@@ -1,0 +1,1 @@
+function ISEA4E0AA46500000000FAAD01(){var i=0;this.Title=" Alternate Procedure";this.Name="SEA4E0AA46500000000FAAD01";this.Width=475;this.Height=385;this.CallOut=new Array;}

@@ -1,0 +1,1 @@
+function ISEA3E02E10410654801FEAD60(){var i=0;this.Title="A/T Shift Solenoid Valve Test";this.Name="SEA3E02E10410654801FEAD60";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(22,260,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

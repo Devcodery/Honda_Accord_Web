@@ -1,0 +1,1 @@
+function ISEA5E00H46400000000AAAD21(){var i=0;this.Title=" Backprobing Spring-loaded Lock Connectors";this.Name="SEA5E00H46400000000AAAD21";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(360,266,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E00J34200057257KBAD01(){var i=0;this.Title="Sunroof Drain Channel Replacement";this.Name="SEA5E00J34200057257KBAD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(316,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(139,333,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

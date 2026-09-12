@@ -1,0 +1,1 @@
+function ISEA3EH0K791000R118XFAAD03(){var i=0;this.Title="DTC Troubleshooting: 11-8x";this.Name="SEA3EH0K791000R118XFAAD03";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(24,17,13,0,"'Arial','sans-serif'",0,"<b>DASHBOARD<br>WIRE HARNESS<br>2P CONNECTOR</b>");this.CallOut[i++]=FS4(46,184,13,0,"'Arial','sans-serif'",0,"<b>07TAZ-SZ5011A</b>");}

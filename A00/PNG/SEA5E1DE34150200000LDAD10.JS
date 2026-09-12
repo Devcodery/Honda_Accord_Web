@@ -1,0 +1,1 @@
+function ISEA5E1DE34150200000LDAD10(){var i=0;this.Title="M/T Countershaft Reassembly";this.Name="SEA5E1DE34150200000LDAD10";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(295,119,13,0,"'Arial','sans-serif'",0,"<b>A<br>118 N&middot;m <br>(12 kgf&middot;m, 87 lbf&middot;ft)</b>");}

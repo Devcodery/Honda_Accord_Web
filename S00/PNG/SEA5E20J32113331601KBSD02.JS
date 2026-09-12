@@ -1,0 +1,1 @@
+function ISEA5E20J32113331601KBSD02(){var i=0;this.Title=" Sustitución de la carcasa";this.Name="SEA5E20J32113331601KBSD02";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(361,60,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(397,307,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

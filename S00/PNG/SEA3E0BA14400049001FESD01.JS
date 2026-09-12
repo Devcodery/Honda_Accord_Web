@@ -1,0 +1,1 @@
+function ISEA3E0BA14400049001FESD01(){var i=0;this.Title="Comprobación del radiador";this.Name="SEA3E0BA14400049001FESD01";this.Width=475;this.Height=449;this.CallOut=new Array;this.CallOut[i++]=FS4(25,35,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(138,22,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

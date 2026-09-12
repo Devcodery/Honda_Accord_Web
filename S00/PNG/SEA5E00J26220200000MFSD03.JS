@@ -1,0 +1,1 @@
+function ISEA5E00J26220200000MFSD03(){var i=0;this.Title="Desmontaje/Montaje de la viga de suspensión del salpicadero/dirección";this.Name="SEA5E00J26220200000MFSD03";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(380,244,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(69,76,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

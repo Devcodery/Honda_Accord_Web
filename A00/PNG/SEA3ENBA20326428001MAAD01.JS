@@ -1,0 +1,1 @@
+function ISEA3ENBA20326428001MAAD01(){var i=0;this.Title="Fuel Line Inspection";this.Name="SEA3ENBA20326428001MAAD01";this.Width=950;this.Height=751;this.CallOut=new Array;this.CallOut[i++]=FS4(128,687,12,0,"'Arial','sans-serif'",0,"<b></b>Make sure the connections are secure <br>and the quick-connect fitting covers <br>firmily locked in place.");}

@@ -1,0 +1,1 @@
+function ISEA5E1DK72100090443FASD01(){var i=0;this.Title="Localización de averías DTC: P0443 (92)";this.Name="SEA5E1DK72100090443FASD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(365,291,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(21,236,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

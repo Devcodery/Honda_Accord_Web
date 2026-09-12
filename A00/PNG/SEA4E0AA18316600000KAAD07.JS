@@ -1,0 +1,1 @@
+function ISEA4E0AA18316600000KAAD07(){var i=0;this.Title="Crankshaft and Piston Removal";this.Name="SEA4E0AA18316600000KAAD07";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(73,232,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(448,186,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

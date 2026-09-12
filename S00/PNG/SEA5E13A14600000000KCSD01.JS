@@ -1,0 +1,1 @@
+function ISEA5E13A14600000000KCSD01(){var i=0;this.Title="Montaje de la culata";this.Name="SEA5E13A14600000000KCSD01";this.Width=475;this.Height=385;this.CallOut=new Array;}

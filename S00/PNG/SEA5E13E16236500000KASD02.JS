@@ -1,0 +1,1 @@
+function ISEA5E13E16236500000KASD02(){var i=0;this.Title="Extracción del eje intermedio";this.Name="SEA5E13E16236500000KASD02";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(281,318,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(38,190,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

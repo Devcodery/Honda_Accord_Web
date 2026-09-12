@@ -1,0 +1,1 @@
+function ISEA4E0AA20300000000CAAD18(){var i=0;this.Title=" Intake Manifold Runnner Control (IMRC) Position Sensor";this.Name="SEA4E0AA20300000000CAAD18";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(377,231,13,0,"'Arial','sans-serif'",0,"<b>VALVE</b>");this.CallOut[i++]=FS4(393,17,13,0,"'Arial','sans-serif'",0,"<b>IMRC<br>POSITION<br>SENSOR</b>");}

@@ -1,0 +1,1 @@
+function ISEA3E00R31100000000YDSD32(){var i=0;this.Title="Montaje del bastidor lateral delantero/Travesaño superior";this.Name="SEA3E00R31100000000YDSD32";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(338,13,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(112,324,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

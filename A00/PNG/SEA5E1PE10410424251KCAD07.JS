@@ -1,0 +1,1 @@
+function ISEA5E1PE10410424251KCAD07(){var i=0;this.Title="A/T End Cover Installation ";this.Name="SEA5E1PE10410424251KCAD07";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(406,65,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(166,32,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

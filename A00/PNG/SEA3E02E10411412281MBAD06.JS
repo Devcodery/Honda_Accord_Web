@@ -1,0 +1,1 @@
+function ISEA3E02E10411412281MBAD06(){var i=0;this.Title="A/T Shift Cable Adjustment";this.Name="SEA3E02E10411412281MBAD06";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(303,256,13,0,"'Arial','sans-serif'",0,"<b>8 x 1.25 mm<br>22 N&middot;m<br>(2.2 kgf&middot;m, 16 lbf&middot;ft)</b>");}

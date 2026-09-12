@@ -1,0 +1,1 @@
+function ISEA3EM0J10311065411KBSD01(){var i=0;this.Title="Sustitución de la bobina de la antena de ventanilla";this.Name="SEA3EM0J10311065411KBSD01";this.Width=475;this.Height=513;this.CallOut=new Array;this.CallOut[i++]=FS4(390,484,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(1,420,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

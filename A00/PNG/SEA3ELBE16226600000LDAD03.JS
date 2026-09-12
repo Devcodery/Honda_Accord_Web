@@ -1,0 +1,1 @@
+function ISEA3ELBE16226600000LDAD03(){var i=0;this.Title=" Outboard Joint Side";this.Name="SEA3ELBE16226600000LDAD03";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(387,273,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(88,308,13,0,"'Arial','sans-serif'",0,"<b></b>Use the grease included<br>in the outboard boot set.");}

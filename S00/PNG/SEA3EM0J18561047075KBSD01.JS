@@ -1,0 +1,1 @@
+function ISEA3EM0J18561047075KBSD01(){var i=0;this.Title="Sustitución de la unidad de accionamiento del portón trasero con cierre eléctrico";this.Name="SEA3EM0J18561047075KBSD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(214,15,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(418,322,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

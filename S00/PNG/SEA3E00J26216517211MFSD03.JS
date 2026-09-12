@@ -1,0 +1,1 @@
+function ISEA3E00J26216517211MFSD03(){var i=0;this.Title="Desmontaje/Montaje del reposabrazos de la consola";this.Name="SEA3E00J26216517211MFSD03";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(79,223,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(57,66,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

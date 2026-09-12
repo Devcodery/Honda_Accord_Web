@@ -1,0 +1,1 @@
+function ISEA5E13A14674300000KASD02(){var i=0;this.Title="Desmontaje de la cadena del árbol de levas";this.Name="SEA5E13A14674300000KASD02";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(240,321,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

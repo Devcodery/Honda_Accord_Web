@@ -1,0 +1,1 @@
+function ISEA3E02E10400000000CASD05(){var i=0;this.Title=" Entradas y salidas del PCM";this.Name="SEA3E02E10400000000CASD05";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(323,32,12,0,"'Arial','sans-serif'",0,"<b>Situación de los terminales de los conectores del PCM</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E44D10600000000CAAD01(){var i=0;this.Title=" ABS Control Unit Inputs and Outputs for 25P Connector";this.Name="SEA5E44D10600000000CAAD01";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(372,290,12,0,"'Arial','sans-serif'",0,"<b></b>Wire side of female terminals");}

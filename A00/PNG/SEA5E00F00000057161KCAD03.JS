@@ -1,0 +1,1 @@
+function ISEA5E00F00000057161KCAD03(){var i=0;this.Title="Steering Wheel Installation";this.Name="SEA5E00F00000057161KCAD03";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(324,323,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(247,14,13,0,"'Arial','sans-serif'",0,"<b>A<br>39 N&middot;m (4.0 kgf&middot;m, 29 lbf&middot;ft)</b>");}

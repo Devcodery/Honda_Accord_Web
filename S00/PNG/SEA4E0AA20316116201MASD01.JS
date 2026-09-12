@@ -1,0 +1,1 @@
+function ISEA4E0AA20316116201MASD01(){var i=0;this.Title=" Caliente el catalizador";this.Name="SEA4E0AA20316116201MASD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(275,343,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

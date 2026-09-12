@@ -1,0 +1,1 @@
+function ISEA4E0AE16226600000LDAD05(){var i=0;this.Title=" Inboard Joint Side";this.Name="SEA4E0AE16226600000LDAD05";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(204,48,13,0,"'Arial','sans-serif'",0,"<b></b>Use the grease included<br>in the inboard boot set.");}

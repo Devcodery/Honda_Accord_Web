@@ -1,0 +1,1 @@
+function ISEA5E43A20336300000CASD02(){var i=0;this.Title=" Cuerpo del acelerador (Motor K20A6)";this.Name="SEA5E43A20336300000CASD02";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(23,176,13,0,"'Arial','sans-serif'",0,"<b>SENSOR TP</b>");this.CallOut[i++]=FS4(202,309,13,0,"'Arial','sans-serif'",0,"<b>VÁLVULA IAC</b>");}

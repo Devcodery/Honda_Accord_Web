@@ -1,0 +1,1 @@
+function ISEA3EK0J46166453951KBSD06(){var i=0;this.Title=" Respaldo del asiento derecho";this.Name="SEA3EK0J46166453951KBSD06";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(79,24,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(375,35,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

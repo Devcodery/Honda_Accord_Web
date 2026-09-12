@@ -1,0 +1,1 @@
+function IS0KXA10J26300043881FESD01(){var i=0;this.Title=" Localización de averías";this.Name="S0KXA10J26300043881FESD01";this.Width=475;this.Height=320;this.CallOut=new Array;}

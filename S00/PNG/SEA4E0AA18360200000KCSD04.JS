@@ -1,0 +1,1 @@
+function ISEA4E0AA18360200000KCSD04(){var i=0;this.Title=" Si no está montado el cigüeñal";this.Name="SEA4E0AA18360200000KCSD04";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(53,115,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

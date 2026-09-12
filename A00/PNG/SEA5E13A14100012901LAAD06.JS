@@ -1,0 +1,1 @@
+function ISEA5E13A14100012901LAAD06(){var i=0;this.Title="Alternator Overhaul";this.Name="SEA5E13A14100012901LAAD06";this.Width=475;this.Height=465;this.CallOut=new Array;this.CallOut[i++]=FS4(64,314,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(409,120,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

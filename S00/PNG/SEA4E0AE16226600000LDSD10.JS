@@ -1,0 +1,1 @@
+function ISEA4E0AE16226600000LDSD10(){var i=0;this.Title=" Lado de la junta interior";this.Name="SEA4E0AE16226600000LDSD10";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(88,83,13,0,"'Arial','sans-serif'",0,"<b>90 grados</b>");}

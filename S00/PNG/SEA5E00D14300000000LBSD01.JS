@@ -1,0 +1,1 @@
+function ISEA5E00D14300000000LBSD01(){var i=0;this.Title="Purga del sistema de frenos";this.Name="SEA5E00D14300000000LBSD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(257,26,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(421,92,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

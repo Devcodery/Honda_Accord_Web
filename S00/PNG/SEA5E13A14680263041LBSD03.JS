@@ -1,0 +1,1 @@
+function ISEA5E13A14680263041LBSD03(){var i=0;this.Title="Reacondicionamiento del asiento de válvula de la culata";this.Name="SEA5E13A14680263041LBSD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(79,129,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(195,260,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

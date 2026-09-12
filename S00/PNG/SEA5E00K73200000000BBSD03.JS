@@ -1,0 +1,1 @@
+function ISEA5E00K73200000000BBSD03(){var i=0;this.Title=" Comprobación de la línea de comunicaciones";this.Name="SEA5E00K73200000000BBSD03";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(49,78,12,0,"'Arial','sans-serif'",0,"<b>Normal:</b>");this.CallOut[i++]=FS4(566,78,12,0,"'Arial','sans-serif'",0,"<b>Defectuoso (ejemplo Error 1)</b>");}

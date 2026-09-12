@@ -1,0 +1,1 @@
+function ISEA5E43A20326900000CAAD04(){var i=0;this.Title=" Engine Coolant Temperature (ECT) Sensor";this.Name="SEA5E43A20326900000CAAD04";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(338,65,13,0,"'Arial','sans-serif'",0,"<b>THERMISTOR</b>");this.CallOut[i++]=FS4(154,28,13,0,"'Arial','sans-serif'",0,"<b>TERMINAL</b>");}

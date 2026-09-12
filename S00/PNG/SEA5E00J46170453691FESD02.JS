@@ -1,0 +1,1 @@
+function ISEA5E00J46170453691FESD02(){var i=0;this.Title=" Asiento del acompañante";this.Name="SEA5E00J46170453691FESD02";this.Width=475;this.Height=481;this.CallOut=new Array;this.CallOut[i++]=FS4(405,176,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(144,452,13,0,"'Arial','sans-serif'",0,"<b></b>Lado del terminal de los terminales machos");}

@@ -1,0 +1,1 @@
+function ISEA5E13A14616716089KBSD02(){var i=0;this.Title="Sustitución de la placa A de impulsos CMP";this.Name="SEA5E13A14616716089KBSD02";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(239,326,13,0,"'Arial','sans-serif'",0,"<b>14 x 1,0 mm<br>39 N&middot;m<br>(4,0 kgf&middot;m)<br></b>Aplique aceite del motor a la <br>rosca de los tornillos.");}

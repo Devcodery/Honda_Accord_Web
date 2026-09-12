@@ -1,0 +1,1 @@
+function ISEA3E0CE34150100000KASD06(){var i=0;this.Title="Extracción del conjunto de la M/T";this.Name="SEA3E0CE34150100000KASD06";this.Width=475;this.Height=449;this.CallOut=new Array;this.CallOut[i++]=FS4(337,359,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(166,59,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

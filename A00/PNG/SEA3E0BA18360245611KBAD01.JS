@@ -1,0 +1,1 @@
+function ISEA3E0BA18360245611KBAD01(){var i=0;this.Title="Piston Ring Replacement";this.Name="SEA3E0BA18360245611KBAD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(352,213,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(40,67,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

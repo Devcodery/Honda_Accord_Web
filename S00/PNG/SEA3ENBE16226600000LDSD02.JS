@@ -1,0 +1,1 @@
+function ISEA3ENBE16226600000LDSD02(){var i=0;this.Title=" Lado de la junta exterior:";this.Name="SEA3ENBE16226600000LDSD02";this.Width=475;this.Height=433;this.CallOut=new Array;this.CallOut[i++]=FS4(39,16,13,0,"'Arial','sans-serif'",0,"<b>Palier derecho: 452-457 mm</b>");this.CallOut[i++]=FS4(45,233,13,0,"'Arial','sans-serif'",0,"<b>Palier izquierdo: 531-536 mm</b>");}

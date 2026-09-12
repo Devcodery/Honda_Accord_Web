@@ -1,0 +1,1 @@
+function ISEA5E13A46500056901LAAD10(){var i=0;this.Title=" Starter Field Winding Test";this.Name="SEA5E13A46500056901LAAD10";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(112,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(435,289,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E130000000K0031BAAD05(){var i=0;this.Title="Warning/Caution Label Locations";this.Name="SEA5E130000000K0031BAAD05";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(278,290,13,0,"'Arial','sans-serif'",0,"<b>TYRE INFORMATION</b>");this.CallOut[i++]=FS4(338,47,13,0,"'Arial','sans-serif'",0,"<b>SIDE<br>AIRBAG<br>CAUTION</b>");}

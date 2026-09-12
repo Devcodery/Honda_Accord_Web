@@ -1,0 +1,1 @@
+function IS0KXA10J26300043881FEAD03(){var i=0;this.Title=" Calibration";this.Name="S0KXA10J26300043881FEAD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(23,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(284,98,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(254,259,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

@@ -1,0 +1,1 @@
+function ISEA4E0AK72100090087FASD02(){var i=0;this.Title="Localización de averías por DTC: P0087 (95-10)";this.Name="SEA4E0AK72100090087FASD02";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(34,261,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

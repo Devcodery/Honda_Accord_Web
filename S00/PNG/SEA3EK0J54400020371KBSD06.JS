@@ -1,0 +1,1 @@
+function ISEA3EK0J54400020371KBSD06(){var i=0;this.Title="Sustitución del regulador y de la luna de las puertas traseras";this.Name="SEA3EK0J54400020371KBSD06";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(425,20,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

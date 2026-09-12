@@ -1,0 +1,1 @@
+function ISEA5E13A46500056901LAAD28(){var i=0;this.Title=" Planetary Gear Inspection";this.Name="SEA5E13A46500056901LAAD28";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(64,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(134,353,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

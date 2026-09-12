@@ -1,0 +1,1 @@
+function ISEA4EZ1A14500017045FEAD01(){var i=0;this.Title=" Clutch Pedal Position Switch A";this.Name="SEA4EZ1A14500017045FEAD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(17,204,13,0,"'Arial','sans-serif'",0,"<b></b>Terminal side of<br>male terminals");}

@@ -1,0 +1,1 @@
+function IS3YYE00D14300014701MASD03(){var i=0;this.Title=" Comprobación de funciones";this.Name="S3YYE00D14300014701MASD03";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(311,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

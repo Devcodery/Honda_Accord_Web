@@ -1,0 +1,1 @@
+function ISEA4E0AA20300000000CASD13(){var i=0;this.Title=" Control del relé de las bujías de precalentamiento";this.Name="SEA4E0AA20300000000CASD13";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(289,75,13,0,"'Arial','sans-serif'",0,"<b>PANEL DE CONTROL DEL </b>");this.CallOut[i++]=FS4(16,230,13,0,"'Arial','sans-serif'",0,"<b>TAPÓN REDONDO</b>");}

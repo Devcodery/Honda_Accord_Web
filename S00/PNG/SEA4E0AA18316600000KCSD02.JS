@@ -1,0 +1,1 @@
+function ISEA4E0AA18316600000KCSD02(){var i=0;this.Title="Montaje del cigüeñal";this.Name="SEA4E0AA18316600000KCSD02";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(392,95,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(45,154,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

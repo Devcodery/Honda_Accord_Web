@@ -1,0 +1,1 @@
+function ISEA5E43A20326900000CAAD06(){var i=0;this.Title=" Manifold Absolute Pressure (MAP) Sensor";this.Name="SEA5E43A20326900000CAAD06";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(39,210,13,0,"'Arial','sans-serif'",0,"<b>TERMINAL</b>");this.CallOut[i++]=FS4(352,29,13,0,"'Arial','sans-serif'",0,"<b>SENSOR UNIT</b>");}

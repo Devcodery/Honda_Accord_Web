@@ -1,0 +1,1 @@
+function ISEA5E20D00060800000MCSD03(){var i=0;this.Title=" Ajuste";this.Name="SEA5E20D00060800000MCSD03";this.Width=475;this.Height=320;this.CallOut=new Array;}

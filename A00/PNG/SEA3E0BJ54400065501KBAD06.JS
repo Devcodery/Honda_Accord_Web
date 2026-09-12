@@ -1,0 +1,1 @@
+function ISEA3E0BJ54400065501KBAD06(){var i=0;this.Title="Windshield Replacement";this.Name="SEA3E0BJ54400065501KBAD06";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(386,104,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(84,166,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA4E0AA20316116201MASD02(){var i=0;this.Title=" Catalizador";this.Name="SEA4E0AA20316116201MASD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(11,149,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

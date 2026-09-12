@@ -1,0 +1,1 @@
+function ISEA5E43J54260462131CBSD01(){var i=0;this.Title=" Excepto modelo KE '05";this.Name="SEA5E43J54260462131CBSD01";this.Width=950;this.Height=351;this.CallOut=new Array;this.CallOut[i++]=FS4(530,189,12,0,"'Arial','sans-serif'",0,"<b>42</b>");this.CallOut[i++]=FS4(407,189,12,0,"'Arial','sans-serif'",0,"<b>41</b>");}

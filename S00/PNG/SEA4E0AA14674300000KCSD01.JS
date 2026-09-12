@@ -1,0 +1,1 @@
+function ISEA4E0AA14674300000KCSD01(){var i=0;this.Title="Montaje de la cadena del árbol de levas";this.Name="SEA4E0AA14674300000KCSD01";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(29,229,12,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(278,15,12,0,"'Arial','sans-serif'",0,"<b>B</b>");}

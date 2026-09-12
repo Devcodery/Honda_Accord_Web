@@ -1,0 +1,1 @@
+function ISEA3E00J34300044041FHAD01(){var i=0;this.Title="Power Mirror Switch Test/Replacement";this.Name="SEA3E00J34300044041FHAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(96,58,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(97,130,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

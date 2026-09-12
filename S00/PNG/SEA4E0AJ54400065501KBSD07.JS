@@ -1,0 +1,1 @@
+function ISEA4E0AJ54400065501KBSD07(){var i=0;this.Title="Sustitución del parabrisas";this.Name="SEA4E0AJ54400065501KBSD07";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(386,104,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(84,166,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

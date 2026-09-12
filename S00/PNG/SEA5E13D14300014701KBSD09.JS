@@ -1,0 +1,1 @@
+function ISEA5E13D14300014701KBSD09(){var i=0;this.Title=" Modelo RHD";this.Name="SEA5E13D14300014701KBSD09";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(374,47,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(281,339,13,0,"'Arial','sans-serif'",0,"<b>6 x 1,0 mm<br>9,8 N&middot;m<br>(1,0 kgf&middot;m)</b>");}

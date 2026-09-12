@@ -1,0 +1,1 @@
+function ISEA4E0AA20300024601KBSD01(){var i=0;this.Title="Sustitución del ECM";this.Name="SEA4E0AA20300024601KBSD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(13,135,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(38,324,13,0,"'Arial','sans-serif'",0,"<b></b>*: Esta ilustración muestra el modelo LHD.");}

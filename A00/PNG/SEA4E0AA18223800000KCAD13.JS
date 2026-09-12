@@ -1,0 +1,1 @@
+function ISEA4E0AA18223800000KCAD13(){var i=0;this.Title="Engine Installation";this.Name="SEA4E0AA18223800000KCAD13";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(171,356,13,0,"'Arial','sans-serif'",0,"<b>8 x 1.25 mm<br>22 N&middot;m (2.2 kgf&middot;m, 16 lbf&middot;ft)</b>");}

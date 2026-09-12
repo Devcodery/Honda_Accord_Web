@@ -1,0 +1,1 @@
+function ISEA5E60J32100017101FHAD01(){var i=0;this.Title=" LHD type";this.Name="SEA5E60J32100017101FHAD01";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(654,109,12,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(467,290,12,0,"'Arial','sans-serif'",0,"<b>B</b>");}

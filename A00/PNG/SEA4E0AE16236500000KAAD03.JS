@@ -1,0 +1,1 @@
+function ISEA4E0AE16236500000KAAD03(){var i=0;this.Title="Intermediate Shaft Removal";this.Name="SEA4E0AE16236500000KAAD03";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(423,172,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(407,253,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA4E0AK71100000000BBSD01(){var i=0;this.Title=" Como efectuar la comprobación de DTC con el HDS";this.Name="SEA4E0AK71100000000BBSD01";this.Width=475;this.Height=336;this.CallOut=new Array;}

@@ -1,0 +1,1 @@
+function ISEA5E23E16226600000LDAD16(){var i=0;this.Title=" Outboard Joint Side";this.Name="SEA5E23E16226600000LDAD16";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(153,250,13,0,"'Arial','sans-serif'",0,"<b>10 cm<br>(4 in.)</b>");this.CallOut[i++]=FS4(137,149,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

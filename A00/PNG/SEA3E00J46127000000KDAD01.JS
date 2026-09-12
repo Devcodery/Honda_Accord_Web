@@ -1,0 +1,1 @@
+function ISEA3E00J46127000000KDAD01(){var i=0;this.Title=" Manual/manual height adjustable";this.Name="SEA3E00J46127000000KDAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(273,268,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

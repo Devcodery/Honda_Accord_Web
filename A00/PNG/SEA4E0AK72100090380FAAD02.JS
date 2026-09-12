@@ -1,0 +1,1 @@
+function ISEA4E0AK72100090380FAAD02(){var i=0;this.Title="DTC Troubleshooting: P0380 (173-3)";this.Name="SEA4E0AK72100090380FAAD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(121,33,13,0,"'Arial','sans-serif'",0,"<b>GLOW PLUG 1P CONNECTOR</b>");this.CallOut[i++]=FS4(127,274,13,0,"'Arial','sans-serif'",0,"<b></b>Terminal side of male terminals");}

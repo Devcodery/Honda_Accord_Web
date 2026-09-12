@@ -1,0 +1,1 @@
+function ISEA5E13A18223800000KASD08(){var i=0;this.Title="Extracción del conjunto del motor";this.Name="SEA5E13A18223800000KASD08";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(131,95,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(424,38,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

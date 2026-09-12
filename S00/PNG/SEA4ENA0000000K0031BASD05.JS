@@ -1,0 +1,1 @@
+function ISEA4ENA0000000K0031BASD05(){var i=0;this.Title=" Compartimento trasero:";this.Name="SEA4ENA0000000K0031BASD05";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(288,20,13,0,"'Arial','sans-serif'",0,"<b>ETIQUETA DE PELIGRO <br>DEL MÓDULO DEL TECHO</b>");}

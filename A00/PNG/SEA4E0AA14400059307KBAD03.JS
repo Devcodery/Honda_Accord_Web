@@ -1,0 +1,1 @@
+function ISEA4E0AA14400059307KBAD03(){var i=0;this.Title="Thermostat Housing Replacement";this.Name="SEA4E0AA14400059307KBAD03";this.Width=475;this.Height=449;this.CallOut=new Array;this.CallOut[i++]=FS4(424,225,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(208,415,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA3E00A20300000000CASD53(){var i=0;this.Title=" Sensor de temperatura del aire de admisión (IAT)";this.Name="SEA3E00A20300000000CASD53";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(41,60,13,0,"'Arial','sans-serif'",0,"<b>TERMINAL</b>");this.CallOut[i++]=FS4(311,78,13,0,"'Arial','sans-serif'",0,"<b>TERMISTOR</b>");}

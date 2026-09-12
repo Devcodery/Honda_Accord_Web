@@ -1,0 +1,1 @@
+function ISEA5E1PE10411310041LCSD02(){var i=0;this.Title="Desmontaje del embrague de la A/T";this.Name="SEA5E1PE10411310041LCSD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(420,170,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(401,288,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

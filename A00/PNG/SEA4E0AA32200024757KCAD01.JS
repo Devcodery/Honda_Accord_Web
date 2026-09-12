@@ -1,0 +1,1 @@
+function ISEA4E0AA32200024757KCAD01(){var i=0;this.Title="Engine Lubrication Maintenance Bolt Installtion";this.Name="SEA4E0AA32200024757KCAD01";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(212,371,13,0,"'Arial','sans-serif'",0,"<b>39 N&middot;m<br>(4.0 kgf&middot;m, 29 lbf&middot;ft)</b>");}

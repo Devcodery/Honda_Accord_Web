@@ -1,0 +1,1 @@
+function ISEA4E0AA32200043502LAAD24(){var i=0;this.Title=" Oil Pump Installation";this.Name="SEA4E0AA32200043502LAAD24";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(317,291,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

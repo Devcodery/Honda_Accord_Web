@@ -1,0 +1,1 @@
+function ISEA4E0AE34150400000LDSD13(){var i=0;this.Title="Montaje del eje principal de la M/T";this.Name="SEA4E0AE34150400000LDSD13";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(353,227,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(95,119,13,0,"'Arial','sans-serif'",0,"<b>07746-0030100</b>");}

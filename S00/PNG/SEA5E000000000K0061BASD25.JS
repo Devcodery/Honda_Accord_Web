@@ -1,0 +1,1 @@
+function ISEA5E000000000K0061BASD25(){var i=0;this.Title=" Códigos de colores para cables";this.Name="SEA5E000000000K0061BASD25";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(233,43,13,0,"'Arial','sans-serif'",0,"<b>WHT/BLK</b>");}

@@ -1,0 +1,1 @@
+function ISEA3ELBA20326428001MAAD61(){var i=0;this.Title=" ECONO model:";this.Name="SEA3ELBA20326428001MAAD61";this.Width=950;this.Height=543;this.CallOut=new Array;this.CallOut[i++]=FS4(192,485,12,0,"'Arial','sans-serif'",0,"<b></b>Make sure the connections are<br>secure and the quick-connect<br>fitting covers are firmily in place. ");}

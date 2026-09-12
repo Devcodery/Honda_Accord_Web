@@ -1,0 +1,1 @@
+function ISEA5E20B00000000000MBSD01(){var i=0;this.Title=" Comprobaciones previas a la alineación";this.Name="SEA5E20B00000000000MBSD01";this.Width=475;this.Height=365;this.CallOut=new Array;}

@@ -1,0 +1,1 @@
+function ISEA5E43E16226600000KCAD02(){var i=0;this.Title="Driveshaft Installation";this.Name="SEA5E43E16226600000KCAD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(76,291,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(43,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

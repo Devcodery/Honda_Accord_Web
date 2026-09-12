@@ -1,0 +1,1 @@
+function ISEA4E0AA14616700000KBAD06(){var i=0;this.Title=" Removal";this.Name="SEA4E0AA14616700000KBAD06";this.Width=475;this.Height=529;this.CallOut=new Array;}

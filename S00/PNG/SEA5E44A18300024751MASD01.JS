@@ -1,0 +1,1 @@
+function ISEA5E44A18300024751MASD01(){var i=0;this.Title="Inspección del bloque del motor y de los pistones";this.Name="SEA5E44A18300024751MASD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(204,16,13,0,"'Arial','sans-serif'",0,"<b>HOLGURA ENTRE PISTÓN<br>Y CILINDRO</b>");}

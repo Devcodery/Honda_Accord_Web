@@ -1,0 +1,1 @@
+function ISEA5E13A14666351513FESD02(){var i=0;this.Title=" Motor K20A6";this.Name="SEA5E13A14666351513FESD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(64,288,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(223,289,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

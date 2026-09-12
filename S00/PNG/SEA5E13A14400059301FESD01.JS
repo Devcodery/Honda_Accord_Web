@@ -1,0 +1,1 @@
+function ISEA5E13A14400059301FESD01(){var i=0;this.Title="Comprobación del termostato";this.Name="SEA5E13A14400059301FESD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(169,15,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(134,325,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA3EM0D14300014791MDSD02(){var i=0;this.Title=" Sustitución";this.Name="SEA3EM0D14300014791MDSD02";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(143,305,13,0,"'Arial','sans-serif'",0,"<b>C</b>");this.CallOut[i++]=FS4(326,304,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(443,267,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E43H46200053402KBSD01(){var i=0;this.Title=" Cinturón de seguridad trasero";this.Name="SEA5E43H46200053402KBSD01";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(6,75,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(13,266,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

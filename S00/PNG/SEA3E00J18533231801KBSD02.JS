@@ -1,0 +1,1 @@
+function ISEA3E00J18533231801KBSD02(){var i=0;this.Title="Sustitución del cierre del capó";this.Name="SEA3E00J18533231801KBSD02";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(93,302,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

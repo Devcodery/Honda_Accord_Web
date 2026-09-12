@@ -1,0 +1,1 @@
+function ISEA3E00J54283251701DBSD02(){var i=0;this.Title="Situación del mazo de cables del techo";this.Name="SEA3E00J54283251701DBSD02";this.Width=950;this.Height=527;this.CallOut=new Array;this.CallOut[i++]=FS4(698,404,12,0,"'Arial','sans-serif'",0,"<b>MAZO DE CABLES DEL TECHO<br>(Sin techo corredizo)</b>");}

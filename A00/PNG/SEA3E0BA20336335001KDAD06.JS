@@ -1,0 +1,1 @@
+function ISEA3E0BA20336335001KDAD06(){var i=0;this.Title=" Removal";this.Name="SEA3E0BA20336335001KDAD06";this.Width=475;this.Height=449;this.CallOut=new Array;this.CallOut[i++]=FS4(19,61,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(16,380,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(241,420,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

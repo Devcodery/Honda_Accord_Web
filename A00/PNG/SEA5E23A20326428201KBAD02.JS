@@ -1,0 +1,1 @@
+function ISEA5E23A20326428201KBAD02(){var i=0;this.Title=" ECONO model";this.Name="SEA5E23A20326428201KBAD02";this.Width=475;this.Height=449;this.CallOut=new Array;this.CallOut[i++]=FS4(386,343,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(407,244,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(424,147,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

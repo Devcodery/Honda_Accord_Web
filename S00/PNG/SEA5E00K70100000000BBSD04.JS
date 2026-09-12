@@ -1,0 +1,1 @@
+function ISEA5E00K70100000000BBSD04(){var i=0;this.Title=" Como borrar los DTC";this.Name="SEA5E00K70100000000BBSD04";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(39,308,13,0,"'Arial','sans-serif'",0,"<b></b>*: La ilustración hace referencia al modelo LHD.");this.CallOut[i++]=FS4(66,189,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E13A18300024751MASD04(){var i=0;this.Title="Inspección del bloque del motor y de los pistones";this.Name="SEA5E13A18300024751MASD04";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(197,15,13,0,"'Arial','sans-serif'",0,"<b>REGLA DE PRECISIÓN</b>");}

@@ -1,0 +1,1 @@
+function ISEA3EJ4J10311113151BBSD01(){var i=0;this.Title=" Como aplicar las funciones de autodiagnóstico (con sistema de navegación)";this.Name="SEA3EJ4J10311113151BBSD01";this.Width=950;this.Height=495;this.CallOut=new Array;}

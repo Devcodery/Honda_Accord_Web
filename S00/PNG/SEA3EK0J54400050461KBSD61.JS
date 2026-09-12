@@ -1,0 +1,1 @@
+function ISEA3EK0J54400050461KBSD61(){var i=0;this.Title="Sustitución de la ventanilla trasera";this.Name="SEA3EK0J54400050461KBSD61";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(363,301,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(410,163,13,0,"'Arial','sans-serif'",0,"<b>6 mm</b>");}

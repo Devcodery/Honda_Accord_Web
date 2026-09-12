@@ -1,0 +1,1 @@
+function ISEA4E0AF00000057111KAAD07(){var i=0;this.Title=" RHD model";this.Name="SEA4E0AF00000057111KAAD07";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(441,303,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

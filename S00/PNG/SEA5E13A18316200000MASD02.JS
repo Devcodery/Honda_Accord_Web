@@ -1,0 +1,1 @@
+function ISEA5E13A18316200000MASD02(){var i=0;this.Title="Inspección del juego axial de las bielas y el cigüeñal";this.Name="SEA5E13A18316200000MASD02";this.Width=475;this.Height=401;this.CallOut=new Array;}

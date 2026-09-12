@@ -1,0 +1,1 @@
+function ISEA5E2EK72100091062FASD01(){var i=0;this.Title="Localización de averías por DTC: P1062 (95-13), P1064 (95-15)";this.Name="SEA5E2EK72100091062FASD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(366,83,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(73,89,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

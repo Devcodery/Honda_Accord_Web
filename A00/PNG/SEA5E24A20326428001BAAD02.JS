@@ -1,0 +1,1 @@
+function ISEA5E24A20326428001BAAD02(){var i=0;this.Title="Fuel Line/Quick-Connect Fitting Precaution";this.Name="SEA5E24A20326428001BAAD02";this.Width=475;this.Height=513;this.CallOut=new Array;this.CallOut[i++]=FS4(328,254,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(209,480,13,0,"'Arial','sans-serif'",0,"<b>E</b>");}

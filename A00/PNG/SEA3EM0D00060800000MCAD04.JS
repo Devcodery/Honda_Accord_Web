@@ -1,0 +1,1 @@
+function ISEA3EM0D00060800000MCAD04(){var i=0;this.Title=" Major Adjustment (to be done when replacing parking brake shoes and after lining surface break-in)";this.Name="SEA3EM0D00060800000MCAD04";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(40,132,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

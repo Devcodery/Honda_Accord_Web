@@ -1,0 +1,1 @@
+function ISEA5E13A20336335001KDAD04(){var i=0;this.Title=" Removal";this.Name="SEA5E13A20336335001KDAD04";this.Width=475;this.Height=369;this.CallOut=new Array;}

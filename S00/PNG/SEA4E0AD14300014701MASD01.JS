@@ -1,0 +1,1 @@
+function ISEA4E0AD14300014701MASD01(){var i=0;this.Title=" Comprobación de la existencia de fugas";this.Name="SEA4E0AD14300014701MASD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(235,17,13,0,"'Arial','sans-serif'",0,"<b>A<br>07404-5790301</b>");this.CallOut[i++]=FS4(42,289,13,0,"'Arial','sans-serif'",0,"<b>07410-5790501</b>");}

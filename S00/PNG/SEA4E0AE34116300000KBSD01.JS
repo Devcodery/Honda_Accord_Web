@@ -1,0 +1,1 @@
+function ISEA4E0AE34116300000KBSD01(){var i=0;this.Title=" Desmontaje del plato de presión y del disco de embrague";this.Name="SEA4E0AE34116300000KBSD01";this.Width=475;this.Height=465;this.CallOut=new Array;this.CallOut[i++]=FS4(18,26,13,0,"'Arial','sans-serif'",0,"<b>07AAF-RAWA140<br>07AAF-P8EA020</b>");}

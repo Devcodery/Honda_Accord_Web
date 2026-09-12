@@ -1,0 +1,1 @@
+function ISEA3E00J10311113191KDSD11(){var i=0;this.Title=" Tipo 1 CD:";this.Name="SEA3E00J10311113191KDSD11";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(325,68,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(32,262,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E43J46166453635KBSD04(){var i=0;this.Title="Sustitución de la funda del cojín del asiento trasero";this.Name="SEA5E43J46166453635KBSD04";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(195,25,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(398,226,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

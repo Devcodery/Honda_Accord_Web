@@ -1,0 +1,1 @@
+function ISEA5E13A14680263001KBSD04(){var i=0;this.Title="Sustitución de la guía de válvula de la culata";this.Name="SEA5E13A14680263001KBSD04";this.Width=475;this.Height=320;this.CallOut=new Array;}

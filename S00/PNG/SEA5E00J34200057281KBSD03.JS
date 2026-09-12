@@ -1,0 +1,1 @@
+function ISEA5E00J34200057281KBSD03(){var i=0;this.Title="Sustitución de la persiana del techo corredizo";this.Name="SEA5E00J34200057281KBSD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(301,19,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(128,281,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

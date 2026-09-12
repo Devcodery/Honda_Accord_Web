@@ -1,0 +1,1 @@
+function ISEA5E00H46400000000AASD13(){var i=0;this.Title=" Conectores de los airbag delanteros";this.Name="SEA5E00H46400000000AASD13";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(291,21,13,0,"'Arial','sans-serif'",0,"<b>C</b>");this.CallOut[i++]=FS4(122,255,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

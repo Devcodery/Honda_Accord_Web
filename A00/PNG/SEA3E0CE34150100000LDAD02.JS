@@ -1,0 +1,1 @@
+function ISEA3E0CE34150100000LDAD02(){var i=0;this.Title="M/T Assembly Reassembly";this.Name="SEA3E0CE34150100000LDAD02";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(172,17,13,0,"'Arial','sans-serif'",0,"<b>6 x 1.0 mm<br>15 N&middot;m (1.5 kgf&middot;m, 11 lbf&middot;ft)</b>");}

@@ -1,0 +1,1 @@
+function ISEA3EE0K72100000000BBSD01(){var i=0;this.Title=" Cómo efectuar la localización de averías en los circuitos en el ECM";this.Name="SEA3EE0K72100000000BBSD01";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(66,301,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(82,28,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

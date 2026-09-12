@@ -1,0 +1,1 @@
+function ISEA5E13A20326931312KBSD01(){var i=0;this.Title="Sustitución del sensor secundario de HO2S";this.Name="SEA5E13A20326931312KBSD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(235,289,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

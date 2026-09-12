@@ -1,0 +1,1 @@
+function ISEA5E24A14616716001KBSD01(){var i=0;this.Title="Sustitución del piñón B del árbol de levas de escape";this.Name="SEA5E24A14616716001KBSD01";this.Width=475;this.Height=336;this.CallOut=new Array;}

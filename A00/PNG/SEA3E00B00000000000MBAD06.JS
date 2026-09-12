@@ -1,0 +1,1 @@
+function ISEA3E00B00000000000MBAD06(){var i=0;this.Title=" Turning Angle Inspection";this.Name="SEA3E00B00000000000MBAD06";this.Width=475;this.Height=336;this.CallOut=new Array;}

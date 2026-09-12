@@ -1,0 +1,1 @@
+function ISEA3E00J10311113191KDSD03(){var i=0;this.Title=" Tipo 6 CD:";this.Name="SEA3E00J10311113191KDSD03";this.Width=475;this.Height=449;this.CallOut=new Array;this.CallOut[i++]=FS4(41,18,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(413,412,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

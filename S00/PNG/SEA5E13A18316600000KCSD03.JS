@@ -1,0 +1,1 @@
+function ISEA5E13A18316600000KCSD03(){var i=0;this.Title="Montaje del cigüeñal";this.Name="SEA5E13A18316600000KCSD03";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(262,354,13,0,"'Arial','sans-serif'",0,"<b></b>Aplique una junta líquida<br>a lo largo de la línea discontinua.");}

@@ -1,0 +1,1 @@
+function ISEA5E00D52100065301KBSD02(){var i=0;this.Title=" Traseras";this.Name="SEA5E00D52100065301KBSD02";this.Width=950;this.Height=495;this.CallOut=new Array;this.CallOut[i++]=FS4(324,466,12,0,"'Arial','sans-serif'",0,"<b>RUEDA TRASERA IZQUIERDA</b>");this.CallOut[i++]=FS4(137,16,12,0,"'Arial','sans-serif'",0,"<b>TORNILLO DE 6 mm.<br>9,8 N&middot;m (1,0 kgf&middot;m)</b>");}

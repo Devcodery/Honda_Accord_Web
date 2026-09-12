@@ -1,0 +1,1 @@
+function ISEA3E0BA14600000000KASD04(){var i=0;this.Title="Desmontaje de la culata";this.Name="SEA3E0BA14600000000KASD04";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(407,21,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(166,340,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

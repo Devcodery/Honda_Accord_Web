@@ -1,0 +1,1 @@
+function ISEA4E0AA20326428001KAAD05(){var i=0;this.Title="Fuel Line/Quick-Connect Fitting Removal";this.Name="SEA4E0AA20326428001KAAD05";this.Width=475;this.Height=465;this.CallOut=new Array;this.CallOut[i++]=FS4(439,400,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E23A20326900000CASD05(){var i=0;this.Title=" Sensor de detonaciones";this.Name="SEA5E23A20326900000CASD05";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(341,29,13,0,"'Arial','sans-serif'",0,"<b>TERMINAL</b>");this.CallOut[i++]=FS4(379,142,13,0,"'Arial','sans-serif'",0,"<b>ELEMENTO DE<br>PIEZO<br>CERÁMICA</b>");}

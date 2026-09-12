@@ -1,0 +1,1 @@
+function ISEA4E0AA20300000000CASD20(){var i=0;this.Title=" Válvula EGR";this.Name="SEA4E0AA20300000000CASD20";this.Width=475;this.Height=481;this.CallOut=new Array;this.CallOut[i++]=FS4(55,256,13,0,"'Arial','sans-serif'",0,"<b>Procedente del<br>CONDUCTO<br>DE LA EGR</b>");this.CallOut[i++]=FS4(342,377,13,0,"'Arial','sans-serif'",0,"<b>Al<br>REFRIGERADOR<br>DE LA EGR</b>");}

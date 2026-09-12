@@ -1,0 +1,1 @@
+function ISEA4E0AE34150100000KASD07(){var i=0;this.Title=" Lado izquierdo:";this.Name="SEA4E0AE34150100000KASD07";this.Width=475;this.Height=433;this.CallOut=new Array;}

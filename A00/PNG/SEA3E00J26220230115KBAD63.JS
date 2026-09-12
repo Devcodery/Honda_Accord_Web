@@ -1,0 +1,1 @@
+function ISEA3E00J26220230115KBAD63(){var i=0;this.Title=" LHD";this.Name="SEA3E00J26220230115KBAD63";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(332,291,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(290,306,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

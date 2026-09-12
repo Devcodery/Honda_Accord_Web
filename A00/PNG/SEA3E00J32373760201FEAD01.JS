@@ -1,0 +1,1 @@
+function ISEA3E00J32373760201FEAD01(){var i=0;this.Title="Trunk Latch Switch Test";this.Name="SEA3E00J32373760201FEAD01";this.Width=475;this.Height=433;this.CallOut=new Array;this.CallOut[i++]=FS4(91,199,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(404,241,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

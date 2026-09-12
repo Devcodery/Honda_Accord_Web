@@ -1,0 +1,1 @@
+function ISEA3E00J32133631101FESD01(){var i=0;this.Title=" Sin lámparas HID";this.Name="SEA3E00J32133631101FESD01";this.Width=475;this.Height=465;this.CallOut=new Array;this.CallOut[i++]=FS4(54,393,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(421,260,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

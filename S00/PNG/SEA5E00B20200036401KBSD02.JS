@@ -1,0 +1,1 @@
+function ISEA5E00B20200036401KBSD02(){var i=0;this.Title=" Sustitución de la mangueta/cubo de rueda";this.Name="SEA5E00B20200036401KBSD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(353,37,13,0,"'Arial','sans-serif'",0,"<b>108 N&middot;m<br>(11,0 kgf&middot;m)</b>");}

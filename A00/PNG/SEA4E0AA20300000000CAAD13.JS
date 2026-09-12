@@ -1,0 +1,1 @@
+function ISEA4E0AA20300000000CAAD13(){var i=0;this.Title=" Glow Relay Control";this.Name="SEA4E0AA20300000000CAAD13";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(393,73,13,0,"'Arial','sans-serif'",0,"<b>HEATER</b>");this.CallOut[i++]=FS4(16,230,13,0,"'Arial','sans-serif'",0,"<b>ROUND PLUG</b>");}

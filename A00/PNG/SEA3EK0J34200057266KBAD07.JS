@@ -1,0 +1,1 @@
+function ISEA3EK0J34200057266KBAD07(){var i=0;this.Title="Sunroof Frame and Drain Tube Replacement";this.Name="SEA3EK0J34200057266KBAD07";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(322,351,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(180,17,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

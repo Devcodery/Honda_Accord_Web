@@ -1,0 +1,1 @@
+function ISEA5E2EK72100000000BBSD03(){var i=0;this.Title=" Como efectuar la localización de averías en los circuitos";this.Name="SEA5E2EK72100000000BBSD03";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(245,14,13,0,"'Arial','sans-serif'",0,"<b>070AJ-RBD0200</b>");this.CallOut[i++]=FS4(187,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

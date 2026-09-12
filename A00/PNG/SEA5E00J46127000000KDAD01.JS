@@ -1,0 +1,1 @@
+function ISEA5E00J46127000000KDAD01(){var i=0;this.Title=" 4-way power/8-way power";this.Name="SEA5E00J46127000000KDAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(280,280,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

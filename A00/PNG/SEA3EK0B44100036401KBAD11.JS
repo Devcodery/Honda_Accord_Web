@@ -1,0 +1,1 @@
+function ISEA3EK0B44100036401KBAD11(){var i=0;this.Title=" Knuckle Replacement";this.Name="SEA3EK0B44100036401KBAD11";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(209,354,13,0,"'Arial','sans-serif'",0,"<b>A<br>12 x 1.25 mm<br>59 N&middot;m (6.0 kgf&middot;m, 43 lbf&middot;ft)</b>");}

@@ -1,0 +1,1 @@
+function ISEA4ENA0000000K0031BAAD02(){var i=0;this.Title="Warning/Caution Label Locations";this.Name="SEA4ENA0000000K0031BAAD02";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(560,285,12,0,"'Arial','sans-serif'",0,"<b>TYRE INFORMATION</b>");this.CallOut[i++]=FS4(619,43,12,0,"'Arial','sans-serif'",0,"<b>SIDE AIRBAG CAUTION</b>");}

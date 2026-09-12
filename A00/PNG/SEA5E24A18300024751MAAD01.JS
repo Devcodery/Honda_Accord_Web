@@ -1,0 +1,1 @@
+function ISEA5E24A18300024751MAAD01(){var i=0;this.Title="Engine Block and Piston Inspection";this.Name="SEA5E24A18300024751MAAD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(204,16,13,0,"'Arial','sans-serif'",0,"<b>PISTON-TO-CYLINDER BORE<br>CLEARANCE</b>");}

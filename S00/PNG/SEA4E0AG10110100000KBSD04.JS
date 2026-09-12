@@ -1,0 +1,1 @@
+function ISEA4E0AG10110100000KBSD04(){var i=0;this.Title="Sustitución del compresor del A/C";this.Name="SEA4E0AG10110100000KBSD04";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(311,252,13,0,"'Arial','sans-serif'",0,"<b>8 x 1,25 mm<br>22 N&middot;m <br>(2,2 kgf&middot;m)</b>");}

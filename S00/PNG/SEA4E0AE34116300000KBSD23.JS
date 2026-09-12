@@ -1,0 +1,1 @@
+function ISEA4E0AE34116300000KBSD23(){var i=0;this.Title=" Sustitución del cojinete de desembrague";this.Name="SEA4E0AE34116300000KBSD23";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(56,335,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(439,46,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

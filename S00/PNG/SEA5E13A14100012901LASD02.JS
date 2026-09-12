@@ -1,0 +1,1 @@
+function ISEA5E13A14100012901LASD02(){var i=0;this.Title="Revisión general del alternador";this.Name="SEA5E13A14100012901LASD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(39,26,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(409,72,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

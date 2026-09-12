@@ -1,0 +1,1 @@
+function ISEA5E1DE34150400000MASD02(){var i=0;this.Title="Inspección de la holgura del conjunto del eje principal de la M/T";this.Name="SEA5E1DE34150400000MASD02";this.Width=475;this.Height=320;this.CallOut=new Array;}

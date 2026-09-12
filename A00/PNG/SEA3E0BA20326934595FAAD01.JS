@@ -1,0 +1,1 @@
+function ISEA3E0BA20326934595FAAD01(){var i=0;this.Title="Injector Test";this.Name="SEA3E0BA20326934595FAAD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(166,322,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

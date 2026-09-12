@@ -1,0 +1,1 @@
+function ISEA5E13F00000057111KCAD01(){var i=0;this.Title="Hydraulic Power Steering Gearbox Installation";this.Name="SEA5E13F00000057111KCAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(256,21,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(176,288,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

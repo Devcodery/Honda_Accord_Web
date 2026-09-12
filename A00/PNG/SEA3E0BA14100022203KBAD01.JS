@@ -1,0 +1,1 @@
+function ISEA3E0BA14100022203KBAD01(){var i=0;this.Title="Drive Belt Idler Pulley Replacement";this.Name="SEA3E0BA14100022203KBAD01";this.Width=475;this.Height=497;this.CallOut=new Array;this.CallOut[i++]=FS4(112,449,13,0,"'Arial','sans-serif'",0,"<b>10 x 1.25 mm<br>44 N&middot;m (4.5 kgf&middot;m, 33 lbf&middot;ft)</b>");}

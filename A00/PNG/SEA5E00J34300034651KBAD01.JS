@@ -1,0 +1,1 @@
+function ISEA5E00J34300034651KBAD01(){var i=0;this.Title="Inside Rearview Mirror Replacement";this.Name="SEA5E00J34300034651KBAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(124,195,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(321,34,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

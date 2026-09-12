@@ -1,0 +1,1 @@
+function ISEA5E00D14300000000LBAD01(){var i=0;this.Title="Brake System Bleeding";this.Name="SEA5E00D14300000000LBAD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(257,26,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(421,92,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

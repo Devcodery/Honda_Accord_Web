@@ -1,0 +1,1 @@
+function ISEA5E11A14500017601KBSD01(){var i=0;this.Title="Sustitución del cable/actuador del control de la velocidad de crucero (K20A)";this.Name="SEA5E11A14500017601KBSD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(50,92,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(137,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

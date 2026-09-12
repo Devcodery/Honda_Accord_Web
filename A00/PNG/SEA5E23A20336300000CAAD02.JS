@@ -1,0 +1,1 @@
+function ISEA5E23A20336300000CAAD02(){var i=0;this.Title=" Throttle Body (K20A6 engine)";this.Name="SEA5E23A20336300000CAAD02";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(23,176,13,0,"'Arial','sans-serif'",0,"<b>TP SENSOR</b>");this.CallOut[i++]=FS4(202,309,13,0,"'Arial','sans-serif'",0,"<b>IAC VALVE</b>");}

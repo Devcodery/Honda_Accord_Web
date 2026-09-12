@@ -1,0 +1,1 @@
+function ISEA3EK0G10123625311KBAD03(){var i=0;this.Title="A/C Evaporator Core Replacement";this.Name="SEA3EK0G10123625311KBAD03";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(362,310,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(350,370,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

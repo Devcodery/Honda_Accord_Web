@@ -1,0 +1,1 @@
+function ISEA5E24D10600012345KDAD05(){var i=0;this.Title=" Removal";this.Name="SEA5E24D10600012345KDAD05";this.Width=475;this.Height=449;this.CallOut=new Array;this.CallOut[i++]=FS4(382,44,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

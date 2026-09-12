@@ -1,0 +1,1 @@
+function ISEA4E0AA20326428501KBAD17(){var i=0;this.Title=" Removal";this.Name="SEA4E0AA20326428501KBAD17";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(397,227,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

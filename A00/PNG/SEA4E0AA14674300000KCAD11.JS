@@ -1,0 +1,1 @@
+function ISEA4E0AA14674300000KCAD11(){var i=0;this.Title="Cam Chain Installation";this.Name="SEA4E0AA14674300000KCAD11";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(213,341,13,0,"'Arial','sans-serif'",0,"<b>10 x 1.25 mm<br>60 N&middot;m (6.1 kgf&middot;m, 44 lbf&middot;ft)</b>");}

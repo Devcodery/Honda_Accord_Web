@@ -1,0 +1,1 @@
+function ISEA5E13A14100022201KBAD01(){var i=0;this.Title="Drive Belt Replacement";this.Name="SEA5E13A14100022201KBAD01";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(433,173,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(424,363,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

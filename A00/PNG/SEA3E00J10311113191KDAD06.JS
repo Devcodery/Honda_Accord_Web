@@ -1,0 +1,1 @@
+function ISEA3E00J10311113191KDAD06(){var i=0;this.Title="Audio-HVAC Display Module Removal/Installation";this.Name="SEA3E00J10311113191KDAD06";this.Width=475;this.Height=449;this.CallOut=new Array;this.CallOut[i++]=FS4(69,263,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(375,17,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

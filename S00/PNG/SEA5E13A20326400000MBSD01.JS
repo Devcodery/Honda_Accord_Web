@@ -1,0 +1,1 @@
+function ISEA5E13A20326400000MBSD01(){var i=0;this.Title=" Sin el HDS";this.Name="SEA5E13A20326400000MBSD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(35,119,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(39,340,13,0,"'Arial','sans-serif'",0,"<b></b>*: Esta ilustración muestra el modelo LHD.");}

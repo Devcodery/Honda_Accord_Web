@@ -1,0 +1,1 @@
+function ISEA5E43A20326900000CASD06(){var i=0;this.Title=" Sensor de presión absoluta del colector (MAP)";this.Name="SEA5E43A20326900000CASD06";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(39,210,13,0,"'Arial','sans-serif'",0,"<b>TERMINAL</b>");this.CallOut[i++]=FS4(369,29,13,0,"'Arial','sans-serif'",0,"<b>SENSOR</b>");}

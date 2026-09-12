@@ -1,0 +1,1 @@
+function ISEA4E0AA18316600000MASD01(){var i=0;this.Title=" Falta de redondez y conicidad ";this.Name="SEA4E0AA18316600000MASD01";this.Width=475;this.Height=433;this.CallOut=new Array;}

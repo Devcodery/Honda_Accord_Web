@@ -1,0 +1,1 @@
+function ISEA3E00K791000R8561FASD02(){var i=0;this.Title="Localización de averías de DTC: 85-61, 85-62";this.Name="SEA3E00K791000R8561FASD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(94,257,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

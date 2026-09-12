@@ -1,0 +1,1 @@
+function ISEA5E13A32200043301KBAD04(){var i=0;this.Title=" FRANCE-MADE Engine Oil Filter";this.Name="SEA5E13A32200043301KBAD04";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(162,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(106,307,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

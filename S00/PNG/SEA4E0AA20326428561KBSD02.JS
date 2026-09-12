@@ -1,0 +1,1 @@
+function ISEA4E0AA20326428561KBSD02(){var i=0;this.Title="Sustitución del sensor de temperatura del combustible";this.Name="SEA4E0AA20326428561KBSD02";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(24,202,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(235,315,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

@@ -1,0 +1,1 @@
+function ISEA3E02E10411412282KASD01(){var i=0;this.Title="Desmontaje de la palanca de selección de la A/T";this.Name="SEA3E02E10411412282KASD01";this.Width=475;this.Height=369;this.CallOut=new Array;}

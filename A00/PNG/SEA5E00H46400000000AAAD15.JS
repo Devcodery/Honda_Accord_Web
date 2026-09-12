@@ -1,0 +1,1 @@
+function ISEA5E00H46400000000AAAD15(){var i=0;this.Title=" Side Airbag and Side Curtain Airbag Connector:";this.Name="SEA5E00H46400000000AAAD15";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(161,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(162,289,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

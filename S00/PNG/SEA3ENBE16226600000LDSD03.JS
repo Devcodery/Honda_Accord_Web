@@ -1,0 +1,1 @@
+function ISEA3ENBE16226600000LDSD03(){var i=0;this.Title=" Lado de la junta exterior:";this.Name="SEA3ENBE16226600000LDSD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(146,246,13,0,"'Arial','sans-serif'",0,"<b>10 cm. </b>");this.CallOut[i++]=FS4(132,162,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

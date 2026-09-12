@@ -1,0 +1,1 @@
+function ISEA3E00J36100030151KDSD01(){var i=0;this.Title="Desmontaje/Montaje de la antena del GPS";this.Name="SEA3E00J36100030151KDSD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(419,58,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E1PE10410424251KCSD07(){var i=0;this.Title="Montaje de la tapa de cierre de la A/T ";this.Name="SEA5E1PE10410424251KCSD07";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(406,65,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(166,32,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

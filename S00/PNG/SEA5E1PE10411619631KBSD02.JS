@@ -1,0 +1,1 @@
+function ISEA5E1PE10411619631KBSD02(){var i=0;this.Title="Sustitución del retén de aceite del diferencial de la A/T";this.Name="SEA5E1PE10411619631KBSD02";this.Width=475;this.Height=385;this.CallOut=new Array;}

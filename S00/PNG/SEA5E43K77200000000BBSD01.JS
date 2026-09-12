@@ -1,0 +1,1 @@
+function ISEA5E43K77200000000BBSD01(){var i=0;this.Title=" Cómo efectuar la localización de averías";this.Name="SEA5E43K77200000000BBSD01";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(223,69,12,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(700,109,12,0,"'Arial','sans-serif'",0,"<b>B</b>");}

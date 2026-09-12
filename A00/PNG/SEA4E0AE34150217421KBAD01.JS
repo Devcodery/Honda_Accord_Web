@@ -1,0 +1,1 @@
+function ISEA4E0AE34150217421KBAD01(){var i=0;this.Title="M/T Clutch Housing Countershaft Bearing Replacement";this.Name="SEA4E0AE34150217421KBAD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(313,26,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(389,75,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

@@ -1,0 +1,1 @@
+function ISEA3E0BJ54200000000DEAD06(){var i=0;this.Title=" KQ model:";this.Name="SEA3E0BJ54200000000DEAD06";this.Width=950;this.Height=447;this.CallOut=new Array;this.CallOut[i++]=FS4(193,267,12,0,"'Arial','sans-serif'",0,"<b>OPDS UNIT</b>");}

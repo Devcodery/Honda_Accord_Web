@@ -1,0 +1,1 @@
+function ISEA3EM0D00060845111KBAD02(){var i=0;this.Title=" Replacement";this.Name="SEA3EM0D00060845111KBAD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(76,275,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(127,289,13,0,"'Arial','sans-serif'",0,"<b>C</b>");this.CallOut[i++]=FS4(271,291,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

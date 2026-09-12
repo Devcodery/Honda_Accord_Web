@@ -1,0 +1,1 @@
+function ISEA3E00J36100000000FESD07(){var i=0;this.Title=" Comprobación del monitor";this.Name="SEA3E00J36100000000FESD07";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(344,59,15,0,"'Arial','sans-serif'",0,"<b>Retorno</b>");}

@@ -1,0 +1,1 @@
+function ISEA4E0AA18316600000KCAD08(){var i=0;this.Title="Crankshaft Installation";this.Name="SEA4E0AA18316600000KCAD08";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(334,278,13,0,"'Arial','sans-serif'",0,"<b>07749-0010000</b>");this.CallOut[i++]=FS4(283,322,13,0,"'Arial','sans-serif'",0,"<b>070AD-RCA0200</b>");}

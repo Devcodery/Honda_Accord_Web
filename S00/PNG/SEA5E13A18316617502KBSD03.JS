@@ -1,0 +1,1 @@
+function ISEA5E13A18316617502KBSD03(){var i=0;this.Title=" Situación de los códigos de los apoyos de bancada";this.Name="SEA5E13A18316617502KBSD03";this.Width=475;this.Height=320;this.CallOut=new Array;}

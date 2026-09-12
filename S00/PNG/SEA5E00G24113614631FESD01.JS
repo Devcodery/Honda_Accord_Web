@@ -1,0 +1,1 @@
+function ISEA5E00G24113614631FESD01(){var i=0;this.Title="Comprobación de los transistores de alimentación de corriente del ventilador del A/C";this.Name="SEA5E00G24113614631FESD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(102,29,13,0,"'Arial','sans-serif'",0,"<b>TRANSISTOR DE ALIMENTACIÓN DE CORRIENTE</b>");}

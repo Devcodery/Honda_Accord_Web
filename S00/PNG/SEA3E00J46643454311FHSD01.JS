@@ -1,0 +1,1 @@
+function ISEA3E00J46643454311FHSD01(){var i=0;this.Title="Comprobación/Sustitución de la bocina de seguridad";this.Name="SEA3E00J46643454311FHSD01";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(413,87,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(328,367,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

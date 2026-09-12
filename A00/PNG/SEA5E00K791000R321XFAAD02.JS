@@ -1,0 +1,1 @@
+function ISEA5E00K791000R321XFAAD02(){var i=0;this.Title="DTC Troubleshooting: 32-1x, 32-2x";this.Name="SEA5E00K791000R321XFAAD02";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(17,15,13,0,"'Arial','sans-serif'",0,"<b>FLOOR WIRE HARNESS 2P CONNECTOR</b>");this.CallOut[i++]=FS4(109,270,13,0,"'Arial','sans-serif'",0,"<b>07XAZ-S1A0200</b>");}

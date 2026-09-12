@@ -1,0 +1,1 @@
+function ISEA4E0AE16236500000LDAD05(){var i=0;this.Title="Intermediate Shaft Reassembly";this.Name="SEA4E0AE16236500000LDAD05";this.Width=475;this.Height=374;this.CallOut=new Array;this.CallOut[i++]=FS4(385,249,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(144,78,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

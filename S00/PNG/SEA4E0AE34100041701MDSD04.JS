@@ -1,0 +1,1 @@
+function ISEA4E0AE34100041701MDSD04(){var i=0;this.Title="Inspección y sustitución de MTF";this.Name="SEA4E0AE34100041701MDSD04";this.Width=475;this.Height=433;this.CallOut=new Array;this.CallOut[i++]=FS4(324,60,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(319,18,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E13A32200043301KBAD01(){var i=0;this.Title=" JAPAN-MADE Engine Oil Filter";this.Name="SEA5E13A32200043301KBAD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(69,26,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(173,319,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

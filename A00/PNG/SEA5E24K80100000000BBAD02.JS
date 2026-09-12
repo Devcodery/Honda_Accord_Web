@@ -1,0 +1,1 @@
+function ISEA5E24K80100000000BBAD02(){var i=0;this.Title=" How to Retrieve DTCs";this.Name="SEA5E24K80100000000BBAD02";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(43,132,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(39,324,13,0,"'Arial','sans-serif'",0,"<b></b>*: The illustration shows LHD model.");}

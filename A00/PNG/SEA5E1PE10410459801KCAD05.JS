@@ -1,0 +1,1 @@
+function ISEA5E1PE10410459801KCAD05(){var i=0;this.Title="A/T Housing and Shaft Assembly Installation";this.Name="SEA5E1PE10410459801KCAD05";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(72,212,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(69,81,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

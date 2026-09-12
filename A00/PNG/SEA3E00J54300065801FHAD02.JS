@@ -1,0 +1,1 @@
+function ISEA3E00J54300065801FHAD02(){var i=0;this.Title=" KQ model";this.Name="SEA3E00J54300065801FHAD02";this.Width=950;this.Height=351;this.CallOut=new Array;this.CallOut[i++]=FS4(237,236,12,0,"'Arial','sans-serif'",0,"<b></b>Wire side of<br>female terminals");this.CallOut[i++]=FS4(636,321,12,0,"'Arial','sans-serif'",0,"<b>A</b>");}

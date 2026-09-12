@@ -1,0 +1,1 @@
+function ISEA3E00R31100000000YDSD56(){var i=0;this.Title="Montaje del panel de techo";this.Name="SEA3E00R31100000000YDSD56";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(16,212,13,0,"'Arial','sans-serif'",0,"<b>E</b>");}

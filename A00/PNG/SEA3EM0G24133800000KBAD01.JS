@@ -1,0 +1,1 @@
+function ISEA3EM0G24133800000KBAD01(){var i=0;this.Title="Heater Unit/Core Replacement";this.Name="SEA3EM0G24133800000KBAD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(364,271,13,0,"'Arial','sans-serif'",0,"<b>8 x 1.25 mm<br>12.5 N&middot;m <br>(1.3 kgf&middot;m, <br>9.4 lbf&middot;ft)</b>");}

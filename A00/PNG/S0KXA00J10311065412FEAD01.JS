@@ -1,0 +1,1 @@
+function IS0KXA00J10311065412FEAD01(){var i=0;this.Title="Window Antenna Test";this.Name="S0KXA00J10311065412FEAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(258,8,12,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(210,294,12,0,"'Arial','sans-serif'",0,"<b>B</b>");}

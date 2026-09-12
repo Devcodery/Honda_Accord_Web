@@ -1,0 +1,1 @@
+function ISEA4A00D14300014791MDAD07(){var i=0;this.Title=" Inspection (KQ Model)";this.Name="SEA4A00D14300014791MDAD07";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(410,263,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(418,224,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

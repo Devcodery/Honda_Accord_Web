@@ -1,0 +1,1 @@
+function ISEA4E0AA14500017625FHAD01(){var i=0;this.Title="Cruise Control Combination Switch Test/Replacement";this.Name="SEA4E0AA14500017625FHAD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(276,54,13,0,"'Arial','sans-serif'",0,"<b></b>Terminal side of<br>male terminals");}

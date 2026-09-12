@@ -1,0 +1,1 @@
+function ISEA3E00B00000000000MBSD03(){var i=0;this.Title=" Inspección del ángulo de inclinación de las ruedas traseras";this.Name="SEA3E00B00000000000MBSD03";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(277,291,13,0,"'Arial','sans-serif'",0,"<b>A<br>07MGK-0010100</b>");}

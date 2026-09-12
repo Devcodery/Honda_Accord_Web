@@ -1,0 +1,1 @@
+function ISEA4E0AG10100000000FESD01(){var i=0;this.Title=" Comprobación del rendimiento";this.Name="SEA4E0AG10100000000FESD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(239,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(236,321,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

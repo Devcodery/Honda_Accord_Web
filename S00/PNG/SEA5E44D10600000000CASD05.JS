@@ -1,0 +1,1 @@
+function ISEA5E44D10600000000CASD05(){var i=0;this.Title=" Entradas y salidas de la Unidad de control del ABS para el conector 25P (cont.)";this.Name="SEA5E44D10600000000CASD05";this.Width=950;this.Height=319;this.CallOut=new Array;this.CallOut[i++]=FS4(372,290,12,0,"'Arial','sans-serif'",0,"<b></b>Lado del cable de los terminales hembra");}

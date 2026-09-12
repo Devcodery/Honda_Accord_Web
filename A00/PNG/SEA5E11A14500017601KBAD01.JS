@@ -1,0 +1,1 @@
+function ISEA5E11A14500017601KBAD01(){var i=0;this.Title="Cruise Control Actuator/Cable Replacement (K20A)";this.Name="SEA5E11A14500017601KBAD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(50,92,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(137,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

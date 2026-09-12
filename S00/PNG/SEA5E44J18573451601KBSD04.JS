@@ -1,0 +1,1 @@
+function ISEA5E44J18573451601KBSD04(){var i=0;this.Title=" Montaje de la moldura";this.Name="SEA5E44J18573451601KBSD04";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(308,263,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(459,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA4E0AA14500017625FHSD01(){var i=0;this.Title="Comprobación/Sustitución del interruptor del combinado de luces y control de la velocidad de crucero";this.Name="SEA4E0AA14500017625FHSD01";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(276,54,13,0,"'Arial','sans-serif'",0,"<b></b>Lado del terminal de los <br>terminales machos");}

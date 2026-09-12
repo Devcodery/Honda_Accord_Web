@@ -1,0 +1,1 @@
+function ISEA5E24J54283256945DBAD01(){var i=0;this.Title="Starter Subharness Locations";this.Name="SEA5E24J54283256945DBAD01";this.Width=950;this.Height=991;this.CallOut=new Array;this.CallOut[i++]=FS4(476,861,12,0,"'Arial','sans-serif'",0,"<b>STARTER SUBHARNESS</b>");this.CallOut[i++]=FS4(0,960,12,0,"'Arial','sans-serif'",0,"<b></b>LHD type is shown, RHD type is similar.");}

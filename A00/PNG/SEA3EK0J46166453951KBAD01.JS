@@ -1,0 +1,1 @@
+function ISEA3EK0J46166453951KBAD01(){var i=0;this.Title="Rear Seat-back Cover Replacement";this.Name="SEA3EK0J46166453951KBAD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(39,16,13,0,"'Arial','sans-serif'",0,"<b>Fastener Locations</b>");this.CallOut[i++]=FS4(58,48,13,0,"'Arial','sans-serif'",0,"<b>: Screw, 1</b>");}

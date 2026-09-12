@@ -1,0 +1,1 @@
+function ISEA3EK0D00060845111KBSD02(){var i=0;this.Title=" Modelo KQ";this.Name="SEA3EK0D00060845111KBSD02";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(152,356,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

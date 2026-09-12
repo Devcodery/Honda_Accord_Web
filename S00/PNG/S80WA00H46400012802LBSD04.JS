@@ -1,0 +1,1 @@
+function IS80WA00H46400012802LBSD04(){var i=0;this.Title=" Despliegue de los airbags en el vehículo";this.Name="S80WA00H46400012802LBSD04";this.Width=475;this.Height=407;this.CallOut=new Array;this.CallOut[i++]=FS4(384,12,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

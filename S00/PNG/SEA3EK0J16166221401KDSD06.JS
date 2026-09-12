@@ -1,0 +1,1 @@
+function ISEA3EK0J16166221401KDSD06(){var i=0;this.Title="Desmontaje/Montaje del panel de las puertas traseras";this.Name="SEA3EK0J16166221401KDSD06";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(390,186,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(289,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

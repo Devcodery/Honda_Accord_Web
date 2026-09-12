@@ -1,0 +1,1 @@
+function ISEA3E00J54400020371MBSD03(){var i=0;this.Title="Ajuste de las lunas de las puertas delanteras y traseras";this.Name="SEA3E00J54400020371MBSD03";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(35,156,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(217,291,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

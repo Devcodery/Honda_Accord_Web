@@ -1,0 +1,1 @@
+function ISEA5E13A18223800000KCSD07(){var i=0;this.Title="Montaje del conjunto del motor";this.Name="SEA5E13A18223800000KCSD07";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(323,17,13,0,"'Arial','sans-serif'",0,"<b>10 x 1,25 mm<br>54 N&middot;m <br>(5,5 kgf&middot;m)<br></b>Sustituir.");}

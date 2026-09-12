@@ -1,0 +1,1 @@
+function ISEA5E13A14400065101MAAD01(){var i=0;this.Title="Water Pump Inspection";this.Name="SEA5E13A14400065101MAAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(327,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(378,268,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E00D14313514741FEAD01(){var i=0;this.Title="Brake Fluid Level Switch Test";this.Name="SEA5E00D14313514741FEAD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(460,65,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(75,83,13,0,"'Arial','sans-serif'",0,"<b>1</b>");}

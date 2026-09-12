@@ -1,0 +1,1 @@
+function ISEA3EK0G24133800000KBSD03(){var i=0;this.Title="Sustitución del núcleo/calefactor";this.Name="SEA3EK0G24133800000KBSD03";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(198,325,13,0,"'Arial','sans-serif'",0,"<b>8 x 1,25 mm<br>12,5 N&middot;m (1,3 kgf&middot;m)</b>");}

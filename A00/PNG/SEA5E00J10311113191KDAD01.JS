@@ -1,0 +1,1 @@
+function ISEA5E00J10311113191KDAD01(){var i=0;this.Title=" 6 CD type:";this.Name="SEA5E00J10311113191KDAD01";this.Width=475;this.Height=545;this.CallOut=new Array;this.CallOut[i++]=FS4(35,494,13,0,"'Arial','sans-serif'",0,"<b>C</b>");this.CallOut[i++]=FS4(82,178,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(414,62,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

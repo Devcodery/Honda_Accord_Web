@@ -1,0 +1,1 @@
+function ISEA3E00J36100000000CASD10(){var i=0;this.Title=" Rayos infrarrojos";this.Name="SEA3E00J36100000000CASD10";this.Width=950;this.Height=479;this.CallOut=new Array;this.CallOut[i++]=FS4(456,450,12,0,"'Arial','sans-serif'",0,"<b>: Infrarrojos para interruptores digitales</b>");}

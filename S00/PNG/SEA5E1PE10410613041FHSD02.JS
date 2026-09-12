@@ -1,0 +1,1 @@
+function ISEA5E1PE10410613041FHSD02(){var i=0;this.Title="Comprobación y sustitución del sensor de temperatura del ATF";this.Name="SEA5E1PE10410613041FHSD02";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(235,371,13,0,"'Arial','sans-serif'",0,"<b>10 x 1,25 mm<br>44 N&middot;m (4,5 kgf&middot;m)</b>");}

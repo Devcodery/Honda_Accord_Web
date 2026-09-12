@@ -1,0 +1,1 @@
+function ISEA5E13A18316217201KBAD04(){var i=0;this.Title=" Connecting Rod Journal Code Location";this.Name="SEA5E13A18316217201KBAD04";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(106,353,13,0,"'Arial','sans-serif'",0,"<b>No. 1 JOURNAL</b>");this.CallOut[i++]=FS4(247,353,13,0,"'Arial','sans-serif'",0,"<b>No. 4 JOURNAL</b>");}

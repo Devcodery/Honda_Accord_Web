@@ -1,0 +1,1 @@
+function ISEA5E44A18223800000KCSD07(){var i=0;this.Title="Montaje del motor";this.Name="SEA5E44A18223800000KCSD07";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(16,324,13,0,"'Arial','sans-serif'",0,"<b>6 x 1,0 mm<br>12 N&middot;m<br>(1,2 kgf&middot;m)</b>");}

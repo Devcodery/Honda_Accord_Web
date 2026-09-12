@@ -1,0 +1,1 @@
+function ISEA5E24A18224024907KBSD01(){var i=0;this.Title="Sustitución del la fijación del motor - Barra de torsión inferior";this.Name="SEA5E24A18224024907KBSD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(300,290,13,0,"'Arial','sans-serif'",0,"<b>14 x 1,5 mm<br>103 N&middot;m<br>(10,5 kgf&middot;m)</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E1DE34150100000KAAD01(){var i=0;this.Title="M/T Assembly Removal";this.Name="SEA5E1DE34150100000KAAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(412,152,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(76,17,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

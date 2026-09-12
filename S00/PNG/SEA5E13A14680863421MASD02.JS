@@ -1,0 +1,1 @@
+function ISEA5E13A14680863421MASD02(){var i=0;this.Title="Inspección de la electroválvula VTEC";this.Name="SEA5E13A14680863421MASD02";this.Width=475;this.Height=545;this.CallOut=new Array;this.CallOut[i++]=FS4(378,396,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(266,498,13,0,"'Arial','sans-serif'",0,"<b>9,8 N&middot;m<br>(1,0 kgf&middot;m)</b>");}

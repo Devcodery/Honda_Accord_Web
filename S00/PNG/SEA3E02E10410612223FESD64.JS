@@ -1,0 +1,1 @@
+function ISEA3E02E10410612223FESD64(){var i=0;this.Title="Comprobación de la electroválvula C del control de presión del embrague de la A/T";this.Name="SEA3E02E10410612223FESD64";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(125,319,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(131,42,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

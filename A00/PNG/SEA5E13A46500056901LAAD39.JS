@@ -1,0 +1,1 @@
+function ISEA5E13A46500056901LAAD39(){var i=0;this.Title=" Armature Inspection and Test";this.Name="SEA5E13A46500056901LAAD39";this.Width=475;this.Height=353;this.CallOut=new Array;}

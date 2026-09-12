@@ -1,0 +1,1 @@
+function ISEA3EM0R31100000000YDSD26(){var i=0;this.Title="[VISTA: X]";this.Name="SEA3EM0R31100000000YDSD26";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(307,284,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

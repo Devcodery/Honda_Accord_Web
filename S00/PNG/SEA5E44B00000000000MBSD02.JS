@@ -1,0 +1,1 @@
+function ISEA5E44B00000000000MBSD02(){var i=0;this.Title=" Inspección del ángulo de inclinación de las ruedas delanteras";this.Name="SEA5E44B00000000000MBSD02";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(286,292,13,0,"'Arial','sans-serif'",0,"<b>A<br>07MGK-0010100</b>");}

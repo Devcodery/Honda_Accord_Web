@@ -1,0 +1,1 @@
+function ISEA3E02E10410759811KBSD02(){var i=0;this.Title="Sustitución del interruptor de gamas de la caja de cambios";this.Name="SEA3E02E10410759811KBSD02";this.Width=475;this.Height=385;this.CallOut=new Array;}

@@ -1,0 +1,1 @@
+function ISEA5E00J10370360801KBAD01(){var i=0;this.Title=" Tweeter";this.Name="SEA5E00J10370360801KBAD01";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(443,83,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(228,367,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

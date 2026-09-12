@@ -1,0 +1,1 @@
+function ISEA4E0AG10110112011LAAD02(){var i=0;this.Title="A/C Compressor Clutch Overhaul";this.Name="SEA4E0AG10110112011LAAD02";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(62,178,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(372,144,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

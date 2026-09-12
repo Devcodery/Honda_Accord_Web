@@ -1,0 +1,1 @@
+function ISEA4E0AA46500000000FASD02(){var i=0;this.Title=" Procedimiento alternativo";this.Name="SEA4E0AA46500000000FASD02";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(155,336,13,0,"'Arial','sans-serif'",0,"<b>S</b>");}

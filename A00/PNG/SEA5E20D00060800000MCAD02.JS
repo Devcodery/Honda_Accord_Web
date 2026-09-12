@@ -1,0 +1,1 @@
+function ISEA5E20D00060800000MCAD02(){var i=0;this.Title=" Adjustment";this.Name="SEA5E20D00060800000MCAD02";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(210,283,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(232,309,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

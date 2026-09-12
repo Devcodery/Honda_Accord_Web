@@ -1,0 +1,1 @@
+function ISEA5E1PE10410454202KBSD02(){var i=0;this.Title="Sustitución del cojinete del eje secundario de la carcasa del convertidor de par";this.Name="SEA5E1PE10410454202KBSD02";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(322,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(446,303,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

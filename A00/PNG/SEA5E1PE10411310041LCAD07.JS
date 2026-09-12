@@ -1,0 +1,1 @@
+function ISEA5E1PE10411310041LCAD07(){var i=0;this.Title="A/T Clutch Disassembly";this.Name="SEA5E1PE10411310041LCAD07";this.Width=475;this.Height=462;this.CallOut=new Array;this.CallOut[i++]=FS4(79,279,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(72,422,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E24A18300024751LBAD01(){var i=0;this.Title="Engine Block Cylinder Honing";this.Name="SEA5E24A18300024751LBAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(210,95,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(387,155,13,0,"'Arial','sans-serif'",0,"<b>30-60 &deg;</b>");}

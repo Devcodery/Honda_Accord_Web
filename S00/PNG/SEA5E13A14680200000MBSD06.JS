@@ -1,0 +1,1 @@
+function ISEA5E13A14680200000MBSD06(){var i=0;this.Title="Ajuste de la holgura de la válvulas en la culata";this.Name="SEA5E13A14680200000MBSD06";this.Width=475;this.Height=320;this.CallOut=new Array;}

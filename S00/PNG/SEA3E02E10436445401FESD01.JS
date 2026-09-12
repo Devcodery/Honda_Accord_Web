@@ -1,0 +1,1 @@
+function ISEA3E02E10436445401FESD01(){var i=0;this.Title="Sistema de interconexión de la A/T - Comprobación del interruptor del pasador de estacionamiento";this.Name="SEA3E02E10436445401FESD01";this.Width=475;this.Height=449;this.CallOut=new Array;this.CallOut[i++]=FS4(40,420,13,0,"'Arial','sans-serif'",0,"<b></b>Lado del terminal de los terminales machos");}

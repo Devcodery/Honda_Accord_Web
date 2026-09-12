@@ -1,0 +1,1 @@
+function ISEA5E00J54200000000BBSD10(){var i=0;this.Title=" Manipulación de cables y mazos de cables";this.Name="SEA5E00J54200000000BBSD10";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(173,66,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(426,66,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

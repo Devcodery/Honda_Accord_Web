@@ -1,0 +1,1 @@
+function ISEA3E0BA20326400000MBAD60(){var i=0;this.Title=" With the HDS";this.Name="SEA3E0BA20326400000MBAD60";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(428,24,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

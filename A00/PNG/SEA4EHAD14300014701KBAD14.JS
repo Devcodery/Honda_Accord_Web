@@ -1,0 +1,1 @@
+function ISEA4EHAD14300014701KBAD14(){var i=0;this.Title=" RHD Model";this.Name="SEA4EHAD14300014701KBAD14";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(276,355,13,0,"'Arial','sans-serif'",0,"<b>6 x 1.0 mm<br>9.8 N&middot;m (1.0 kgf&middot;m, <br>7.2 lbf&middot;ft)</b>");this.CallOut[i++]=FS4(22,289,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

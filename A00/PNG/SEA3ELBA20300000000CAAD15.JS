@@ -1,0 +1,1 @@
+function ISEA3ELBA20300000000CAAD15(){var i=0;this.Title=" Throttle Body";this.Name="SEA3ELBA20300000000CAAD15";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(296,17,13,0,"'Arial','sans-serif'",0,"<b>THROTTLE VALVE</b>");this.CallOut[i++]=FS4(305,161,13,0,"'Arial','sans-serif'",0,"<b>THROTTLE POSITION<br>(TP) SENSOR and<br>THROTTLE ACTUATOR</b>");}

@@ -1,0 +1,1 @@
+function ISEA5E13A14100022201MAAD01(){var i=0;this.Title="Drive Belt Inspection";this.Name="SEA5E13A14100022201MAAD01";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(208,382,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(335,252,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

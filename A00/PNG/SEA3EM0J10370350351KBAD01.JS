@@ -1,0 +1,1 @@
+function ISEA3EM0J10370350351KBAD01(){var i=0;this.Title=" Woofer Speaker";this.Name="SEA3EM0J10370350351KBAD01";this.Width=475;this.Height=545;this.CallOut=new Array;this.CallOut[i++]=FS4(57,383,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(453,285,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

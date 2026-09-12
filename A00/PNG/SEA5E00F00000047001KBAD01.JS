@@ -1,0 +1,1 @@
+function ISEA5E00F00000047001KBAD01(){var i=0;this.Title="Hydraulic Power Steering Fluid Replacement";this.Name="SEA5E00F00000047001KBAD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(332,14,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

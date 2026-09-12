@@ -1,0 +1,1 @@
+function ISEA5E23E16226600000KAAD01(){var i=0;this.Title="Driveshaft Removal";this.Name="SEA5E23E16226600000KAAD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(196,293,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(214,182,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

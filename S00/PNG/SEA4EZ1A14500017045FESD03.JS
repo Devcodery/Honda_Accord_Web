@@ -1,0 +1,1 @@
+function ISEA4EZ1A14500017045FESD03(){var i=0;this.Title=" Interruptor B de la posición del pedal del embrague";this.Name="SEA4EZ1A14500017045FESD03";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(21,264,13,0,"'Arial','sans-serif'",0,"<b></b>Lado del terminal de los <br>terminales machos");}

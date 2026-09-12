@@ -1,0 +1,1 @@
+function ISEA3EM0G10123625311KBSD03(){var i=0;this.Title="Sustitución del núcleo del evaporador del A/C";this.Name="SEA3EM0G10123625311KBSD03";this.Width=475;this.Height=449;this.CallOut=new Array;this.CallOut[i++]=FS4(376,366,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(361,419,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

@@ -1,0 +1,1 @@
+function ISEA4E0AA20300000000CAAD20(){var i=0;this.Title=" EGR Valve";this.Name="SEA4E0AA20300000000CAAD20";this.Width=475;this.Height=481;this.CallOut=new Array;this.CallOut[i++]=FS4(55,256,13,0,"'Arial','sans-serif'",0,"<b>From<br>EGR<br>PASSAGE</b>");this.CallOut[i++]=FS4(342,377,13,0,"'Arial','sans-serif'",0,"<b>To<br>EGR<br>COOLER</b>");}

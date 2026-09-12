@@ -1,0 +1,1 @@
+function ISEA3ELBA20323425231KBSD02(){var i=0;this.Title=" Modelo ECONO";this.Name="SEA3ELBA20323425231KBSD02";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(4,201,13,0,"'Arial','sans-serif'",0,"<b>9,8 N&middot;m<br>(1,0 kgf&middot;m)</b>");}

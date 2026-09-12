@@ -1,0 +1,1 @@
+function ISEA5E00J46643436101FESD02(){var i=0;this.Title=" Sustitución de la pila";this.Name="SEA5E00J46643436101FESD02";this.Width=475;this.Height=369;this.CallOut=new Array;}

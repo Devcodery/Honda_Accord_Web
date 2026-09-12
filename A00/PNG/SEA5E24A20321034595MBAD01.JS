@@ -1,0 +1,1 @@
+function ISEA5E24A20321034595MBAD01(){var i=0;this.Title="Injector Quantity Adjustment";this.Name="SEA5E24A20321034595MBAD01";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(274,15,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(445,260,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

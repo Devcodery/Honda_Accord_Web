@@ -1,0 +1,1 @@
+function ISEA5E1PE10411412281KBSD05(){var i=0;this.Title="Sustitución del cable de selección de la A/T";this.Name="SEA5E1PE10411412281KBSD05";this.Width=475;this.Height=336;this.CallOut=new Array;this.CallOut[i++]=FS4(132,91,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(39,153,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

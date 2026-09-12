@@ -1,0 +1,1 @@
+function ISEA3E00A20300000000CAAD53(){var i=0;this.Title=" Intake Air Temperature (IAT) Sensor";this.Name="SEA3E00A20300000000CAAD53";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(41,60,13,0,"'Arial','sans-serif'",0,"<b>TERMINAL</b>");this.CallOut[i++]=FS4(311,78,13,0,"'Arial','sans-serif'",0,"<b>THERMISTOR</b>");}

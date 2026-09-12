@@ -1,0 +1,1 @@
+function ISEA3E00J46127046501FEAD01(){var i=0;this.Title=" Front Passenger's 4-way Adjustable Power Seat";this.Name="SEA3E00J46127046501FEAD01";this.Width=475;this.Height=401;this.CallOut=new Array;this.CallOut[i++]=FS4(400,272,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(317,46,13,0,"'Arial','sans-serif'",0,"<b></b>Wire side of female<br>terminals");}

@@ -1,0 +1,1 @@
+function ISEA5E1PE10480139301KASD02(){var i=0;this.Title="Extracción del filtro tamiz del ATF y de la caja de válvulas";this.Name="SEA5E1PE10480139301KASD02";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(198,16,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(414,204,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

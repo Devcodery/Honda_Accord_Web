@@ -1,0 +1,1 @@
+function ISEA5E13A14600017811KCSD06(){var i=0;this.Title="Montaje de la tapa de la culata";this.Name="SEA5E13A14600017811KCSD06";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(223,16,13,0,"'Arial','sans-serif'",0,"<b>6 x 1,0 mm<br>12 N&middot;m (1,2 kgf&middot;m)</b>");}

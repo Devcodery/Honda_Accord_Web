@@ -1,0 +1,1 @@
+function ISEA5E20J26200031201KDAD04(){var i=0;this.Title=" Grab handle";this.Name="SEA5E20J26200031201KDAD04";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(373,242,13,0,"'Arial','sans-serif'",0,"<b>F</b>");}

@@ -1,0 +1,1 @@
+function ISEA3ELBA20326428301KBAD02(){var i=0;this.Title=" Except ECONO model";this.Name="SEA3ELBA20326428301KBAD02";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(311,16,13,0,"'Arial','sans-serif'",0,"<b>4 N&middot;m <br>(0.4 kgf&middot;m, 3 lbf&middot;ft)</b>");this.CallOut[i++]=FS4(350,245,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

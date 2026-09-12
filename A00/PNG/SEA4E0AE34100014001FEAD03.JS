@@ -1,0 +1,1 @@
+function ISEA4E0AE34100014001FEAD03(){var i=0;this.Title="Back-up Light Switch Test";this.Name="SEA4E0AE34100014001FEAD03";this.Width=475;this.Height=369;this.CallOut=new Array;this.CallOut[i++]=FS4(30,131,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(259,304,13,0,"'Arial','sans-serif'",0,"<b>29 N&middot;m<br>(3.0 kgf&middot;m, 22 lbf&middot;ft)</b>");}

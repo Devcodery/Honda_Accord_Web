@@ -1,0 +1,1 @@
+function ISEA4E0AA18316600000MAAD02(){var i=0;this.Title=" Straightness";this.Name="SEA4E0AA18316600000MAAD02";this.Width=475;this.Height=401;this.CallOut=new Array;}

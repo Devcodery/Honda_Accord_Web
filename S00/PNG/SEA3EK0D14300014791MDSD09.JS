@@ -1,0 +1,1 @@
+function ISEA3EK0D14300014791MDSD09(){var i=0;this.Title=" Inspección (Excepto el modelo KQ)";this.Name="SEA3EK0D14300014791MDSD09";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(382,185,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(360,242,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

@@ -1,0 +1,1 @@
+function ISEA3EK0J34200057266KBSD06(){var i=0;this.Title="Sustitución del tubo de drenaje y del bastidor del techo corredizo";this.Name="SEA3EK0J34200057266KBSD06";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(405,222,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(150,207,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

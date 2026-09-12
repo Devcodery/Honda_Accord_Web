@@ -1,0 +1,1 @@
+function ISEA5E000000000K0061BASD02(){var i=0;this.Title=" Generalidades";this.Name="SEA5E000000000K0061BASD02";this.Width=475;this.Height=320;this.CallOut=new Array;}

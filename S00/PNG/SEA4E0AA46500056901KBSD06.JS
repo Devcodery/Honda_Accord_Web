@@ -1,0 +1,1 @@
+function ISEA4E0AA46500056901KBSD06(){var i=0;this.Title="Sustitución del motor de arranque";this.Name="SEA4E0AA46500056901KBSD06";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(234,273,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

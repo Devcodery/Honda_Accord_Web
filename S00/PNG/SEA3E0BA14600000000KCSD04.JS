@@ -1,0 +1,1 @@
+function ISEA3E0BA14600000000KCSD04(){var i=0;this.Title="Montaje de la culata";this.Name="SEA3E0BA14600000000KCSD04";this.Width=475;this.Height=417;this.CallOut=new Array;this.CallOut[i++]=FS4(28,86,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(91,354,13,0,"'Arial','sans-serif'",0,"<b>B<br>8 x 1,25 mm<br>22 N&middot;m (2,2 kgf&middot;m)</b>");}

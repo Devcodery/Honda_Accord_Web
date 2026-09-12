@@ -1,0 +1,1 @@
+function ISEA5E11A14500017601FESD02(){var i=0;this.Title="Comprobación del actuador del control de la velocidad de crucero (K20A)";this.Name="SEA5E11A14500017601FESD02";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(346,16,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(271,144,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

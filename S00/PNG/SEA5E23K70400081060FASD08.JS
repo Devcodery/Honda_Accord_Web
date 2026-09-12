@@ -1,0 +1,1 @@
+function ISEA5E23K70400081060FASD08(){var i=0;this.Title="Localización de averías DTC: 6";this.Name="SEA5E23K70400081060FASD08";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(106,30,13,0,"'Arial','sans-serif'",0,"<b>ENCHUFE 4P DEL RELÉ DEL MOTOR DEL VENTILADOR</b>");this.CallOut[i++]=FS4(227,194,13,0,"'Arial','sans-serif'",0,"<b>BLK/YEL</b>");}

@@ -1,0 +1,1 @@
+function ISEA4E0AE34116300000KBSD10(){var i=0;this.Title=" Inspección del cojinete piloto y del volante";this.Name="SEA4E0AE34116300000KBSD10";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(84,48,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(418,221,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

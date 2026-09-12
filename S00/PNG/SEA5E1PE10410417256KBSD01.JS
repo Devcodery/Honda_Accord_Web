@@ -1,0 +1,1 @@
+function ISEA5E1PE10410417256KBSD01(){var i=0;this.Title="Sustitución del retén de aceite del eje de mando de la tapa de cierre de la A/T";this.Name="SEA5E1PE10410417256KBSD01";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(58,52,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(53,283,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

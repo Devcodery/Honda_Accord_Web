@@ -1,0 +1,1 @@
+function ISEA4E0AA20326427702FESD01(){var i=0;this.Title="Comprobación del transmisor del aforador de combustible";this.Name="SEA4E0AA20326427702FESD01";this.Width=475;this.Height=513;this.CallOut=new Array;this.CallOut[i++]=FS4(323,23,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(355,233,13,0,"'Arial','sans-serif'",0,"<b>B</b>");}

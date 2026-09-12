@@ -1,0 +1,1 @@
+function ISEA5E13A18316617519KBSD01(){var i=0;this.Title="Sustitución del plato de impulsos del CKP";this.Name="SEA5E13A18316617519KBSD01";this.Width=475;this.Height=385;this.CallOut=new Array;}

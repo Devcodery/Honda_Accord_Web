@@ -1,0 +1,1 @@
+function ISEA5E20D14300014791MDAD05(){var i=0;this.Title=" Replacement (KQ Model)";this.Name="SEA5E20D14300014791MDAD05";this.Width=475;this.Height=320;this.CallOut=new Array;this.CallOut[i++]=FS4(418,100,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}

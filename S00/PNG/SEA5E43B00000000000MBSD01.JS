@@ -1,0 +1,1 @@
+function ISEA5E43B00000000000MBSD01(){var i=0;this.Title=" Inspección del ángulo de avance de las ruedas delanteras";this.Name="SEA5E43B00000000000MBSD01";this.Width=475;this.Height=353;this.CallOut=new Array;this.CallOut[i++]=FS4(334,282,13,0,"'Arial','sans-serif'",0,"<b>A<br>07MGK-0010100</b>");}

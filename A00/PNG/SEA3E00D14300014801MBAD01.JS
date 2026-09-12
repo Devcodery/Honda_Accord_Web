@@ -1,0 +1,1 @@
+function ISEA3E00D14300014801MBAD01(){var i=0;this.Title=" Pedal Height";this.Name="SEA3E00D14300014801MBAD01";this.Width=475;this.Height=609;this.CallOut=new Array;this.CallOut[i++]=FS4(393,177,13,0,"'Arial','sans-serif'",0,"<b>A</b>");this.CallOut[i++]=FS4(218,283,13,0,"'Arial','sans-serif'",0,"<b>B</b>");this.CallOut[i++]=FS4(380,370,13,0,"'Arial','sans-serif'",0,"<b>C</b>");}

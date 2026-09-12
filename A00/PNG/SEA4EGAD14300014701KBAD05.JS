@@ -1,0 +1,1 @@
+function ISEA4EGAD14300014701KBAD05(){var i=0;this.Title=" LHD Model";this.Name="SEA4EGAD14300014701KBAD05";this.Width=475;this.Height=385;this.CallOut=new Array;this.CallOut[i++]=FS4(297,356,13,0,"'Arial','sans-serif'",0,"<b>A</b>");}
