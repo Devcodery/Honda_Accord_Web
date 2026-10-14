@@ -2,14 +2,29 @@
 <html lang="es" data-theme="light">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <!-- Configuración nativa para iPhone / iOS Web App -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Honda ESM">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#e2e8f0" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#16181d" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" href="HondaESM.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="HondaESM.png">
   <title>Honda Accord - Manual Técnico Electrónico</title>
   <link rel="icon" type="image/png" href="HondaESM.png">
   <style>
     /* ==========================================================================
-       NEUMORPHISM DESIGN SYSTEM (SOFT UI)
+       NEUMORPHISM DESIGN SYSTEM (SOFT UI) & IPHONE / IOS ADAPTATION
        ========================================================================== */
     :root {
+      /* Safe Areas para iPhone con Notch / Dynamic Island y Home Indicator */
+      --sat: env(safe-area-inset-top, 0px);
+      --sab: env(safe-area-inset-bottom, 0px);
+      --sal: env(safe-area-inset-left, 0px);
+      --sar: env(safe-area-inset-right, 0px);
+
       --bg: #e2e8f0;
       --surface: #e2e8f0;
       --surface-subtle: #eaeff5;
@@ -36,7 +51,7 @@
       --radius-lg: 20px;
       --radius-full: 9999px;
       
-      --font: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, "Inter", sans-serif;
       --transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -68,17 +83,27 @@
       margin: 0;
       padding: 0;
       -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html {
+      height: 100%;
+      height: 100dvh;
+      -webkit-text-size-adjust: 100%;
     }
 
     body {
       font-family: var(--font);
       background-color: var(--bg);
       color: var(--text-main);
-      height: 100vh;
+      height: 100%;
+      height: 100dvh;
+      min-height: -webkit-fill-available;
       display: flex;
       flex-direction: column;
       overflow: hidden;
       transition: background-color 0.3s ease, color 0.3s ease;
+      touch-action: manipulation;
     }
 
     /* ==========================================================================
@@ -811,71 +836,385 @@
       pointer-events: auto;
     }
 
-    /* MOBILE / TABLET RESPONSIVE DRAWER */
+    /* ==========================================================================
+       IPHONE & MOBILE OPTIMIZATIONS (SAFARI / WEBKIT)
+       ========================================================================== */
     .mobile-back-btn {
       display: none;
-      height: 30px;
-      padding: 0 8px;
+      height: 34px;
+      padding: 0 10px;
       border-radius: var(--radius-sm);
       background: var(--surface);
       box-shadow: var(--shadow-raised-sm);
       border: none;
-      font-size: 0.74rem;
-      font-weight: 600;
+      font-size: 0.76rem;
+      font-weight: 700;
       color: var(--text-main);
       align-items: center;
-      gap: 4px;
+      gap: 5px;
       cursor: pointer;
+      flex-shrink: 0;
+      transition: var(--transition);
     }
 
-    @media (max-width: 1024px) {
-      .app-header {
-        padding: 0 12px;
-      }
-      .panel-systems {
-        position: absolute;
-        left: 12px;
-        top: 12px;
-        bottom: 12px;
-        z-index: 25;
-        box-shadow: var(--shadow-raised-lg);
-        display: none;
-      }
-      .panel-systems.drawer-open {
-        display: flex;
-      }
+    .mobile-back-btn:active {
+      box-shadow: var(--shadow-inset-sm);
+      color: var(--primary);
     }
 
+    .mobile-subbar {
+      display: none;
+    }
+
+    .mobile-tab-bar {
+      display: none;
+    }
+
+    .mobile-search-bar-wrap {
+      display: none;
+    }
+
+    /* Scroll containers momentum */
+    .tree-scroll-area,
+    .proc-scroll-area,
+    .modal-canvas-wrap {
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior: contain;
+    }
+
+    /* Prevención de zoom automático molesto en iOS al hacer foco en inputs */
     @media (max-width: 768px) {
-      .app-main {
-        flex-direction: column;
-        padding: 8px;
-      }
-      .panel-procedures {
-        width: 100%;
-        height: 100%;
-      }
-      .panel-procedures.hidden-mobile {
-        display: none;
-      }
-      .panel-viewer {
-        display: none;
-        width: 100%;
-        height: 100%;
-      }
-      .panel-viewer.active-mobile {
-        display: flex;
-      }
-      .mobile-back-btn {
-        display: flex;
-      }
-      .controls-section {
-        overflow-x: auto;
-        justify-content: flex-start;
+      input, select, textarea, .neu-search-input, .neu-filter-input {
+        font-size: 16px !important;
       }
     }
 
-    /* FULLSCREEN VIEWER */
+    /* Media query para pantallas táctiles y móviles (iPhone, etc.) */
+    @media (max-width: 768px) {
+      /* HEADER COMPACTO PARA IPHONE */
+      .app-header {
+        height: auto;
+        min-height: 54px;
+        padding: max(8px, var(--sat)) max(12px, var(--sar)) 8px max(12px, var(--sal));
+        gap: 8px;
+        border-bottom: 1px solid var(--divider);
+      }
+
+      .brand-section {
+        min-width: 0;
+        flex: 1;
+        gap: 8px;
+      }
+
+      .brand-logo-neu {
+        width: 36px;
+        height: 36px;
+        border-radius: 10px;
+      }
+
+      .brand-logo-neu svg {
+        width: 20px;
+        height: 20px;
+      }
+
+      .brand-text h1 {
+        font-size: 0.92rem;
+        letter-spacing: 0.02em;
+      }
+
+      .brand-badge {
+        font-size: 0.6rem;
+        padding: 1px 5px;
+      }
+
+      .brand-text p {
+        display: none; /* Ahorra espacio vertical crucial en iPhone */
+      }
+
+      .desktop-controls {
+        display: none !important;
+      }
+
+      .desktop-only {
+        display: none !important;
+      }
+
+      .header-actions {
+        gap: 6px;
+      }
+
+      .neu-icon-btn {
+        width: 36px;
+        height: 36px;
+      }
+
+      /* SUB-BARRA MÓVIL (SELECTORES RÁPIDOS DE TALLER / AÑO) */
+      .mobile-subbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 6px max(10px, var(--sal)) 6px max(10px, var(--sar));
+        background: var(--surface);
+        border-bottom: 1px solid var(--divider);
+        gap: 6px;
+        flex-shrink: 0;
+      }
+
+      .mobile-subbar-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 6px;
+      }
+
+      .mobile-segmented {
+        flex: 1;
+        display: flex;
+        background: var(--surface);
+        box-shadow: var(--shadow-inset-sm);
+        padding: 2px;
+        border-radius: var(--radius-full);
+        gap: 2px;
+      }
+
+      .mobile-segmented .neu-segment-btn {
+        flex: 1;
+        justify-content: center;
+        padding: 6px 4px;
+        font-size: 0.74rem;
+        min-height: 32px;
+        border-radius: var(--radius-full);
+      }
+
+      /* ESPACIO DE TRABAJO MÓVIL (PANEL ACTIVO A PANTALLA COMPLETA) */
+      .app-main {
+        flex: 1;
+        padding: 6px max(8px, var(--sar)) 6px max(8px, var(--sal));
+        gap: 0;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .panel-systems,
+      .panel-procedures,
+      .panel-viewer {
+        width: 100% !important;
+        height: 100% !important;
+        min-width: 0 !important;
+        position: absolute;
+        inset: 6px;
+        width: auto !important;
+        height: auto !important;
+        display: none;
+        border-radius: var(--radius-md);
+        box-shadow: var(--shadow-raised-sm);
+      }
+
+      .panel-systems.mobile-active,
+      .panel-procedures.mobile-active,
+      .panel-viewer.mobile-active {
+        display: flex !important;
+      }
+
+      /* ELEMENTOS TÁCTILES MÁS CÓMODOS PARA LOS DEDOS */
+      .panel-header {
+        padding: 10px 14px;
+      }
+
+      .panel-header h2 {
+        font-size: 0.9rem;
+      }
+
+      .tree-item {
+        padding: 10px 12px;
+        min-height: 44px;
+        font-size: 0.88rem;
+      }
+
+      .tree-folder-icon {
+        width: 18px;
+        height: 18px;
+      }
+
+      .proc-card {
+        padding: 12px 14px;
+        min-height: 52px;
+        gap: 12px;
+      }
+
+      .proc-title {
+        font-size: 0.88rem;
+        line-height: 1.35;
+      }
+
+      .proc-icon-wrap {
+        width: 36px;
+        height: 36px;
+      }
+
+      .proc-fav-btn {
+        padding: 6px;
+      }
+
+      /* BÚSQUEDA DEDICADA EN MÓVIL */
+      .mobile-search-bar-wrap {
+        padding: 8px 12px;
+        border-bottom: 1px solid var(--divider);
+        background: var(--surface);
+      }
+
+      .mobile-search-container {
+        position: relative;
+        width: 100%;
+        max-width: none;
+      }
+
+      /* TOOLBAR DEL VISOR EN MÓVIL */
+      .viewer-toolbar {
+        padding: 6px 10px;
+        gap: 6px;
+      }
+
+      .mobile-back-btn {
+        display: inline-flex;
+      }
+
+      .breadcrumb-nav {
+        font-size: 0.72rem;
+        max-width: 120px;
+      }
+
+      .viewer-tools {
+        gap: 4px;
+      }
+
+      .viewer-tools .tool-btn {
+        height: 34px;
+        padding: 0 8px;
+        font-size: 0.74rem;
+      }
+
+      #printBtn,
+      #fullscreenBtn {
+        display: none !important;
+      }
+
+      /* BARRA DE PESTAÑAS INFERIOR (TAB BAR ESTILO NATIVO IOS) */
+      .mobile-tab-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: var(--surface);
+        border-top: 1px solid var(--divider);
+        padding: 6px max(8px, var(--sal)) max(8px, var(--sab)) max(8px, var(--sar));
+        box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.05);
+        flex-shrink: 0;
+        z-index: 40;
+      }
+
+      .tab-btn {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        border: none;
+        padding: 4px 2px;
+        color: var(--text-muted);
+        font-family: inherit;
+        font-size: 0.68rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: var(--transition);
+        border-radius: var(--radius-sm);
+        gap: 3px;
+        min-height: 48px;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      .tab-btn:active {
+        transform: scale(0.96);
+      }
+
+      .tab-btn.active {
+        color: var(--primary);
+      }
+
+      .tab-btn.active .tab-icon-wrap {
+        background: var(--surface);
+        box-shadow: var(--shadow-inset-sm);
+        color: var(--primary);
+      }
+
+      .tab-icon-wrap {
+        width: 32px;
+        height: 28px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        transition: var(--transition);
+      }
+
+      .tab-badge {
+        position: absolute;
+        top: -3px;
+        right: -6px;
+        background: var(--primary);
+        color: #ffffff;
+        font-size: 0.58rem;
+        font-weight: 700;
+        padding: 1px 4px;
+        border-radius: var(--radius-full);
+        min-width: 14px;
+        text-align: center;
+        line-height: 1.1;
+      }
+
+      /* LIGHTBOX MODAL EN IPHONE (PANTALLA COMPLETA) */
+      .modal-overlay {
+        padding: 0;
+      }
+
+      .neu-modal-container {
+        width: 100vw;
+        height: 100vh;
+        height: 100dvh;
+        border-radius: 0;
+        border: none;
+      }
+
+      .modal-header {
+        padding: max(10px, var(--sat)) 12px 10px 12px;
+      }
+
+      .modal-title {
+        font-size: 0.82rem;
+        max-width: 160px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .modal-controls {
+        gap: 4px;
+      }
+
+      .modal-controls .tool-btn {
+        height: 32px;
+        padding: 0 7px;
+        font-size: 0.72rem;
+      }
+
+      .modal-canvas-wrap {
+        touch-action: none;
+      }
+    }
+
+    /* FULLSCREEN VIEWER EN ESCRITORIO */
     body.viewer-fullscreen .panel-systems,
     body.viewer-fullscreen .panel-procedures {
       display: none !important;
@@ -898,8 +1237,8 @@
       </div>
     </div>
 
-    <!-- CONTROLS -->
-    <div class="controls-section">
+    <!-- CONTROLS (DESKTOP) -->
+    <div class="controls-section desktop-controls">
       <!-- TYPE SELECTOR -->
       <div class="neu-segmented" id="manualTypeGroup">
         <button class="neu-segment-btn active" data-type="S00">
@@ -931,8 +1270,8 @@
 
     <!-- ACTIONS -->
     <div class="header-actions">
-      <!-- FAVORITES TOGGLE -->
-      <button id="favoritesBtn" class="neu-icon-btn" title="Ver procedimientos guardados en favoritos">
+      <!-- FAVORITES TOGGLE (DESKTOP) -->
+      <button id="favoritesBtn" class="neu-icon-btn desktop-only" title="Ver procedimientos guardados en favoritos">
         <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
       </button>
 
@@ -948,6 +1287,30 @@
       </button>
     </div>
   </header>
+
+  <!-- ================= MOBILE QUICK SELECTOR SUB-BAR ================= -->
+  <div class="mobile-subbar" id="mobileSubbar">
+    <div class="mobile-subbar-row">
+      <!-- TYPE SELECTOR MOBILE -->
+      <div class="neu-segmented mobile-segmented" id="mobileManualTypeGroup">
+        <button class="neu-segment-btn active" data-type="S00">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          Taller
+        </button>
+        <button class="neu-segment-btn" data-type="S01">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="9" rx="2"/><path d="M5 11l2-5h10l2 5"/><circle cx="7.5" cy="16.5" r="1.5"/><circle cx="16.5" cy="16.5" r="1.5"/></svg>
+          Carrocería
+        </button>
+      </div>
+
+      <!-- YEAR SELECTOR MOBILE -->
+      <div class="neu-segmented mobile-segmented" id="mobileYearGroup">
+        <button class="neu-segment-btn" data-year="3">'03</button>
+        <button class="neu-segment-btn" data-year="4">'04</button>
+        <button class="neu-segment-btn active" data-year="5">'05</button>
+      </div>
+    </div>
+  </div>
 
   <!-- ================= THREE-PANEL WORKSPACE ================= -->
   <main class="app-main">
@@ -976,6 +1339,16 @@
         </h2>
         <span class="count-badge" id="proceduresCountBadge">0</span>
       </div>
+      <!-- DEDICATED MOBILE SEARCH BAR -->
+      <div class="mobile-search-bar-wrap" id="mobileSearchWrap">
+        <div class="search-container mobile-search-container">
+          <svg class="search-icon-left" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" id="mobileSearchInput" class="neu-search-input" placeholder="Buscar procedimiento (ej. freno, culata...)">
+          <button id="mobileSearchClearBtn" class="search-clear-btn" title="Limpiar búsqueda">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+      </div>
       <div class="proc-scroll-area" id="proceduresListContainer">
         <div class="empty-state">
           <div class="empty-icon-neu">
@@ -990,7 +1363,7 @@
     <section class="neu-card panel-viewer" id="panelViewer">
       <div class="viewer-toolbar">
         <button class="mobile-back-btn" id="mobileBackBtn">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
           Volver
         </button>
 
@@ -1027,6 +1400,43 @@
     </section>
 
   </main>
+
+  <!-- ================= MOBILE BOTTOM TAB BAR (IOS APPLE DESIGN) ================= -->
+  <nav class="mobile-tab-bar" id="mobileTabBar">
+    <button class="tab-btn active" data-tab="systems" id="tabSystems">
+      <div class="tab-icon-wrap">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+        <span class="tab-badge" id="mobileSystemsBadge">0</span>
+      </div>
+      <span>Sistemas</span>
+    </button>
+    <button class="tab-btn" data-tab="procedures" id="tabProcedures">
+      <div class="tab-icon-wrap">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+        <span class="tab-badge" id="mobileProceduresBadge">0</span>
+      </div>
+      <span>Procedimientos</span>
+    </button>
+    <button class="tab-btn" data-tab="viewer" id="tabViewer">
+      <div class="tab-icon-wrap">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+      </div>
+      <span>Visor</span>
+    </button>
+    <button class="tab-btn" data-tab="search" id="tabSearch">
+      <div class="tab-icon-wrap">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      </div>
+      <span>Buscar</span>
+    </button>
+    <button class="tab-btn" data-tab="favorites" id="tabFavorites">
+      <div class="tab-icon-wrap">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        <span class="tab-badge" id="mobileFavoritesBadge" style="display:none;">0</span>
+      </div>
+      <span>Favoritos</span>
+    </button>
+  </nav>
 
   <!-- ================= NEUMORPHIC LIGHTBOX MODAL ================= -->
   <div class="modal-overlay" id="diagramModal">
@@ -1071,19 +1481,24 @@
         data: null,
         bookmarks: JSON.parse(localStorage.getItem('honda_bookmarks') || '[]'),
         recents: JSON.parse(localStorage.getItem('honda_recents') || '[]'),
-        viewMode: 'normal' // 'normal', 'favorites', 'recents'
+        viewMode: 'normal', // 'normal', 'favorites', 'recents'
+        mobileTab: 'systems', // 'systems', 'procedures', 'viewer', 'search', 'favorites'
+        lastMobileTab: 'procedures'
       };
 
       // Elementos DOM
       const docIframe = document.getElementById('docIframe');
       const viewerLoader = document.getElementById('viewerLoader');
+      const panelSystems = document.getElementById('panelSystems');
       const systemsTreeContainer = document.getElementById('systemsTreeContainer');
+      const panelProcedures = document.getElementById('panelProcedures');
       const proceduresListContainer = document.getElementById('proceduresListContainer');
       const proceduresPanelTitle = document.getElementById('proceduresPanelTitle');
       const proceduresCountBadge = document.getElementById('proceduresCountBadge');
       const systemsCountBadge = document.getElementById('systemsCountBadge');
       const viewerBreadcrumb = document.getElementById('viewerBreadcrumb');
       const activeDocTitle = document.getElementById('activeDocTitle');
+      const panelViewer = document.getElementById('panelViewer');
       const globalSearchInput = document.getElementById('globalSearchInput');
       const searchClearBtn = document.getElementById('searchClearBtn');
       const treeFilterInput = document.getElementById('treeFilterInput');
@@ -1096,12 +1511,19 @@
       const printBtn = document.getElementById('printBtn');
       const fullscreenBtn = document.getElementById('fullscreenBtn');
       const mobileBackBtn = document.getElementById('mobileBackBtn');
-      const panelProcedures = document.getElementById('panelProcedures');
-      const panelViewer = document.getElementById('panelViewer');
       const favDocBtn = document.getElementById('favDocBtn');
       const favDocStar = document.getElementById('favDocStar');
       const favoritesBtn = document.getElementById('favoritesBtn');
       const recentsBtn = document.getElementById('recentsBtn');
+
+      // Elementos DOM Móvil / iPhone
+      const mobileTabBar = document.getElementById('mobileTabBar');
+      const mobileSystemsBadge = document.getElementById('mobileSystemsBadge');
+      const mobileProceduresBadge = document.getElementById('mobileProceduresBadge');
+      const mobileFavoritesBadge = document.getElementById('mobileFavoritesBadge');
+      const mobileSearchWrap = document.getElementById('mobileSearchWrap');
+      const mobileSearchInput = document.getElementById('mobileSearchInput');
+      const mobileSearchClearBtn = document.getElementById('mobileSearchClearBtn');
 
       // Modal Diagram Elements
       const diagramModal = document.getElementById('diagramModal');
@@ -1157,46 +1579,67 @@
 
         updateHeaderControls();
         renderSystemsTree();
+        updateBookmarkBadges();
 
         if (targetDoc) {
           navigateToDbKey(targetDoc, false);
+          if (window.innerWidth <= 768) {
+            switchMobileTab('viewer');
+          }
         } else {
           // Abrir primera sección por defecto
           const firstTreeItem = systemsTreeContainer.querySelector('.tree-item');
           if (firstTreeItem) firstTreeItem.click();
+          if (window.innerWidth <= 768) {
+            switchMobileTab('systems');
+          }
         }
       }
 
       function updateHeaderControls() {
-        document.querySelectorAll('#manualTypeGroup button').forEach(btn => {
+        document.querySelectorAll('#manualTypeGroup button, #mobileManualTypeGroup button').forEach(btn => {
           btn.classList.toggle('active', btn.getAttribute('data-type') === state.lang);
         });
-        document.querySelectorAll('#yearGroup button').forEach(btn => {
+        document.querySelectorAll('#yearGroup button, #mobileYearGroup button').forEach(btn => {
           btn.classList.toggle('active', btn.getAttribute('data-year') === state.year);
         });
       }
 
-      document.querySelectorAll('#manualTypeGroup button').forEach(btn => {
+      function handleTypeChange(newType) {
+        state.lang = newType;
+        localStorage.setItem('honda_lang', state.lang);
+        state.selectedSectionKey = null;
+        state.selectedProcedureDbKey = null;
+        updateHeaderControls();
+        renderSystemsTree();
+        resetProceduresPanel();
+        if (window.innerWidth <= 768) {
+          switchMobileTab('systems');
+        }
+      }
+
+      function handleYearChange(newYear) {
+        state.year = newYear;
+        localStorage.setItem('honda_year', state.year);
+        state.selectedSectionKey = null;
+        state.selectedProcedureDbKey = null;
+        updateHeaderControls();
+        renderSystemsTree();
+        resetProceduresPanel();
+        if (window.innerWidth <= 768) {
+          switchMobileTab('systems');
+        }
+      }
+
+      document.querySelectorAll('#manualTypeGroup button, #mobileManualTypeGroup button').forEach(btn => {
         btn.addEventListener('click', () => {
-          state.lang = btn.getAttribute('data-type');
-          localStorage.setItem('honda_lang', state.lang);
-          state.selectedSectionKey = null;
-          state.selectedProcedureDbKey = null;
-          updateHeaderControls();
-          renderSystemsTree();
-          resetProceduresPanel();
+          handleTypeChange(btn.getAttribute('data-type'));
         });
       });
 
-      document.querySelectorAll('#yearGroup button').forEach(btn => {
+      document.querySelectorAll('#yearGroup button, #mobileYearGroup button').forEach(btn => {
         btn.addEventListener('click', () => {
-          state.year = btn.getAttribute('data-year');
-          localStorage.setItem('honda_year', state.year);
-          state.selectedSectionKey = null;
-          state.selectedProcedureDbKey = null;
-          updateHeaderControls();
-          renderSystemsTree();
-          resetProceduresPanel();
+          handleYearChange(btn.getAttribute('data-year'));
         });
       });
 
@@ -1213,6 +1656,7 @@
 
         systemsTreeContainer.innerHTML = '';
         systemsCountBadge.textContent = treeList.length;
+        if (mobileSystemsBadge) mobileSystemsBadge.textContent = treeList.length;
 
         let currentRoot = null;
         let currentSub = null;
@@ -1246,17 +1690,33 @@
             childrenWrap.className = 'tree-children';
           }
 
-          itemEl.addEventListener('click', () => {
+          itemEl.addEventListener('click', (e) => {
+            const isToggleClick = e.target.closest('.tree-toggle-icon');
+            
+            if (hasChildren && isToggleClick) {
+              itemEl.querySelector('.tree-toggle-icon').classList.toggle('expanded');
+              childrenWrap.classList.toggle('open');
+              return;
+            }
+
             document.querySelectorAll('.tree-item').forEach(el => el.classList.remove('active'));
             itemEl.classList.add('active');
             state.selectedSectionKey = node.key;
 
             if (hasChildren) {
-              itemEl.querySelector('.tree-toggle-icon').classList.toggle('expanded');
-              childrenWrap.classList.toggle('open');
+              const toggleIcon = itemEl.querySelector('.tree-toggle-icon');
+              if (toggleIcon && !toggleIcon.classList.contains('expanded')) {
+                toggleIcon.classList.add('expanded');
+                childrenWrap.classList.add('open');
+              }
             }
 
             loadProceduresForSection(node.key, node.title);
+
+            // Transición suave en iPhone a la lista de procedimientos
+            if (window.innerWidth <= 768) {
+              switchMobileTab('procedures');
+            }
           });
 
           if (node.lvl === 0) {
@@ -1301,6 +1761,7 @@
 
         proceduresListContainer.innerHTML = '';
         proceduresCountBadge.textContent = dbKeys.length;
+        if (mobileProceduresBadge) mobileProceduresBadge.textContent = dbKeys.length;
 
         if (dbKeys.length === 0) {
           proceduresListContainer.innerHTML = '<div class="empty-state"><p>No se encontraron procedimientos directos.</p></div>';
@@ -1313,8 +1774,8 @@
           proceduresListContainer.appendChild(card);
         });
 
-        // Seleccionar primer procedimiento si no hay ninguno seleccionado
-        if (dbKeys.length > 0 && !state.selectedProcedureDbKey) {
+        // Seleccionar primer procedimiento si no hay ninguno seleccionado (solo en desktop)
+        if (dbKeys.length > 0 && !state.selectedProcedureDbKey && window.innerWidth > 768) {
           const firstCard = proceduresListContainer.querySelector('.proc-card');
           if (firstCard) firstCard.click();
         }
@@ -1365,8 +1826,7 @@
           loadArticle(dbk, procInfo.title, categoryName);
           // Modo móvil: mostrar visor
           if (window.innerWidth <= 768) {
-            panelProcedures.classList.add('hidden-mobile');
-            panelViewer.classList.add('active-mobile');
+            switchMobileTab('viewer');
           }
         });
 
@@ -1374,8 +1834,11 @@
       }
 
       mobileBackBtn.addEventListener('click', () => {
-        panelProcedures.classList.remove('hidden-mobile');
-        panelViewer.classList.remove('active-mobile');
+        if (state.lastMobileTab && state.lastMobileTab !== 'viewer') {
+          switchMobileTab(state.lastMobileTab);
+        } else {
+          switchMobileTab('procedures');
+        }
       });
 
       function resetProceduresPanel() {
@@ -1384,6 +1847,7 @@
           Procedimientos
         `;
         proceduresCountBadge.textContent = '0';
+        if (mobileProceduresBadge) mobileProceduresBadge.textContent = '0';
         proceduresListContainer.innerHTML = `
           <div class="empty-state">
             <div class="empty-icon-neu">
@@ -1478,6 +1942,14 @@
           const iwin = docIframe.contentWindow;
           if (!idoc || !iwin) return;
 
+          // Inyectar viewport meta en el iframe para que iOS Safari no lo renderice a 980px de escritorio
+          if (idoc.head && !idoc.querySelector('meta[name="viewport"]')) {
+            const vmeta = idoc.createElement('meta');
+            vmeta.name = 'viewport';
+            vmeta.content = 'width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover';
+            idoc.head.appendChild(vmeta);
+          }
+
           // INTERCEPTAR TODOS LOS ENLACES <a>
           idoc.querySelectorAll('a').forEach(anchor => {
             anchor.removeAttribute('target');
@@ -1519,7 +1991,7 @@
         }
       }
 
-      // 8. LIGHTBOX MODAL PARA DIAGRAMAS (CERO POPUPS)
+      // 8. LIGHTBOX MODAL PARA DIAGRAMAS (CERO POPUPS) + SOPORTE TÁCTIL IPHONE
       window.openDiagramModal = function(data) {
         if (!data || !data.Name) return;
 
@@ -1599,7 +2071,95 @@
         }
       });
 
-      // 9. ESTILOS NEUMÓRFICOS INYECTADOS EN EL DOCUMENTO
+      // GESTOS TÁCTILES PINCH-TO-ZOOM Y ARRASTRE PARA IPHONE EN EL MODAL
+      let touchStartDist = 0;
+      let touchStartZoom = 100;
+      let isTouchPanning = false;
+      let touchPanStartX = 0;
+      let touchPanStartY = 0;
+      let touchScrollStartX = 0;
+      let touchScrollStartY = 0;
+      let lastTapTime = 0;
+
+      modalCanvasWrap.addEventListener('touchstart', (e) => {
+        if (e.touches.length === 2) {
+          // Gesto de pellizco (Pinch to zoom)
+          const dx = e.touches[0].clientX - e.touches[1].clientX;
+          const dy = e.touches[0].clientY - e.touches[1].clientY;
+          touchStartDist = Math.hypot(dx, dy);
+          touchStartZoom = state.modalZoomLevel;
+        } else if (e.touches.length === 1) {
+          // Desplazamiento táctil (Pan)
+          isTouchPanning = true;
+          touchPanStartX = e.touches[0].clientX;
+          touchPanStartY = e.touches[0].clientY;
+          touchScrollStartX = modalCanvasWrap.scrollLeft;
+          touchScrollStartY = modalCanvasWrap.scrollTop;
+
+          // Doble toque para ampliar/restablecer
+          const now = Date.now();
+          if (now - lastTapTime < 300) {
+            state.modalZoomLevel = state.modalZoomLevel > 115 ? 100 : 175;
+            applyModalZoom();
+          }
+          lastTapTime = now;
+        }
+      }, { passive: true });
+
+      modalCanvasWrap.addEventListener('touchmove', (e) => {
+        if (e.touches.length === 2 && touchStartDist > 0) {
+          const dx = e.touches[0].clientX - e.touches[1].clientX;
+          const dy = e.touches[0].clientY - e.touches[1].clientY;
+          const currentDist = Math.hypot(dx, dy);
+          const factor = currentDist / touchStartDist;
+          const newZoom = Math.min(Math.max(Math.round(touchStartZoom * factor), 40), 350);
+          state.modalZoomLevel = newZoom;
+          applyModalZoom();
+        } else if (e.touches.length === 1 && isTouchPanning) {
+          const deltaX = e.touches[0].clientX - touchPanStartX;
+          const deltaY = e.touches[0].clientY - touchPanStartY;
+          modalCanvasWrap.scrollLeft = touchScrollStartX - deltaX;
+          modalCanvasWrap.scrollTop = touchScrollStartY - deltaY;
+        }
+      }, { passive: true });
+
+      modalCanvasWrap.addEventListener('touchend', (e) => {
+        if (e.touches.length < 2) touchStartDist = 0;
+        if (e.touches.length === 0) isTouchPanning = false;
+      }, { passive: true });
+
+      // Arrastre con ratón en escritorio
+      let isMouseDragging = false;
+      let mouseStartX = 0;
+      let mouseStartY = 0;
+      let mouseScrollStartX = 0;
+      let mouseScrollStartY = 0;
+
+      modalCanvasWrap.addEventListener('mousedown', (e) => {
+        isMouseDragging = true;
+        modalCanvasWrap.style.cursor = 'grabbing';
+        mouseStartX = e.clientX;
+        mouseStartY = e.clientY;
+        mouseScrollStartX = modalCanvasWrap.scrollLeft;
+        mouseScrollStartY = modalCanvasWrap.scrollTop;
+      });
+
+      window.addEventListener('mousemove', (e) => {
+        if (!isMouseDragging) return;
+        const dx = e.clientX - mouseStartX;
+        const dy = e.clientY - mouseStartY;
+        modalCanvasWrap.scrollLeft = mouseScrollStartX - dx;
+        modalCanvasWrap.scrollTop = mouseScrollStartY - dy;
+      });
+
+      window.addEventListener('mouseup', () => {
+        if (isMouseDragging) {
+          isMouseDragging = false;
+          modalCanvasWrap.style.cursor = 'grab';
+        }
+      });
+
+      // 9. ESTILOS NEUMÓRFICOS INYECTADOS EN EL DOCUMENTO (ADAPTADOS A IPHONE)
       function injectNeumorphicStylesIntoIframe() {
         try {
           const idoc = docIframe.contentDocument || docIframe.contentWindow.document;
@@ -1617,31 +2177,46 @@
           const text = isDark ? '#f8fafc' : '#1e293b';
           const cardBg = isDark ? '#1d2128' : '#ffffff';
           const shadow = isDark 
-            ? '6px 6px 14px #0e1014, -6px -6px 14px #222730' 
-            : '6px 6px 14px #e2e8f0, -6px -6px 14px #ffffff';
+            ? '4px 4px 10px #0e1014, -4px -4px 10px #222730' 
+            : '4px 4px 10px #e2e8f0, -4px -4px 10px #ffffff';
           const border = isDark ? '1px solid #282e38' : '1px solid #e2e8f0';
           const primary = isDark ? '#ef4444' : '#dc2626';
 
           styleTag.textContent = `
+            * {
+              box-sizing: border-box !important;
+              -webkit-tap-highlight-color: transparent !important;
+            }
             body {
-              font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+              font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Inter", sans-serif !important;
               background-color: ${bg} !important;
               color: ${text} !important;
-              padding: 22px 30px !important;
+              padding: 14px 16px 50px 16px !important;
               line-height: 1.65 !important;
-              font-size: 14px !important;
+              font-size: 15px !important;
+              -webkit-text-size-adjust: 100% !important;
+              word-break: break-word !important;
+            }
+            @media (min-width: 769px) {
+              body {
+                padding: 22px 30px !important;
+                font-size: 14px !important;
+              }
             }
             h2, h3, h4 {
               color: ${text} !important;
               font-weight: 700 !important;
-              margin: 18px 0 12px 0 !important;
+              margin: 16px 0 12px 0 !important;
               display: inline-flex !important;
+              max-width: 100% !important;
               align-items: center !important;
-              padding: 8px 16px !important;
+              padding: 8px 14px !important;
               border-radius: 12px !important;
               background: ${cardBg} !important;
               box-shadow: ${shadow} !important;
               border-left: 4px solid ${primary} !important;
+              font-size: 1.05rem !important;
+              line-height: 1.35 !important;
             }
             h2 b, h3 b, h4 b { color: ${text} !important; }
             p { margin-bottom: 14px !important; color: ${text} !important; }
@@ -1650,16 +2225,18 @@
               color: ${primary} !important;
               text-decoration: none !important;
               font-weight: 600 !important;
-              padding: 2px 4px !important;
-              border-radius: 4px !important;
+              padding: 3px 6px !important;
+              border-radius: 6px !important;
+              display: inline-block !important;
               transition: background 0.15s ease !important;
+              touch-action: manipulation !important;
             }
-            a:hover {
+            a:hover, a:active {
               text-decoration: underline !important;
-              background: ${isDark ? 'rgba(239,68,68,0.15)' : '#fee2e2'} !important;
+              background: ${isDark ? 'rgba(239,68,68,0.2)' : '#fee2e2'} !important;
             }
 
-            /* Tablas con diseño moderno */
+            /* Tablas con diseño moderno y scroll horizontal táctil en iPhone */
             table {
               border-collapse: separate !important;
               border-spacing: 0 !important;
@@ -1667,11 +2244,15 @@
               border-radius: 14px !important;
               box-shadow: ${shadow} !important;
               margin: 16px 0 !important;
-              overflow: hidden !important;
+              overflow-x: auto !important;
+              display: block !important;
+              max-width: 100% !important;
+              -webkit-overflow-scrolling: touch !important;
               border: ${border} !important;
+              font-size: 13.5px !important;
             }
             th, td {
-              padding: 10px 14px !important;
+              padding: 10px 12px !important;
               border-bottom: ${border} !important;
               border-right: ${border} !important;
               color: ${text} !important;
@@ -1691,7 +2272,9 @@
               border-left: 5px solid ${primary} !important;
               border-radius: 12px !important;
               box-shadow: ${shadow} !important;
-              margin: 18px 0 !important;
+              margin: 16px 0 !important;
+              display: block !important;
+              width: 100% !important;
             }
             table.ATT td.ATT1 {
               background: transparent !important;
@@ -1705,35 +2288,59 @@
               background: ${cardBg} !important;
               border-radius: 16px !important;
               box-shadow: ${shadow} !important;
-              padding: 16px !important;
-              margin: 18px 0 !important;
-              display: inline-block !important;
+              padding: 12px !important;
+              margin: 16px 0 !important;
+              display: block !important;
+              max-width: 100% !important;
+              overflow-x: auto !important;
+              -webkit-overflow-scrolling: touch !important;
               border: ${border} !important;
+              text-align: center !important;
             }
             img {
               max-width: 100% !important;
+              height: auto !important;
               border-radius: 8px !important;
               cursor: pointer !important;
+              display: inline-block !important;
+              touch-action: manipulation !important;
             }
           `;
         } catch(e) {}
       }
 
-      // 10. BÚSQUEDA GLOBAL
+      // 10. BÚSQUEDA GLOBAL (ESCRITORIO Y MÓVIL)
       let searchTimer = null;
-      globalSearchInput.addEventListener('input', (e) => {
-        const query = e.target.value.trim();
-        searchClearBtn.classList.toggle('visible', query.length > 0);
+      function handleSearchInput(query) {
+        globalSearchInput.value = query;
+        if (mobileSearchInput) mobileSearchInput.value = query;
+
+        const hasText = query.length > 0;
+        searchClearBtn.classList.toggle('visible', hasText);
+        if (mobileSearchClearBtn) mobileSearchClearBtn.classList.toggle('visible', hasText);
 
         clearTimeout(searchTimer);
         searchTimer = setTimeout(() => {
           executeGlobalSearch(query);
         }, 220);
+      }
+
+      globalSearchInput.addEventListener('input', (e) => {
+        handleSearchInput(e.target.value.trim());
       });
 
-      searchClearBtn.addEventListener('click', () => {
+      if (mobileSearchInput) {
+        mobileSearchInput.addEventListener('input', (e) => {
+          handleSearchInput(e.target.value.trim());
+        });
+      }
+
+      function clearSearch() {
         globalSearchInput.value = '';
+        if (mobileSearchInput) mobileSearchInput.value = '';
         searchClearBtn.classList.remove('visible');
+        if (mobileSearchClearBtn) mobileSearchClearBtn.classList.remove('visible');
+
         if (state.selectedSectionKey) {
           const curData = state.data[state.lang][state.year];
           const node = curData.tree.find(t => t.key === state.selectedSectionKey);
@@ -1741,7 +2348,10 @@
         } else {
           resetProceduresPanel();
         }
-      });
+      }
+
+      searchClearBtn.addEventListener('click', clearSearch);
+      if (mobileSearchClearBtn) mobileSearchClearBtn.addEventListener('click', clearSearch);
 
       function executeGlobalSearch(query) {
         if (!query) {
@@ -1771,6 +2381,7 @@
           Resultados: "${query}"
         `;
         proceduresCountBadge.textContent = matches.length;
+        if (mobileProceduresBadge) mobileProceduresBadge.textContent = matches.length;
         proceduresListContainer.innerHTML = '';
 
         if (matches.length === 0) {
@@ -1798,6 +2409,14 @@
         }
         localStorage.setItem('honda_bookmarks', JSON.stringify(state.bookmarks));
         updateFavDocBtnState();
+        updateBookmarkBadges();
+      }
+
+      function updateBookmarkBadges() {
+        if (mobileFavoritesBadge) {
+          mobileFavoritesBadge.textContent = state.bookmarks.length;
+          mobileFavoritesBadge.style.display = state.bookmarks.length > 0 ? 'inline-block' : 'none';
+        }
       }
 
       function updateFavDocBtnState() {
@@ -1812,35 +2431,69 @@
         }
       });
 
-      favoritesBtn.addEventListener('click', () => {
-        state.viewMode = state.viewMode === 'favorites' ? 'normal' : 'favorites';
-        favoritesBtn.classList.toggle('active', state.viewMode === 'favorites');
+      function renderFavoritesView() {
+        state.viewMode = 'favorites';
+        favoritesBtn.classList.add('active');
         recentsBtn.classList.remove('active');
 
+        proceduresPanelTitle.innerHTML = `
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="#eab308" stroke="#eab308" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Mis Favoritos
+        `;
+        proceduresCountBadge.textContent = state.bookmarks.length;
+        if (mobileProceduresBadge) mobileProceduresBadge.textContent = state.bookmarks.length;
+        proceduresListContainer.innerHTML = '';
+
+        if (state.bookmarks.length === 0) {
+          proceduresListContainer.innerHTML = '<div class="empty-state"><p>Aún no tienes procedimientos guardados en favoritos.<br><br>Pulsa el icono ⭐ en cualquier guía técnica para acceder rápidamente desde aquí.</p></div>';
+          return;
+        }
+
+        state.bookmarks.forEach(b => {
+          const card = createProcedureCard(b.dbk, { title: b.title }, b.section);
+          proceduresListContainer.appendChild(card);
+        });
+      }
+
+      function renderRecentsView() {
+        state.viewMode = 'recents';
+        recentsBtn.classList.add('active');
+        favoritesBtn.classList.remove('active');
+
+        proceduresPanelTitle.innerHTML = `
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Consultados Recientemente
+        `;
+        proceduresCountBadge.textContent = state.recents.length;
+        if (mobileProceduresBadge) mobileProceduresBadge.textContent = state.recents.length;
+        proceduresListContainer.innerHTML = '';
+
+        if (state.recents.length === 0) {
+          proceduresListContainer.innerHTML = '<div class="empty-state"><p>Historial vacío.</p></div>';
+          return;
+        }
+
+        state.recents.forEach(r => {
+          const card = createProcedureCard(r.dbk, { title: r.title }, r.section);
+          proceduresListContainer.appendChild(card);
+        });
+      }
+
+      favoritesBtn.addEventListener('click', () => {
         if (state.viewMode === 'favorites') {
-          proceduresPanelTitle.innerHTML = `
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="#eab308" stroke="#eab308" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-            Mis Favoritos
-          `;
-          proceduresCountBadge.textContent = state.bookmarks.length;
-          proceduresListContainer.innerHTML = '';
-
-          if (state.bookmarks.length === 0) {
-            proceduresListContainer.innerHTML = '<div class="empty-state"><p>Aún no tienes procedimientos guardados en favoritos.</p></div>';
-            return;
-          }
-
-          state.bookmarks.forEach(b => {
-            const card = createProcedureCard(b.dbk, { title: b.title }, b.section);
-            proceduresListContainer.appendChild(card);
-          });
-        } else {
+          state.viewMode = 'normal';
+          favoritesBtn.classList.remove('active');
           if (state.selectedSectionKey) {
             const curData = state.data[state.lang][state.year];
             const node = curData.tree.find(t => t.key === state.selectedSectionKey);
             loadProceduresForSection(state.selectedSectionKey, node ? node.title : 'Procedimientos');
           } else {
             resetProceduresPanel();
+          }
+        } else {
+          renderFavoritesView();
+          if (window.innerWidth <= 768) {
+            switchMobileTab('favorites');
           }
         }
       });
@@ -1853,28 +2506,9 @@
       }
 
       recentsBtn.addEventListener('click', () => {
-        state.viewMode = state.viewMode === 'recents' ? 'normal' : 'recents';
-        recentsBtn.classList.toggle('active', state.viewMode === 'recents');
-        favoritesBtn.classList.remove('active');
-
         if (state.viewMode === 'recents') {
-          proceduresPanelTitle.innerHTML = `
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            Consultados Recientemente
-          `;
-          proceduresCountBadge.textContent = state.recents.length;
-          proceduresListContainer.innerHTML = '';
-
-          if (state.recents.length === 0) {
-            proceduresListContainer.innerHTML = '<div class="empty-state"><p>Historial vacío.</p></div>';
-            return;
-          }
-
-          state.recents.forEach(r => {
-            const card = createProcedureCard(r.dbk, { title: r.title }, r.section);
-            proceduresListContainer.appendChild(card);
-          });
-        } else {
+          state.viewMode = 'normal';
+          recentsBtn.classList.remove('active');
           if (state.selectedSectionKey) {
             const curData = state.data[state.lang][state.year];
             const node = curData.tree.find(t => t.key === state.selectedSectionKey);
@@ -1882,16 +2516,85 @@
           } else {
             resetProceduresPanel();
           }
+        } else {
+          renderRecentsView();
+          if (window.innerWidth <= 768) {
+            switchMobileTab('procedures');
+          }
         }
       });
 
-      // 12. ZOOM Y CONTROLES DEL VISOR
+      // 12. NAVEGACIÓN POR PESTAÑAS MÓVIL (TAB BAR IPHONE)
+      function switchMobileTab(tabName) {
+        if (state.mobileTab !== 'viewer' && tabName === 'viewer') {
+          state.lastMobileTab = state.mobileTab;
+        }
+        state.mobileTab = tabName;
+
+        // Actualizar estados visuales de las pestañas inferiores
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.getAttribute('data-tab') === tabName);
+        });
+
+        // Activar el panel correspondiente
+        panelSystems.classList.remove('mobile-active');
+        panelProcedures.classList.remove('mobile-active');
+        panelViewer.classList.remove('mobile-active');
+
+        if (mobileSearchWrap) mobileSearchWrap.style.display = 'none';
+
+        if (tabName === 'systems') {
+          panelSystems.classList.add('mobile-active');
+        } else if (tabName === 'procedures') {
+          panelProcedures.classList.add('mobile-active');
+          if (state.viewMode !== 'normal') {
+            if (state.selectedSectionKey) {
+              const curData = state.data[state.lang][state.year];
+              const node = curData.tree.find(t => t.key === state.selectedSectionKey);
+              loadProceduresForSection(state.selectedSectionKey, node ? node.title : 'Procedimientos');
+            }
+          }
+        } else if (tabName === 'viewer') {
+          panelViewer.classList.add('mobile-active');
+        } else if (tabName === 'search') {
+          panelProcedures.classList.add('mobile-active');
+          if (mobileSearchWrap) {
+            mobileSearchWrap.style.display = 'block';
+            setTimeout(() => {
+              if (mobileSearchInput) mobileSearchInput.focus();
+            }, 120);
+          }
+          if (!globalSearchInput.value) {
+            proceduresPanelTitle.innerHTML = `
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              Buscador Global
+            `;
+            proceduresCountBadge.textContent = '0';
+            if (mobileProceduresBadge) mobileProceduresBadge.textContent = '0';
+            proceduresListContainer.innerHTML = '<div class="empty-state"><p>Escribe arriba cualquier término técnico (ej. frenos, embrague, correa, sensor...).</p></div>';
+          }
+        } else if (tabName === 'favorites') {
+          panelProcedures.classList.add('mobile-active');
+          renderFavoritesView();
+        }
+      }
+
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const tab = btn.getAttribute('data-tab');
+          switchMobileTab(tab);
+        });
+      });
+
+      // 13. ZOOM Y CONTROLES DEL VISOR
       function applyZoom() {
         zoomResetBtn.textContent = `${state.zoomLevel}%`;
         try {
           const idoc = docIframe.contentDocument || docIframe.contentWindow.document;
           if (idoc && idoc.body) {
             idoc.body.style.zoom = `${state.zoomLevel}%`;
+            // Fallback para motores WebKit que no propagan body.style.zoom a textos
+            idoc.body.style.fontSize = `${(state.zoomLevel / 100) * 14}px`;
           }
         } catch(e) {}
       }
@@ -1928,7 +2631,7 @@
         document.body.classList.toggle('viewer-fullscreen');
       });
 
-      // 13. NAVEGACIÓN ATRÁS/ADELANTE DEL NAVEGADOR (popstate)
+      // 14. NAVEGACIÓN ATRÁS/ADELANTE DEL NAVEGADOR (popstate)
       window.addEventListener('popstate', (e) => {
         if (e.state && e.state.dbKey) {
           navigateToDbKey(e.state.dbKey, false);

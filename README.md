@@ -55,4 +55,8 @@ Si ya cuentas con un servidor web Nginx o Apache en tu servidor:
 - **Buscador Reactivo:** Búsqueda en tiempo real sobre los más de 2.700 procedimientos y diagramas.
 - **Selector Instantáneo:** Cambio entre Manual de Taller y Manual de Carrocería, y entre los años 2003, 2004 y 2005.
 - **Favoritos e Historial:** Guarda tus procedimientos más consultados (pares de apriete, esquema de fusibles) en memoria local del navegador.
-- **Diseño Responsive:** Adaptable a pantallas de escritorio, portátiles, tablets y móviles.
+- **Diseño Responsive Adaptado a iPhone & Móviles:**
+  - **Experiencia iOS Nativa:** Soporte completo para Safe Areas (Notch, Dynamic Island y barra inferior Home Indicator).
+  - **Barra de Pestañas Táctil:** Navegación por pestañas al estilo Apple (Sistemas, Procedimientos, Visor, Buscar y Favoritos).
+  - **Gestos Multitáctiles en Esquemas:** Pellizco con dos dedos (*pinch-to-zoom*), arrastre fluido y doble toque para ampliar diagramas.
+  - **Soporte PWA (Añadir a pantalla de inicio):** Instálala desde Safari en tu iPhone tocando "Compartir" > "Añadir a pantalla de inicio" para usarla como una app nativa a pantalla completa sin barras de navegador.
