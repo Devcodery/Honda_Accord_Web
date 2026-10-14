@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <!-- Content Security Policy (OWASP Defense-in-Depth) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; frame-src 'self' about:; object-src 'none'; base-uri 'self';">
   <!-- Configuración nativa para iPhone / iOS Web App -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -1570,12 +1572,32 @@
         }
       }
 
-      // 3. ENRUTAMIENTO Y URL PARAMS
+      // Utilidad de sanitización para prevenir DOM XSS (OWASP A03:2021)
+      function escapeHTML(str) {
+        if (str === null || str === undefined) return '';
+        return String(str)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#039;');
+      }
+
+      // 3. ENRUTAMIENTO Y URL PARAMS (CON VALIDACIÓN ESTRICTA)
       function initRoutingAndRender() {
         const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.has('type')) state.lang = urlParams.get('type');
-        if (urlParams.has('year')) state.year = urlParams.get('year');
-        const targetDoc = urlParams.get('doc');
+        const rawType = urlParams.get('type');
+        const rawYear = urlParams.get('year');
+        const rawDoc = urlParams.get('doc');
+
+        // Validación estricta por lista blanca para evitar inyección y traversal
+        if (rawType && /^(S00|S01|A00|A01)$/.test(rawType)) {
+          state.lang = rawType;
+        }
+        if (rawYear && /^[345]$/.test(rawYear)) {
+          state.year = rawYear;
+        }
+        const targetDoc = (rawDoc && /^[A-Za-z0-9_-]{5,40}$/.test(rawDoc)) ? rawDoc : null;
 
         updateHeaderControls();
         renderSystemsTree();
@@ -1681,7 +1703,7 @@
             <svg class="tree-folder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
             </svg>
-            <span class="tree-title" title="${node.title}">${node.title}</span>
+            <span class="tree-title" title="${escapeHTML(node.title)}">${escapeHTML(node.title)}</span>
           `;
 
           let childrenWrap = null;
@@ -1752,7 +1774,7 @@
 
         proceduresPanelTitle.innerHTML = `
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/></svg>
-          ${sectionTitle}
+          ${escapeHTML(sectionTitle)}
         `;
 
         const curData = state.data[state.lang][state.year];
@@ -1790,7 +1812,7 @@
         const isBookmarked = state.bookmarks.some(b => b.dbk === dbk);
 
         let iconSvg = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>';
-        const titleLower = procInfo.title.toLowerCase();
+        const titleLower = (procInfo.title || '').toLowerCase();
         if (titleLower.includes('diagrama') || titleLower.includes('conexiones') || titleLower.includes('eléctric')) {
           iconSvg = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>';
         } else if (titleLower.includes('apriete') || titleLower.includes('normas') || titleLower.includes('límites')) {
@@ -1801,12 +1823,15 @@
           iconSvg = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>';
         }
 
+        const safeTitle = escapeHTML(procInfo.title || 'Procedimiento');
+        const safeDbk = escapeHTML(dbk || '');
+
         card.innerHTML = `
           <div class="proc-icon-wrap">${iconSvg}</div>
           <div class="proc-details">
-            <div class="proc-title">${procInfo.title}</div>
+            <div class="proc-title">${safeTitle}</div>
             <div class="proc-meta">
-              <span>${dbk.substring(0, 10)}...</span>
+              <span>${safeDbk.substring(0, 10)}...</span>
               <button class="proc-fav-btn ${isBookmarked ? 'active' : ''}" title="Marcar como favorito">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="${isBookmarked ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
               </button>
@@ -1860,15 +1885,22 @@
 
       // 6. CARGAR ARTÍCULO TÉCNICO Y ENLACES (100% IN-APP)
       function loadArticle(dbKey, procTitle, categoryName, pushHistory = true) {
+        if (!dbKey || !/^[A-Za-z0-9_-]{5,40}$/.test(dbKey)) {
+          console.warn('Identificador de artículo inválido rechazado:', dbKey);
+          return;
+        }
         state.selectedProcedureDbKey = dbKey;
-        state.activeDocTitleText = procTitle;
+        state.activeDocTitleText = procTitle || '';
         
+        const safeCat = escapeHTML(categoryName || 'Sección');
+        const safeTitle = escapeHTML(procTitle || '');
+
         viewerBreadcrumb.innerHTML = `
           <span>${state.lang === 'S00' ? 'Taller' : 'Carrocería'}</span>
           <span>&rsaquo;</span>
-          <span>${categoryName || 'Sección'}</span>
+          <span>${safeCat}</span>
           <span>&rsaquo;</span>
-          <span class="breadcrumb-active" id="activeDocTitle">${procTitle}</span>
+          <span class="breadcrumb-active" id="activeDocTitle">${safeTitle}</span>
         `;
 
         // Actualizar botón de favorito del visor
@@ -1903,6 +1935,10 @@
 
       // NAVEGACIÓN DIRECTA A UN DBKEY DESDE ENLACE O URL
       function navigateToDbKey(targetDbKey, pushHistory = true) {
+        if (!targetDbKey || !/^[A-Za-z0-9_-]{5,40}$/.test(targetDbKey)) {
+          console.warn('Navegación rechazada por clave no válida:', targetDbKey);
+          return;
+        }
         const curData = state.data[state.lang][state.year];
         const sieItem = curData.sie && curData.sie[targetDbKey];
         const title = sieItem ? sieItem.title : targetDbKey;
@@ -1993,7 +2029,7 @@
 
       // 8. LIGHTBOX MODAL PARA DIAGRAMAS (CERO POPUPS) + SOPORTE TÁCTIL IPHONE
       window.openDiagramModal = function(data) {
-        if (!data || !data.Name) return;
+        if (!data || !data.Name || !/^[A-Za-z0-9_-]+$/.test(data.Name)) return;
 
         state.modalZoomLevel = 100;
         modalDiagramTitle.textContent = data.Title || 'Esquema Técnico / Diagrama';
@@ -2014,7 +2050,7 @@
             label.style.fontSize = `${co.fontSize || 12}px`;
             label.style.fontFamily = co.fontName || 'sans-serif';
             label.style.color = co.Color === 1 ? '#ffffff' : '#000000';
-            label.innerHTML = co.Text;
+            label.textContent = co.Text || '';
             modalCalloutsContainer.appendChild(label);
           });
         }
@@ -2376,9 +2412,11 @@
           }
         }
 
+        const safeQuery = escapeHTML(query);
+
         proceduresPanelTitle.innerHTML = `
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-          Resultados: "${query}"
+          Resultados: "${safeQuery}"
         `;
         proceduresCountBadge.textContent = matches.length;
         if (mobileProceduresBadge) mobileProceduresBadge.textContent = matches.length;
@@ -2387,7 +2425,7 @@
         if (matches.length === 0) {
           proceduresListContainer.innerHTML = `
             <div class="empty-state">
-              <p>No se encontraron resultados para "<b>${query}</b>".</p>
+              <p>No se encontraron resultados para "<b>${safeQuery}</b>".</p>
             </div>
           `;
           return;
